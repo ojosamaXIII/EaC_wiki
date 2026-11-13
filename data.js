@@ -1993,8 +1993,8 @@ window.WIKI_DATA = {
         "Tactics": 1,
         "Technique": 1,
         "Body": 2,
-        "Kin": 0,
-        "Anomaly": 0
+        "Kin": 1,
+        "Anomaly": 1
       },
       "icon": "assets/zombie.png",
       "gif": "https://terraria.wiki.gg/images/Zombie.gif",
