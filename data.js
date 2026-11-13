@@ -3,7 +3,7 @@ window.WIKI_DATA = {
     {
       "id": "angry_bones",
       "name": "Angry Bones",
-      "nameJa": "アングリーボーン",
+      "nameJa": "Angry Bones",
       "hp": "124",
       "atk": "11",
       "defense": "6",
@@ -27,7 +27,7 @@ window.WIKI_DATA = {
     {
       "id": "angry_dandelion",
       "name": "Angry Dandelion",
-      "nameJa": "アングリーダンデライオン",
+      "nameJa": "Angry Dandelion",
       "hp": "80",
       "atk": "8",
       "defense": "1",
@@ -51,7 +51,7 @@ window.WIKI_DATA = {
     {
       "id": "anomura_fungus",
       "name": "Anomura Fungus",
-      "nameJa": "アノムラファンガスの仲間",
+      "nameJa": "Anomura Fungus",
       "hp": "150",
       "atk": "8",
       "defense": "4",
@@ -75,7 +75,7 @@ window.WIKI_DATA = {
     {
       "id": "antlion",
       "name": "Antlion",
-      "nameJa": "アントリオン",
+      "nameJa": "Antlion",
       "hp": "85",
       "atk": "9",
       "defense": "3",
@@ -99,7 +99,7 @@ window.WIKI_DATA = {
     {
       "id": "antlion_charger",
       "name": "Antlion Charger",
-      "nameJa": "アントリオンチャージャーの仲間",
+      "nameJa": "Antlion Charger",
       "hp": "137",
       "atk": "11",
       "defense": "5",
@@ -123,7 +123,7 @@ window.WIKI_DATA = {
     {
       "id": "antlion_swarmer",
       "name": "Antlion Swarmer",
-      "nameJa": "アントリオンスウォーマー",
+      "nameJa": "Antlion Swarmer",
       "hp": "55",
       "atk": "4",
       "defense": "12",
@@ -147,7 +147,7 @@ window.WIKI_DATA = {
     {
       "id": "black_slime",
       "name": "Black Slime",
-      "nameJa": "ブラックスライム",
+      "nameJa": "Black Slime",
       "hp": "100",
       "atk": "7",
       "defense": "4",
@@ -171,7 +171,7 @@ window.WIKI_DATA = {
     {
       "id": "blood_crawler",
       "name": "Blood Crawler",
-      "nameJa": "ブラッドクローラーの仲間",
+      "nameJa": "Blood Crawler",
       "hp": "120",
       "atk": "8",
       "defense": "0",
@@ -195,7 +195,7 @@ window.WIKI_DATA = {
     {
       "id": "blood_zombie",
       "name": "Blood Zombie",
-      "nameJa": "ブラッドゾンビの仲間",
+      "nameJa": "Blood Zombie",
       "hp": "137",
       "atk": "9",
       "defense": "5",
@@ -219,7 +219,7 @@ window.WIKI_DATA = {
     {
       "id": "blue_jellyfish",
       "name": "Blue Jellyfish",
-      "nameJa": "ブルークラゲ",
+      "nameJa": "Blue Jellyfish",
       "hp": "118",
       "atk": "8",
       "defense": "7",
@@ -243,7 +243,7 @@ window.WIKI_DATA = {
     {
       "id": "blue_slime",
       "name": "Blue Slime",
-      "nameJa": "ブルースライム",
+      "nameJa": "Blue Slime",
       "hp": "105",
       "atk": "7",
       "defense": "2",
@@ -267,7 +267,7 @@ window.WIKI_DATA = {
     {
       "id": "bone_serpent",
       "name": "Bone Serpent",
-      "nameJa": "ボーンサーペントの仲間",
+      "nameJa": "Bone Serpent",
       "hp": "110",
       "atk": "12",
       "defense": "0",
@@ -291,7 +291,7 @@ window.WIKI_DATA = {
     {
       "id": "cave_bat",
       "name": "Cave Bat",
-      "nameJa": "ケイブバット",
+      "nameJa": "Cave Bat",
       "hp": "65",
       "atk": "7",
       "defense": "0",
@@ -315,7 +315,7 @@ window.WIKI_DATA = {
     {
       "id": "cochineal_beetle",
       "name": "Cochineal Beetle",
-      "nameJa": "コチニールビートルの仲間",
+      "nameJa": "Cochineal Beetle",
       "hp": "132",
       "atk": "9",
       "defense": "12",
@@ -339,7 +339,7 @@ window.WIKI_DATA = {
     {
       "id": "crab",
       "name": "Crab",
-      "nameJa": "カニの仲間",
+      "nameJa": "Crab",
       "hp": "88",
       "atk": "10",
       "defense": "7",
@@ -363,7 +363,7 @@ window.WIKI_DATA = {
     {
       "id": "crawdad",
       "name": "Crawdad",
-      "nameJa": "ザリガニの仲間",
+      "nameJa": "Crawdad",
       "hp": "134",
       "atk": "12",
       "defense": "9",
@@ -387,7 +387,7 @@ window.WIKI_DATA = {
     {
       "id": "crimera",
       "name": "Crimera",
-      "nameJa": "クリメラ",
+      "nameJa": "Crimera",
       "hp": "117",
       "atk": "9",
       "defense": "0",
@@ -411,7 +411,7 @@ window.WIKI_DATA = {
     {
       "id": "cursed_skull",
       "name": "Cursed Skull",
-      "nameJa": "カースドスカル",
+      "nameJa": "Cursed Skull",
       "hp": "55",
       "atk": "13",
       "defense": "0",
@@ -435,7 +435,7 @@ window.WIKI_DATA = {
     {
       "id": "cyan_beetle",
       "name": "Cyan Beetle",
-      "nameJa": "シアンビートルの仲間",
+      "nameJa": "Cyan Beetle",
       "hp": "122",
       "atk": "8",
       "defense": "15",
@@ -459,7 +459,7 @@ window.WIKI_DATA = {
     {
       "id": "dark_caster",
       "name": "Dark Caster",
-      "nameJa": "ダークキャスター",
+      "nameJa": "Dark Caster",
       "hp": "95",
       "atk": "17",
       "defense": "2",
@@ -483,7 +483,7 @@ window.WIKI_DATA = {
     {
       "id": "demon",
       "name": "Demon",
-      "nameJa": "デーモンの仲間",
+      "nameJa": "Demon",
       "hp": "65",
       "atk": "11",
       "defense": "4",
@@ -507,7 +507,7 @@ window.WIKI_DATA = {
     {
       "id": "demon_eye",
       "name": "Demon Eye",
-      "nameJa": "デーモンアイ",
+      "nameJa": "Demon Eye",
       "hp": "104",
       "atk": "6",
       "defense": "8",
@@ -531,7 +531,7 @@ window.WIKI_DATA = {
     {
       "id": "devourer",
       "name": "Devourer",
-      "nameJa": "デバウラーの仲間",
+      "nameJa": "Devourer",
       "hp": "175",
       "atk": "10",
       "defense": "15",
@@ -555,7 +555,7 @@ window.WIKI_DATA = {
     {
       "id": "doctor_bones",
       "name": "Doctor Bones",
-      "nameJa": "ドクターボーンズ",
+      "nameJa": "Doctor Bones",
       "hp": "110",
       "atk": "8",
       "defense": "8",
@@ -579,7 +579,7 @@ window.WIKI_DATA = {
     {
       "id": "drippler",
       "name": "Drippler",
-      "nameJa": "ドリップラーの仲間",
+      "nameJa": "Drippler",
       "hp": "65",
       "atk": "7",
       "defense": "1",
@@ -603,7 +603,7 @@ window.WIKI_DATA = {
     {
       "id": "dungeon_slime",
       "name": "Dungeon Slime",
-      "nameJa": "ダンジョンスライム",
+      "nameJa": "Dungeon Slime",
       "hp": "137",
       "atk": "9",
       "defense": "9",
@@ -627,7 +627,7 @@ window.WIKI_DATA = {
     {
       "id": "eater_of_souls",
       "name": "Eater Of Souls",
-      "nameJa": "イーターオブソウル",
+      "nameJa": "Eater Of Souls",
       "hp": "90",
       "atk": "10",
       "defense": "7",
@@ -651,7 +651,7 @@ window.WIKI_DATA = {
     {
       "id": "face_monster",
       "name": "Face Monster",
-      "nameJa": "フェイスモンスターの仲間",
+      "nameJa": "Face Monster",
       "hp": "145",
       "atk": "12",
       "defense": "5",
@@ -675,7 +675,7 @@ window.WIKI_DATA = {
     {
       "id": "fire_imp",
       "name": "Fire Imp",
-      "nameJa": "ファイアインプ",
+      "nameJa": "Fire Imp",
       "hp": "79",
       "atk": "14",
       "defense": "1",
@@ -699,7 +699,7 @@ window.WIKI_DATA = {
     {
       "id": "flying_fish",
       "name": "Flying Fish",
-      "nameJa": "トビウオ",
+      "nameJa": "Flying Fish",
       "hp": "107",
       "atk": "4",
       "defense": "10",
@@ -723,7 +723,7 @@ window.WIKI_DATA = {
     {
       "id": "zombie_eskimo",
       "name": "Frozen Zombie",
-      "nameJa": "フローズンゾンビの仲間",
+      "nameJa": "Frozen Zombie",
       "hp": "133",
       "atk": "9",
       "defense": "10",
@@ -747,7 +747,7 @@ window.WIKI_DATA = {
     {
       "id": "fungi_bulb",
       "name": "Fungi Bulb",
-      "nameJa": "ファンギバルブの仲間",
+      "nameJa": "Fungi Bulb",
       "hp": "211",
       "atk": "10",
       "defense": "14",
@@ -771,7 +771,7 @@ window.WIKI_DATA = {
     {
       "id": "ghost",
       "name": "Ghost",
-      "nameJa": "ゴースト",
+      "nameJa": "Ghost",
       "hp": "110",
       "atk": "9",
       "defense": "0",
@@ -795,7 +795,7 @@ window.WIKI_DATA = {
     {
       "id": "giant_shelly",
       "name": "Giant Shelly",
-      "nameJa": "ジャイアントシェリーの仲間",
+      "nameJa": "Giant Shelly",
       "hp": "175",
       "atk": "10",
       "defense": "14",
@@ -819,7 +819,7 @@ window.WIKI_DATA = {
     {
       "id": "giant_worm",
       "name": "Giant Worm",
-      "nameJa": "ジャイアントワーム",
+      "nameJa": "Giant Worm",
       "hp": "125",
       "atk": "8",
       "defense": "5",
@@ -843,7 +843,7 @@ window.WIKI_DATA = {
     {
       "id": "gnome",
       "name": "Gnome",
-      "nameJa": "ノームの仲間",
+      "nameJa": "Gnome",
       "hp": "60",
       "atk": "4",
       "defense": "6",
@@ -867,7 +867,7 @@ window.WIKI_DATA = {
     {
       "id": "goblin_archer",
       "name": "Goblin Archer",
-      "nameJa": "ゴブリンアーチャー",
+      "nameJa": "Goblin Archer",
       "hp": "50",
       "atk": "8",
       "defense": "1",
@@ -891,7 +891,7 @@ window.WIKI_DATA = {
     {
       "id": "goblin_peon",
       "name": "Goblin Peon",
-      "nameJa": "ゴブリンピオン",
+      "nameJa": "Goblin Peon",
       "hp": "100",
       "atk": "7",
       "defense": "4",
@@ -915,7 +915,7 @@ window.WIKI_DATA = {
     {
       "id": "goblin_scout",
       "name": "Goblin Scout",
-      "nameJa": "ゴブリンスカウト",
+      "nameJa": "Goblin Scout",
       "hp": "104",
       "atk": "7",
       "defense": "4",
@@ -939,7 +939,7 @@ window.WIKI_DATA = {
     {
       "id": "goblin_sorcerer",
       "name": "Goblin Sorcerer",
-      "nameJa": "ゴブリンソーサラー",
+      "nameJa": "Goblin Sorcerer",
       "hp": "86",
       "atk": "11",
       "defense": "2",
@@ -963,7 +963,7 @@ window.WIKI_DATA = {
     {
       "id": "goblin_thief",
       "name": "Goblin Thief",
-      "nameJa": "ゴブリンシーフ",
+      "nameJa": "Goblin Thief",
       "hp": "88",
       "atk": "12",
       "defense": "6",
@@ -987,7 +987,7 @@ window.WIKI_DATA = {
     {
       "id": "goblin_warrior",
       "name": "Goblin Warrior",
-      "nameJa": "ゴブリンウォリアー",
+      "nameJa": "Goblin Warrior",
       "hp": "133",
       "atk": "11",
       "defense": "8",
@@ -1011,7 +1011,7 @@ window.WIKI_DATA = {
     {
       "id": "golden_slime",
       "name": "Golden Slime",
-      "nameJa": "ゴールデンスライムの仲魔",
+      "nameJa": "Golden Slime",
       "hp": "225",
       "atk": "5",
       "defense": "5",
@@ -1035,7 +1035,7 @@ window.WIKI_DATA = {
     {
       "id": "green_slime",
       "name": "Green Slime",
-      "nameJa": "グリーンスライム",
+      "nameJa": "Green Slime",
       "hp": "80",
       "atk": "5",
       "defense": "2",
@@ -1059,7 +1059,7 @@ window.WIKI_DATA = {
     {
       "id": "harpy",
       "name": "Harpy",
-      "nameJa": "ハーピーの仲間",
+      "nameJa": "Harpy",
       "hp": "60",
       "atk": "10",
       "defense": "6",
@@ -1083,7 +1083,7 @@ window.WIKI_DATA = {
     {
       "id": "hellbat",
       "name": "Hellbat",
-      "nameJa": "ヘルバット",
+      "nameJa": "Hellbat",
       "hp": "99",
       "atk": "9",
       "defense": "9",
@@ -1107,7 +1107,7 @@ window.WIKI_DATA = {
     {
       "id": "hoplite",
       "name": "Hoplite",
-      "nameJa": "ホプライトの仲間",
+      "nameJa": "Hoplite",
       "hp": "65",
       "atk": "13",
       "defense": "16",
@@ -1131,7 +1131,7 @@ window.WIKI_DATA = {
     {
       "id": "hornet",
       "name": "Hornet",
-      "nameJa": "ホーネット",
+      "nameJa": "Hornet",
       "hp": "60",
       "atk": "9",
       "defense": "3",
@@ -1155,7 +1155,7 @@ window.WIKI_DATA = {
     {
       "id": "ice_bat",
       "name": "Ice Bat",
-      "nameJa": "アイスバット",
+      "nameJa": "Ice Bat",
       "hp": "60",
       "atk": "6",
       "defense": "2",
@@ -1179,7 +1179,7 @@ window.WIKI_DATA = {
     {
       "id": "ice_slime",
       "name": "Ice Slime",
-      "nameJa": "アイススライム",
+      "nameJa": "Ice Slime",
       "hp": "107",
       "atk": "6",
       "defense": "6",
@@ -1203,7 +1203,7 @@ window.WIKI_DATA = {
     {
       "id": "jungle_bat",
       "name": "Jungle Bat",
-      "nameJa": "ジャングルバット",
+      "nameJa": "Jungle Bat",
       "hp": "67",
       "atk": "8",
       "defense": "0",
@@ -1227,7 +1227,7 @@ window.WIKI_DATA = {
     {
       "id": "jungle_slime",
       "name": "Jungle Slime",
-      "nameJa": "ジャングルスライム",
+      "nameJa": "Jungle Slime",
       "hp": "120",
       "atk": "9",
       "defense": "7",
@@ -1251,7 +1251,7 @@ window.WIKI_DATA = {
     {
       "id": "lac_beetle",
       "name": "Lac Beetle",
-      "nameJa": "ラックビートルの仲間",
+      "nameJa": "Lac Beetle",
       "hp": "116",
       "atk": "12",
       "defense": "7",
@@ -1275,7 +1275,7 @@ window.WIKI_DATA = {
     {
       "id": "man_eater",
       "name": "Man Eater",
-      "nameJa": "マンイーター",
+      "nameJa": "Man Eater",
       "hp": "179",
       "atk": "13",
       "defense": "8",
@@ -1299,7 +1299,7 @@ window.WIKI_DATA = {
     {
       "id": "meteor_head",
       "name": "Meteor Head",
-      "nameJa": "メテオヘッドの仲間",
+      "nameJa": "Meteor Head",
       "hp": "90",
       "atk": "6",
       "defense": "0",
@@ -1323,7 +1323,7 @@ window.WIKI_DATA = {
     {
       "id": "mother_slime",
       "name": "Mother Slime",
-      "nameJa": "マザースライムの仲間",
+      "nameJa": "Mother Slime",
       "hp": "175",
       "atk": "10",
       "defense": "8",
@@ -1347,7 +1347,7 @@ window.WIKI_DATA = {
     {
       "id": "mushi_ladybug",
       "name": "Mushi Ladybug",
-      "nameJa": "ムシレディバグの仲間",
+      "nameJa": "Mushi Ladybug",
       "hp": "123",
       "atk": "9",
       "defense": "8",
@@ -1371,7 +1371,7 @@ window.WIKI_DATA = {
     {
       "id": "pink_jellyfish",
       "name": "Pink Jellyfish",
-      "nameJa": "ピンククラゲ",
+      "nameJa": "Pink Jellyfish",
       "hp": "116",
       "atk": "8",
       "defense": "9",
@@ -1395,7 +1395,7 @@ window.WIKI_DATA = {
     {
       "id": "pinky",
       "name": "Pinky",
-      "nameJa": "ピンキー",
+      "nameJa": "Pinky",
       "hp": "140",
       "atk": "7",
       "defense": "0",
@@ -1419,7 +1419,7 @@ window.WIKI_DATA = {
     {
       "id": "piranha",
       "name": "Piranha",
-      "nameJa": "ピラニア",
+      "nameJa": "Piranha",
       "hp": "80",
       "atk": "12",
       "defense": "0",
@@ -1443,7 +1443,7 @@ window.WIKI_DATA = {
     {
       "id": "purple_slime",
       "name": "Purple Slime",
-      "nameJa": "パープルスライム",
+      "nameJa": "Purple Slime",
       "hp": "70",
       "atk": "7",
       "defense": "2",
@@ -1467,7 +1467,7 @@ window.WIKI_DATA = {
     {
       "id": "raincoat_zombie",
       "name": "Raincoat Zombie",
-      "nameJa": "レインコートゾンビ",
+      "nameJa": "Raincoat Zombie",
       "hp": "122",
       "atk": "9",
       "defense": "6",
@@ -1491,7 +1491,7 @@ window.WIKI_DATA = {
     {
       "id": "raven",
       "name": "Raven",
-      "nameJa": "カラス",
+      "nameJa": "Raven",
       "hp": "90",
       "atk": "9",
       "defense": "7",
@@ -1515,7 +1515,7 @@ window.WIKI_DATA = {
     {
       "id": "red_slime",
       "name": "Red Slime",
-      "nameJa": "レッドスライム",
+      "nameJa": "Red Slime",
       "hp": "104",
       "atk": "8",
       "defense": "4",
@@ -1539,7 +1539,7 @@ window.WIKI_DATA = {
     {
       "id": "salamander",
       "name": "Salamander",
-      "nameJa": "サラマンダーの仲間",
+      "nameJa": "Salamander",
       "hp": "75",
       "atk": "10",
       "defense": "10",
@@ -1563,7 +1563,7 @@ window.WIKI_DATA = {
     {
       "id": "sand_slime",
       "name": "Sand Slime",
-      "nameJa": "サンドスライム",
+      "nameJa": "Sand Slime",
       "hp": "127",
       "atk": "9",
       "defense": "8",
@@ -1587,7 +1587,7 @@ window.WIKI_DATA = {
     {
       "id": "shark",
       "name": "Shark",
-      "nameJa": "サメ",
+      "nameJa": "Shark",
       "hp": "113",
       "atk": "11",
       "defense": "6",
@@ -1611,7 +1611,7 @@ window.WIKI_DATA = {
     {
       "id": "shimmer_slime",
       "name": "Shimmer Slime",
-      "nameJa": "シマースライムの仲魔",
+      "nameJa": "Shimmer Slime",
       "hp": "65",
       "atk": "7",
       "defense": "2",
@@ -1635,7 +1635,7 @@ window.WIKI_DATA = {
     {
       "id": "skeleton",
       "name": "Skeleton",
-      "nameJa": "スケルトン",
+      "nameJa": "Skeleton",
       "hp": "117",
       "atk": "9",
       "defense": "11",
@@ -1659,7 +1659,7 @@ window.WIKI_DATA = {
     {
       "id": "snatcher",
       "name": "Snatcher",
-      "nameJa": "スナッチャー",
+      "nameJa": "Snatcher",
       "hp": "139",
       "atk": "9",
       "defense": "7",
@@ -1683,7 +1683,7 @@ window.WIKI_DATA = {
     {
       "id": "spiked_ice_slime",
       "name": "Spiked Ice Slime",
-      "nameJa": "スパイクアイススライムの仲間",
+      "nameJa": "Spiked Ice Slime",
       "hp": "122",
       "atk": "10",
       "defense": "8",
@@ -1707,7 +1707,7 @@ window.WIKI_DATA = {
     {
       "id": "spiked_jungle_slime",
       "name": "Spiked Jungle Slime",
-      "nameJa": "スパイクジャングルスライムの仲間",
+      "nameJa": "Spiked Jungle Slime",
       "hp": "130",
       "atk": "9",
       "defense": "8",
@@ -1731,7 +1731,7 @@ window.WIKI_DATA = {
     {
       "id": "spore_bat",
       "name": "Spore Bat",
-      "nameJa": "スポアバットの仲間",
+      "nameJa": "Spore Bat",
       "hp": "88",
       "atk": "8",
       "defense": "8",
@@ -1755,7 +1755,7 @@ window.WIKI_DATA = {
     {
       "id": "spore_skeleton",
       "name": "Spore Skeleton",
-      "nameJa": "スポアスケルトン",
+      "nameJa": "Spore Skeleton",
       "hp": "136",
       "atk": "9",
       "defense": "7",
@@ -1779,7 +1779,7 @@ window.WIKI_DATA = {
     {
       "id": "spore_zombie",
       "name": "Spore Zombie",
-      "nameJa": "スポアゾンビの仲間",
+      "nameJa": "Spore Zombie",
       "hp": "167",
       "atk": "9",
       "defense": "8",
@@ -1803,7 +1803,7 @@ window.WIKI_DATA = {
     {
       "id": "squid",
       "name": "Squid",
-      "nameJa": "イカの仲魔",
+      "nameJa": "Squid",
       "hp": "150",
       "atk": "7",
       "defense": "12",
@@ -1827,7 +1827,7 @@ window.WIKI_DATA = {
     {
       "id": "the_groom",
       "name": "The Groom",
-      "nameJa": "グルーム",
+      "nameJa": "The Groom",
       "hp": "136",
       "atk": "11",
       "defense": "6",
@@ -1851,7 +1851,7 @@ window.WIKI_DATA = {
     {
       "id": "tim",
       "name": "Tim",
-      "nameJa": "ティムの仲間",
+      "nameJa": "Tim",
       "hp": "99",
       "atk": "20",
       "defense": "4",
@@ -1875,7 +1875,7 @@ window.WIKI_DATA = {
     {
       "id": "tomb_crawler",
       "name": "Tomb Crawler",
-      "nameJa": "トゥームクローラーの仲間",
+      "nameJa": "Tomb Crawler",
       "hp": "245",
       "atk": "5",
       "defense": "2",
@@ -1899,7 +1899,7 @@ window.WIKI_DATA = {
     {
       "id": "umbrella_slime",
       "name": "Umbrella Slime",
-      "nameJa": "アンブレラスライムの仲間",
+      "nameJa": "Umbrella Slime",
       "hp": "115",
       "atk": "5",
       "defense": "4",
@@ -1923,7 +1923,7 @@ window.WIKI_DATA = {
     {
       "id": "undead_miner",
       "name": "Undead Miner",
-      "nameJa": "アンデッドマイナー",
+      "nameJa": "Undead Miner",
       "hp": "122",
       "atk": "9",
       "defense": "8",
@@ -1947,7 +1947,7 @@ window.WIKI_DATA = {
     {
       "id": "undead_viking",
       "name": "Undead Viking",
-      "nameJa": "アンデッドバイキングの仲間",
+      "nameJa": "Undead Viking",
       "hp": "163",
       "atk": "12",
       "defense": "10",
@@ -1971,7 +1971,7 @@ window.WIKI_DATA = {
     {
       "id": "voodoo_demon",
       "name": "Voodoo Demon",
-      "nameJa": "ヴードゥーデーモンの仲間",
+      "nameJa": "Voodoo Demon",
       "hp": "45",
       "atk": "11",
       "defense": "2",
@@ -1995,7 +1995,7 @@ window.WIKI_DATA = {
     {
       "id": "vulture",
       "name": "Vulture",
-      "nameJa": "ハゲタカ",
+      "nameJa": "Vulture",
       "hp": "77",
       "atk": "7",
       "defense": "11",
@@ -2019,7 +2019,7 @@ window.WIKI_DATA = {
     {
       "id": "wall_creeper",
       "name": "Wall Creeper",
-      "nameJa": "ウォールクリーパー",
+      "nameJa": "Wall Creeper",
       "hp": "132",
       "atk": "9",
       "defense": "7",
@@ -2043,7 +2043,7 @@ window.WIKI_DATA = {
     {
       "id": "yellow_slime",
       "name": "Yellow Slime",
-      "nameJa": "イエロースライム",
+      "nameJa": "Yellow Slime",
       "hp": "112",
       "atk": "7",
       "defense": "3",
@@ -2067,7 +2067,7 @@ window.WIKI_DATA = {
     {
       "id": "zombie",
       "name": "Zombie",
-      "nameJa": "ゾンビ",
+      "nameJa": "Zombie",
       "hp": "125",
       "atk": "9",
       "defense": "7",
