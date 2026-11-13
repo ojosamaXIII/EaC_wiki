@@ -18,7 +18,6 @@ window.WIKI_DATA = {
         "Kin": 0,
         "Anomaly": 1
       },
-      "aptitudeOnLoad": null,
       "icon": "assets/angry_bones.png",
       "gif": "https://terraria.wiki.gg/images/Angry_Bones_1.gif",
       "gifFallback": "https://raw.githubusercontent.com/pttydou/Codex-Terraria-Theme/9767df0a112e3b9a53c22a4126fcbb71dfe0a8bc/windows/TRSkin/core/local-presets/preset-terraria-dungeon/companion-angry-bones-big-boned.apng",
@@ -42,7 +41,6 @@ window.WIKI_DATA = {
         "Kin": 0,
         "Anomaly": 0
       },
-      "aptitudeOnLoad": null,
       "icon": "assets/angry_dandelion.png",
       "gif": "https://wiki.ronlab.site/content/terrariawiki_en_2025-10/_assets_/d8a9a8b9feaff5d65577eb04975bf021/Angry_Dandelion.gif",
       "gifFallback": "",
@@ -66,7 +64,6 @@ window.WIKI_DATA = {
         "Kin": 1,
         "Anomaly": 0
       },
-      "aptitudeOnLoad": null,
       "icon": "assets/anomura_fungus.png",
       "gif": "https://terraria.wiki.gg/images/Anomura_Fungus.gif",
       "gifFallback": "https://raw.githubusercontent.com/pttydou/Codex-Terraria-Theme/9767df0a112e3b9a53c22a4126fcbb71dfe0a8bc/windows/TRSkin/core/local-presets/preset-terraria-glowing-mushroom/companion-anomura-fungus.apng",
@@ -90,7 +87,6 @@ window.WIKI_DATA = {
         "Kin": 0,
         "Anomaly": 2
       },
-      "aptitudeOnLoad": null,
       "icon": "assets/antlion.png",
       "gif": "https://terraria.wiki.gg/images/Antlion.gif",
       "gifFallback": "https://raw.githubusercontent.com/pttydou/Codex-Terraria-Theme/9767df0a112e3b9a53c22a4126fcbb71dfe0a8bc/windows/TRSkin/core/local-presets/preset-terraria-desert/companion-antlion.apng",
@@ -114,7 +110,6 @@ window.WIKI_DATA = {
         "Kin": 1,
         "Anomaly": 0
       },
-      "aptitudeOnLoad": null,
       "icon": "assets/antlion_charger.png",
       "gif": "https://wiki.ronlab.site/content/terrariawiki_en_2025-10/_assets_/d8a9a8b9feaff5d65577eb04975bf021/Antlion_Charger.gif",
       "gifFallback": "",
@@ -138,7 +133,6 @@ window.WIKI_DATA = {
         "Kin": 3,
         "Anomaly": 0
       },
-      "aptitudeOnLoad": null,
       "icon": "assets/antlion_swarmer.png",
       "gif": "https://wiki.ronlab.site/content/terrariawiki_en_2025-10/_assets_/d8a9a8b9feaff5d65577eb04975bf021/Antlion_Swarmer.gif",
       "gifFallback": "",
@@ -162,7 +156,6 @@ window.WIKI_DATA = {
         "Kin": 0,
         "Anomaly": 0
       },
-      "aptitudeOnLoad": null,
       "icon": "assets/black_slime.png",
       "gif": "https://terraria.wiki.gg/images/Black_Slime.gif",
       "gifFallback": "https://raw.githubusercontent.com/pttydou/Codex-Terraria-Theme/9767df0a112e3b9a53c22a4126fcbb71dfe0a8bc/windows/TRSkin/core/local-presets/preset-terraria-cavern/companion-black-slime.apng",
@@ -186,7 +179,6 @@ window.WIKI_DATA = {
         "Kin": 1,
         "Anomaly": 2
       },
-      "aptitudeOnLoad": null,
       "icon": "assets/blood_crawler.png",
       "gif": "https://terraria.wiki.gg/images/Blood_Crawler_%28ground%29.gif",
       "gifFallback": "https://raw.githubusercontent.com/pttydou/Codex-Terraria-Theme/9767df0a112e3b9a53c22a4126fcbb71dfe0a8bc/windows/TRSkin/core/local-presets/preset-terraria-crimson/companion-blood-crawler.apng",
@@ -210,7 +202,6 @@ window.WIKI_DATA = {
         "Kin": 0,
         "Anomaly": 2
       },
-      "aptitudeOnLoad": null,
       "icon": "assets/blood_zombie.png",
       "gif": "https://terraria.wiki.gg/images/Blood_Zombie.gif",
       "gifFallback": "https://raw.githubusercontent.com/pttydou/Codex-Terraria-Theme/9767df0a112e3b9a53c22a4126fcbb71dfe0a8bc/windows/TRSkin/core/local-presets/preset-terraria-blood-moon/companion-blood-zombie.apng",
@@ -234,7 +225,6 @@ window.WIKI_DATA = {
         "Kin": 0,
         "Anomaly": 2
       },
-      "aptitudeOnLoad": null,
       "icon": "assets/blue_jellyfish.png",
       "gif": "https://terraria.wiki.gg/images/Blue_Jellyfish.gif",
       "gifFallback": "https://raw.githubusercontent.com/pttydou/Codex-Terraria-Theme/9767df0a112e3b9a53c22a4126fcbb71dfe0a8bc/windows/TRSkin/core/local-presets/preset-terraria-cavern/companion-blue-jellyfish.apng",
@@ -258,7 +248,6 @@ window.WIKI_DATA = {
         "Kin": 0,
         "Anomaly": 0
       },
-      "aptitudeOnLoad": null,
       "icon": "assets/blue_slime.png",
       "gif": "https://terraria.wiki.gg/images/Blue_Slime.gif",
       "gifFallback": "https://raw.githubusercontent.com/pttydou/Codex-Terraria-Theme/9767df0a112e3b9a53c22a4126fcbb71dfe0a8bc/windows/TRSkin/core/local-presets/preset-terraria-forest-day/companion-blue-slime.apng",
@@ -282,7 +271,6 @@ window.WIKI_DATA = {
         "Kin": 0,
         "Anomaly": 3
       },
-      "aptitudeOnLoad": null,
       "icon": "assets/bone_serpent.png",
       "gif": "",
       "gifFallback": "",
@@ -306,7 +294,6 @@ window.WIKI_DATA = {
         "Kin": 0,
         "Anomaly": 0
       },
-      "aptitudeOnLoad": null,
       "icon": "assets/cave_bat.png",
       "gif": "https://terraria.wiki.gg/images/Cave_Bat.gif",
       "gifFallback": "https://raw.githubusercontent.com/pttydou/Codex-Terraria-Theme/9767df0a112e3b9a53c22a4126fcbb71dfe0a8bc/windows/TRSkin/core/local-presets/preset-terraria-cavern/companion-cave-bat.apng",
@@ -330,7 +317,6 @@ window.WIKI_DATA = {
         "Kin": 0,
         "Anomaly": 0
       },
-      "aptitudeOnLoad": null,
       "icon": "assets/cochineal_beetle.png",
       "gif": "https://terraria.wiki.gg/images/Cochineal_Beetle.gif",
       "gifFallback": "https://raw.githubusercontent.com/pttydou/Codex-Terraria-Theme/9767df0a112e3b9a53c22a4126fcbb71dfe0a8bc/windows/TRSkin/core/local-presets/preset-terraria-cavern/companion-cochineal-beetle.apng",
@@ -354,7 +340,6 @@ window.WIKI_DATA = {
         "Kin": 0,
         "Anomaly": 0
       },
-      "aptitudeOnLoad": null,
       "icon": "assets/crab.png",
       "gif": "https://terraria.wiki.gg/images/Crab.gif",
       "gifFallback": "https://raw.githubusercontent.com/pttydou/Codex-Terraria-Theme/9767df0a112e3b9a53c22a4126fcbb71dfe0a8bc/windows/TRSkin/core/local-presets/preset-terraria-ocean/companion-crab.apng",
@@ -378,7 +363,6 @@ window.WIKI_DATA = {
         "Kin": 0,
         "Anomaly": 0
       },
-      "aptitudeOnLoad": null,
       "icon": "assets/crawdad.png",
       "gif": "https://terraria.wiki.gg/images/Crawdad.gif",
       "gifFallback": "https://raw.githubusercontent.com/pttydou/Codex-Terraria-Theme/9767df0a112e3b9a53c22a4126fcbb71dfe0a8bc/windows/TRSkin/core/local-presets/preset-terraria-cavern/companion-crawdad.apng",
@@ -402,7 +386,6 @@ window.WIKI_DATA = {
         "Kin": 0,
         "Anomaly": 2
       },
-      "aptitudeOnLoad": null,
       "icon": "assets/crimera.png",
       "gif": "https://terraria.wiki.gg/images/Crimera.gif",
       "gifFallback": "https://raw.githubusercontent.com/pttydou/Codex-Terraria-Theme/9767df0a112e3b9a53c22a4126fcbb71dfe0a8bc/windows/TRSkin/core/local-presets/preset-terraria-crimson/companion-crimera-big-crimera.apng",
@@ -426,7 +409,6 @@ window.WIKI_DATA = {
         "Kin": 1,
         "Anomaly": 3
       },
-      "aptitudeOnLoad": null,
       "icon": "assets/cursed_skull.png",
       "gif": "https://terraria.wiki.gg/images/Cursed_Skull.gif",
       "gifFallback": "https://raw.githubusercontent.com/pttydou/Codex-Terraria-Theme/9767df0a112e3b9a53c22a4126fcbb71dfe0a8bc/windows/TRSkin/core/local-presets/preset-terraria-dungeon/companion-cursed-skull.apng",
@@ -450,7 +432,6 @@ window.WIKI_DATA = {
         "Kin": 0,
         "Anomaly": 1
       },
-      "aptitudeOnLoad": null,
       "icon": "assets/cyan_beetle.png",
       "gif": "https://terraria.wiki.gg/images/Cyan_Beetle.gif",
       "gifFallback": "https://raw.githubusercontent.com/pttydou/Codex-Terraria-Theme/9767df0a112e3b9a53c22a4126fcbb71dfe0a8bc/windows/TRSkin/core/local-presets/preset-terraria-ice-biome/companion-cyan-beetle.apng",
@@ -474,7 +455,6 @@ window.WIKI_DATA = {
         "Kin": 0,
         "Anomaly": 1
       },
-      "aptitudeOnLoad": null,
       "icon": "assets/dark_caster.png",
       "gif": "",
       "gifFallback": "",
@@ -498,7 +478,6 @@ window.WIKI_DATA = {
         "Kin": 0,
         "Anomaly": 3
       },
-      "aptitudeOnLoad": null,
       "icon": "assets/demon.png",
       "gif": "https://terraria.wiki.gg/images/Demon.gif",
       "gifFallback": "https://raw.githubusercontent.com/pttydou/Codex-Terraria-Theme/9767df0a112e3b9a53c22a4126fcbb71dfe0a8bc/windows/TRSkin/core/local-presets/preset-terraria-underworld/companion-demon.apng",
@@ -522,7 +501,6 @@ window.WIKI_DATA = {
         "Kin": 0,
         "Anomaly": 1
       },
-      "aptitudeOnLoad": null,
       "icon": "assets/demon_eye.png",
       "gif": "https://terraria.wiki.gg/images/Demon_Eye.gif",
       "gifFallback": "https://raw.githubusercontent.com/pttydou/Codex-Terraria-Theme/9767df0a112e3b9a53c22a4126fcbb71dfe0a8bc/windows/TRSkin/core/local-presets/preset-terraria-forest-night/companion-demon-eye.apng",
@@ -546,7 +524,6 @@ window.WIKI_DATA = {
         "Kin": 0,
         "Anomaly": 2
       },
-      "aptitudeOnLoad": null,
       "icon": "assets/devourer.png",
       "gif": "",
       "gifFallback": "",
@@ -570,7 +547,6 @@ window.WIKI_DATA = {
         "Kin": 0,
         "Anomaly": 2
       },
-      "aptitudeOnLoad": null,
       "icon": "assets/doctor_bones.png",
       "gif": "https://terraria.wiki.gg/images/Doctor_Bones.gif",
       "gifFallback": "https://raw.githubusercontent.com/pttydou/Codex-Terraria-Theme/9767df0a112e3b9a53c22a4126fcbb71dfe0a8bc/windows/TRSkin/core/local-presets/preset-terraria-jungle-night/companion-doctor-bones.apng",
@@ -594,7 +570,6 @@ window.WIKI_DATA = {
         "Kin": 0,
         "Anomaly": 2
       },
-      "aptitudeOnLoad": null,
       "icon": "assets/drippler.png",
       "gif": "https://terraria.wiki.gg/images/Drippler.gif",
       "gifFallback": "https://raw.githubusercontent.com/pttydou/Codex-Terraria-Theme/9767df0a112e3b9a53c22a4126fcbb71dfe0a8bc/windows/TRSkin/core/local-presets/preset-terraria-blood-moon/companion-drippler.apng",
@@ -618,7 +593,6 @@ window.WIKI_DATA = {
         "Kin": 0,
         "Anomaly": 0
       },
-      "aptitudeOnLoad": null,
       "icon": "assets/dungeon_slime.png",
       "gif": "https://terraria.wiki.gg/images/Dungeon_Slime.gif",
       "gifFallback": "https://raw.githubusercontent.com/pttydou/Codex-Terraria-Theme/9767df0a112e3b9a53c22a4126fcbb71dfe0a8bc/windows/TRSkin/core/local-presets/preset-terraria-dungeon/companion-dungeon-slime.apng",
@@ -642,7 +616,6 @@ window.WIKI_DATA = {
         "Kin": 1,
         "Anomaly": 2
       },
-      "aptitudeOnLoad": null,
       "icon": "assets/eater_of_souls.png",
       "gif": "https://terraria.wiki.gg/images/Eater_of_Souls.gif",
       "gifFallback": "https://raw.githubusercontent.com/pttydou/Codex-Terraria-Theme/9767df0a112e3b9a53c22a4126fcbb71dfe0a8bc/windows/TRSkin/core/local-presets/preset-terraria-corruption/companion-eater-of-souls.apng",
@@ -666,7 +639,6 @@ window.WIKI_DATA = {
         "Kin": 0,
         "Anomaly": 0
       },
-      "aptitudeOnLoad": null,
       "icon": "assets/face_monster.png",
       "gif": "https://terraria.wiki.gg/images/Face_Monster.gif",
       "gifFallback": "https://raw.githubusercontent.com/pttydou/Codex-Terraria-Theme/9767df0a112e3b9a53c22a4126fcbb71dfe0a8bc/windows/TRSkin/core/local-presets/preset-terraria-crimson/companion-face-monster.apng",
@@ -690,7 +662,6 @@ window.WIKI_DATA = {
         "Kin": 0,
         "Anomaly": 1
       },
-      "aptitudeOnLoad": null,
       "icon": "assets/fire_imp.png",
       "gif": "https://terraria.wiki.gg/images/Fire_Imp.gif",
       "gifFallback": "https://raw.githubusercontent.com/pttydou/Codex-Terraria-Theme/9767df0a112e3b9a53c22a4126fcbb71dfe0a8bc/windows/TRSkin/core/local-presets/preset-terraria-underworld/companion-fire-imp.apng",
@@ -714,7 +685,6 @@ window.WIKI_DATA = {
         "Kin": 0,
         "Anomaly": 0
       },
-      "aptitudeOnLoad": null,
       "icon": "assets/flying_fish.png",
       "gif": "https://wiki.ronlab.site/content/terrariawiki_en_2025-10/_assets_/d8a9a8b9feaff5d65577eb04975bf021/Flying_Fish.gif",
       "gifFallback": "",
@@ -738,7 +708,6 @@ window.WIKI_DATA = {
         "Kin": 0,
         "Anomaly": 1
       },
-      "aptitudeOnLoad": null,
       "icon": "assets/zombie_eskimo.png",
       "gif": "https://terraria.wiki.gg/images/Frozen_Zombie.gif",
       "gifFallback": "https://raw.githubusercontent.com/pttydou/Codex-Terraria-Theme/9767df0a112e3b9a53c22a4126fcbb71dfe0a8bc/windows/TRSkin/core/local-presets/preset-terraria-tundra-night/companion-frozen-zombie.apng",
@@ -762,7 +731,6 @@ window.WIKI_DATA = {
         "Kin": 1,
         "Anomaly": 1
       },
-      "aptitudeOnLoad": null,
       "icon": "assets/fungi_bulb.png",
       "gif": "",
       "gifFallback": "",
@@ -786,7 +754,6 @@ window.WIKI_DATA = {
         "Kin": 0,
         "Anomaly": 2
       },
-      "aptitudeOnLoad": null,
       "icon": "assets/ghost.png",
       "gif": "https://terraria.wiki.gg/images/Ghost_%28enemy%29.gif",
       "gifFallback": "https://raw.githubusercontent.com/pttydou/Codex-Terraria-Theme/9767df0a112e3b9a53c22a4126fcbb71dfe0a8bc/windows/TRSkin/core/local-presets/preset-terraria-graveyard/companion-ghost.apng",
@@ -810,7 +777,6 @@ window.WIKI_DATA = {
         "Kin": 1,
         "Anomaly": 0
       },
-      "aptitudeOnLoad": null,
       "icon": "assets/giant_shelly.png",
       "gif": "https://terraria.wiki.gg/images/Giant_Shelly.gif",
       "gifFallback": "https://raw.githubusercontent.com/pttydou/Codex-Terraria-Theme/9767df0a112e3b9a53c22a4126fcbb71dfe0a8bc/windows/TRSkin/core/local-presets/preset-terraria-cavern/companion-giant-shelly.apng",
@@ -834,7 +800,6 @@ window.WIKI_DATA = {
         "Kin": 0,
         "Anomaly": 2
       },
-      "aptitudeOnLoad": null,
       "icon": "assets/giant_worm.png",
       "gif": "",
       "gifFallback": "",
@@ -858,7 +823,6 @@ window.WIKI_DATA = {
         "Kin": 0,
         "Anomaly": 3
       },
-      "aptitudeOnLoad": null,
       "icon": "assets/gnome.png",
       "gif": "https://terraria.wiki.gg/images/Gnome.gif",
       "gifFallback": "https://raw.githubusercontent.com/pttydou/Codex-Terraria-Theme/9767df0a112e3b9a53c22a4126fcbb71dfe0a8bc/windows/TRSkin/core/local-presets/preset-terraria-forest-day/companion-gnome.apng",
@@ -882,7 +846,6 @@ window.WIKI_DATA = {
         "Kin": 0,
         "Anomaly": 0
       },
-      "aptitudeOnLoad": null,
       "icon": "assets/goblin_archer.png",
       "gif": "https://terraria.wiki.gg/images/Goblin_Archer.gif",
       "gifFallback": "https://raw.githubusercontent.com/pttydou/Codex-Terraria-Theme/9767df0a112e3b9a53c22a4126fcbb71dfe0a8bc/windows/TRSkin/core/local-presets/preset-terraria-goblin-invasion/companion-goblin-archer.apng",
@@ -906,7 +869,6 @@ window.WIKI_DATA = {
         "Kin": 1,
         "Anomaly": 0
       },
-      "aptitudeOnLoad": null,
       "icon": "assets/goblin_peon.png",
       "gif": "https://terraria.wiki.gg/images/Goblin_Peon.gif",
       "gifFallback": "https://raw.githubusercontent.com/pttydou/Codex-Terraria-Theme/9767df0a112e3b9a53c22a4126fcbb71dfe0a8bc/windows/TRSkin/core/local-presets/preset-terraria-goblin-invasion/companion-goblin-peon.apng",
@@ -930,7 +892,6 @@ window.WIKI_DATA = {
         "Kin": 0,
         "Anomaly": 0
       },
-      "aptitudeOnLoad": null,
       "icon": "assets/goblin_scout.png",
       "gif": "https://terraria.wiki.gg/images/Goblin_Scout.gif",
       "gifFallback": "https://raw.githubusercontent.com/pttydou/Codex-Terraria-Theme/9767df0a112e3b9a53c22a4126fcbb71dfe0a8bc/windows/TRSkin/core/local-presets/preset-terraria-forest-day/companion-goblin-scout.apng",
@@ -954,7 +915,6 @@ window.WIKI_DATA = {
         "Kin": 1,
         "Anomaly": 0
       },
-      "aptitudeOnLoad": null,
       "icon": "assets/goblin_sorcerer.png",
       "gif": "",
       "gifFallback": "",
@@ -978,7 +938,6 @@ window.WIKI_DATA = {
         "Kin": 0,
         "Anomaly": 0
       },
-      "aptitudeOnLoad": null,
       "icon": "assets/goblin_thief.png",
       "gif": "https://terraria.wiki.gg/images/Goblin_Thief.gif",
       "gifFallback": "https://raw.githubusercontent.com/pttydou/Codex-Terraria-Theme/9767df0a112e3b9a53c22a4126fcbb71dfe0a8bc/windows/TRSkin/core/local-presets/preset-terraria-goblin-invasion/companion-goblin-thief.apng",
@@ -1002,7 +961,6 @@ window.WIKI_DATA = {
         "Kin": 1,
         "Anomaly": 0
       },
-      "aptitudeOnLoad": null,
       "icon": "assets/goblin_warrior.png",
       "gif": "https://terraria.wiki.gg/images/Goblin_Warrior.gif",
       "gifFallback": "https://raw.githubusercontent.com/pttydou/Codex-Terraria-Theme/9767df0a112e3b9a53c22a4126fcbb71dfe0a8bc/windows/TRSkin/core/local-presets/preset-terraria-goblin-invasion/companion-goblin-warrior.apng",
@@ -1026,7 +984,6 @@ window.WIKI_DATA = {
         "Kin": 3,
         "Anomaly": 1
       },
-      "aptitudeOnLoad": null,
       "icon": "assets/golden_slime.png",
       "gif": "https://wiki.ronlab.site/content/terrariawiki_en_2025-10/_assets_/d8a9a8b9feaff5d65577eb04975bf021/Golden_Slime.gif",
       "gifFallback": "",
@@ -1050,7 +1007,6 @@ window.WIKI_DATA = {
         "Kin": 0,
         "Anomaly": 0
       },
-      "aptitudeOnLoad": null,
       "icon": "assets/green_slime.png",
       "gif": "https://terraria.wiki.gg/images/Green_Slime.gif",
       "gifFallback": "https://raw.githubusercontent.com/pttydou/Codex-Terraria-Theme/9767df0a112e3b9a53c22a4126fcbb71dfe0a8bc/windows/TRSkin/core/local-presets/preset-terraria-forest-day/companion-green-slime.apng",
@@ -1074,7 +1030,6 @@ window.WIKI_DATA = {
         "Kin": 0,
         "Anomaly": 0
       },
-      "aptitudeOnLoad": null,
       "icon": "assets/harpy.png",
       "gif": "https://terraria.wiki.gg/images/Harpy.gif",
       "gifFallback": "https://raw.githubusercontent.com/pttydou/Codex-Terraria-Theme/9767df0a112e3b9a53c22a4126fcbb71dfe0a8bc/windows/TRSkin/core/local-presets/preset-terraria-space/companion-harpy.apng",
@@ -1098,7 +1053,6 @@ window.WIKI_DATA = {
         "Kin": 0,
         "Anomaly": 0
       },
-      "aptitudeOnLoad": null,
       "icon": "assets/hellbat.png",
       "gif": "https://terraria.wiki.gg/images/Hellbat.gif",
       "gifFallback": "https://raw.githubusercontent.com/pttydou/Codex-Terraria-Theme/9767df0a112e3b9a53c22a4126fcbb71dfe0a8bc/windows/TRSkin/core/local-presets/preset-terraria-underworld/companion-hellbat.apng",
@@ -1122,7 +1076,6 @@ window.WIKI_DATA = {
         "Kin": 0,
         "Anomaly": 0
       },
-      "aptitudeOnLoad": null,
       "icon": "assets/hoplite.png",
       "gif": "https://terraria.wiki.gg/images/Hoplite.gif",
       "gifFallback": "https://raw.githubusercontent.com/pttydou/Codex-Terraria-Theme/9767df0a112e3b9a53c22a4126fcbb71dfe0a8bc/windows/TRSkin/core/local-presets/preset-terraria-marble-cave/companion-hoplite.apng",
@@ -1146,7 +1099,6 @@ window.WIKI_DATA = {
         "Kin": 2,
         "Anomaly": 1
       },
-      "aptitudeOnLoad": null,
       "icon": "assets/hornet.png",
       "gif": "https://terraria.wiki.gg/images/Hornet.gif",
       "gifFallback": "https://raw.githubusercontent.com/pttydou/Codex-Terraria-Theme/9767df0a112e3b9a53c22a4126fcbb71dfe0a8bc/windows/TRSkin/core/local-presets/preset-terraria-underground-jungle/companion-hornet-big-stinger.apng",
@@ -1170,7 +1122,6 @@ window.WIKI_DATA = {
         "Kin": 0,
         "Anomaly": 1
       },
-      "aptitudeOnLoad": null,
       "icon": "assets/ice_bat.png",
       "gif": "https://terraria.wiki.gg/images/Ice_Bat.gif",
       "gifFallback": "https://raw.githubusercontent.com/pttydou/Codex-Terraria-Theme/9767df0a112e3b9a53c22a4126fcbb71dfe0a8bc/windows/TRSkin/core/local-presets/preset-terraria-ice-biome/companion-ice-bat.apng",
@@ -1194,7 +1145,6 @@ window.WIKI_DATA = {
         "Kin": 0,
         "Anomaly": 0
       },
-      "aptitudeOnLoad": null,
       "icon": "assets/ice_slime.png",
       "gif": "https://terraria.wiki.gg/images/Ice_Slime.gif",
       "gifFallback": "https://raw.githubusercontent.com/pttydou/Codex-Terraria-Theme/9767df0a112e3b9a53c22a4126fcbb71dfe0a8bc/windows/TRSkin/core/local-presets/preset-terraria-tundra/companion-ice-slime.apng",
@@ -1218,7 +1168,6 @@ window.WIKI_DATA = {
         "Kin": 0,
         "Anomaly": 0
       },
-      "aptitudeOnLoad": null,
       "icon": "assets/jungle_bat.png",
       "gif": "https://terraria.wiki.gg/images/Jungle_Bat.gif",
       "gifFallback": "https://raw.githubusercontent.com/pttydou/Codex-Terraria-Theme/9767df0a112e3b9a53c22a4126fcbb71dfe0a8bc/windows/TRSkin/core/local-presets/preset-terraria-jungle/companion-jungle-bat.apng",
@@ -1242,7 +1191,6 @@ window.WIKI_DATA = {
         "Kin": 0,
         "Anomaly": 0
       },
-      "aptitudeOnLoad": null,
       "icon": "assets/jungle_slime.png",
       "gif": "https://terraria.wiki.gg/images/Jungle_Slime.gif",
       "gifFallback": "https://raw.githubusercontent.com/pttydou/Codex-Terraria-Theme/9767df0a112e3b9a53c22a4126fcbb71dfe0a8bc/windows/TRSkin/core/local-presets/preset-terraria-jungle/companion-jungle-slime.apng",
@@ -1266,7 +1214,6 @@ window.WIKI_DATA = {
         "Kin": 0,
         "Anomaly": 0
       },
-      "aptitudeOnLoad": null,
       "icon": "assets/lac_beetle.png",
       "gif": "https://terraria.wiki.gg/images/Lac_Beetle.gif",
       "gifFallback": "https://raw.githubusercontent.com/pttydou/Codex-Terraria-Theme/9767df0a112e3b9a53c22a4126fcbb71dfe0a8bc/windows/TRSkin/core/local-presets/preset-terraria-underground-jungle/companion-lac-beetle.apng",
@@ -1290,7 +1237,6 @@ window.WIKI_DATA = {
         "Kin": 1,
         "Anomaly": 0
       },
-      "aptitudeOnLoad": null,
       "icon": "assets/man_eater.png",
       "gif": "https://terraria.wiki.gg/images/Man_Eater.gif",
       "gifFallback": "https://raw.githubusercontent.com/pttydou/Codex-Terraria-Theme/9767df0a112e3b9a53c22a4126fcbb71dfe0a8bc/windows/TRSkin/core/local-presets/preset-terraria-underground-jungle/companion-man-eater.apng",
@@ -1314,7 +1260,6 @@ window.WIKI_DATA = {
         "Kin": 0,
         "Anomaly": 0
       },
-      "aptitudeOnLoad": null,
       "icon": "assets/meteor_head.png",
       "gif": "https://terraria.wiki.gg/images/Meteor_Head.gif",
       "gifFallback": "https://raw.githubusercontent.com/pttydou/Codex-Terraria-Theme/9767df0a112e3b9a53c22a4126fcbb71dfe0a8bc/windows/TRSkin/core/local-presets/preset-terraria-meteorite/companion-meteor-head.apng",
@@ -1338,7 +1283,6 @@ window.WIKI_DATA = {
         "Kin": 3,
         "Anomaly": 0
       },
-      "aptitudeOnLoad": null,
       "icon": "assets/mother_slime.png",
       "gif": "https://terraria.wiki.gg/images/Mother_Slime.gif",
       "gifFallback": "https://raw.githubusercontent.com/pttydou/Codex-Terraria-Theme/9767df0a112e3b9a53c22a4126fcbb71dfe0a8bc/windows/TRSkin/core/local-presets/preset-terraria-cavern/companion-mother-slime.apng",
@@ -1362,7 +1306,6 @@ window.WIKI_DATA = {
         "Kin": 1,
         "Anomaly": 0
       },
-      "aptitudeOnLoad": null,
       "icon": "assets/mushi_ladybug.png",
       "gif": "https://terraria.wiki.gg/images/Mushi_Ladybug.gif",
       "gifFallback": "https://raw.githubusercontent.com/pttydou/Codex-Terraria-Theme/9767df0a112e3b9a53c22a4126fcbb71dfe0a8bc/windows/TRSkin/core/local-presets/preset-terraria-glowing-mushroom/companion-mushi-ladybug.apng",
@@ -1386,7 +1329,6 @@ window.WIKI_DATA = {
         "Kin": 0,
         "Anomaly": 1
       },
-      "aptitudeOnLoad": null,
       "icon": "assets/pink_jellyfish.png",
       "gif": "https://terraria.wiki.gg/images/Pink_Jellyfish.gif",
       "gifFallback": "https://raw.githubusercontent.com/pttydou/Codex-Terraria-Theme/9767df0a112e3b9a53c22a4126fcbb71dfe0a8bc/windows/TRSkin/core/local-presets/preset-terraria-ocean/companion-pink-jellyfish.apng",
@@ -1410,7 +1352,6 @@ window.WIKI_DATA = {
         "Kin": 0,
         "Anomaly": 2
       },
-      "aptitudeOnLoad": null,
       "icon": "assets/pinky.png",
       "gif": "https://terraria.wiki.gg/images/Pinky.gif",
       "gifFallback": "https://raw.githubusercontent.com/pttydou/Codex-Terraria-Theme/9767df0a112e3b9a53c22a4126fcbb71dfe0a8bc/windows/TRSkin/core/local-presets/preset-terraria-forest-day/companion-pinky.apng",
@@ -1434,7 +1375,6 @@ window.WIKI_DATA = {
         "Kin": 0,
         "Anomaly": 2
       },
-      "aptitudeOnLoad": null,
       "icon": "assets/piranha.png",
       "gif": "https://terraria.wiki.gg/images/Piranha.gif",
       "gifFallback": "https://raw.githubusercontent.com/pttydou/Codex-Terraria-Theme/9767df0a112e3b9a53c22a4126fcbb71dfe0a8bc/windows/TRSkin/core/local-presets/preset-terraria-underground/companion-piranha.apng",
@@ -1458,7 +1398,6 @@ window.WIKI_DATA = {
         "Kin": 1,
         "Anomaly": 1
       },
-      "aptitudeOnLoad": null,
       "icon": "assets/purple_slime.png",
       "gif": "https://terraria.wiki.gg/images/Purple_Slime.gif",
       "gifFallback": "https://raw.githubusercontent.com/pttydou/Codex-Terraria-Theme/9767df0a112e3b9a53c22a4126fcbb71dfe0a8bc/windows/TRSkin/core/local-presets/preset-terraria-forest-day/companion-purple-slime.apng",
@@ -1482,7 +1421,6 @@ window.WIKI_DATA = {
         "Kin": 0,
         "Anomaly": 2
       },
-      "aptitudeOnLoad": null,
       "icon": "assets/raincoat_zombie.png",
       "gif": "https://terraria.wiki.gg/images/Raincoat_Zombie.gif",
       "gifFallback": "https://raw.githubusercontent.com/pttydou/Codex-Terraria-Theme/9767df0a112e3b9a53c22a4126fcbb71dfe0a8bc/windows/TRSkin/core/local-presets/preset-terraria-forest-night/companion-zombie-big-raincoat-zombie.apng",
@@ -1506,7 +1444,6 @@ window.WIKI_DATA = {
         "Kin": 0,
         "Anomaly": 0
       },
-      "aptitudeOnLoad": null,
       "icon": "assets/raven.png",
       "gif": "https://terraria.wiki.gg/images/Raven_%28flying%29.gif",
       "gifFallback": "",
@@ -1530,7 +1467,6 @@ window.WIKI_DATA = {
         "Kin": 0,
         "Anomaly": 0
       },
-      "aptitudeOnLoad": null,
       "icon": "assets/red_slime.png",
       "gif": "https://terraria.wiki.gg/images/Red_Slime.gif",
       "gifFallback": "https://raw.githubusercontent.com/pttydou/Codex-Terraria-Theme/9767df0a112e3b9a53c22a4126fcbb71dfe0a8bc/windows/TRSkin/core/local-presets/preset-terraria-underground/companion-red-slime.apng",
@@ -1554,7 +1490,6 @@ window.WIKI_DATA = {
         "Kin": 0,
         "Anomaly": 0
       },
-      "aptitudeOnLoad": null,
       "icon": "assets/salamander.png",
       "gif": "https://terraria.wiki.gg/images/Salamander_1.gif",
       "gifFallback": "https://raw.githubusercontent.com/pttydou/Codex-Terraria-Theme/9767df0a112e3b9a53c22a4126fcbb71dfe0a8bc/windows/TRSkin/core/local-presets/preset-terraria-cavern/companion-salamander.apng",
@@ -1578,7 +1513,6 @@ window.WIKI_DATA = {
         "Kin": 0,
         "Anomaly": 0
       },
-      "aptitudeOnLoad": null,
       "icon": "assets/sand_slime.png",
       "gif": "https://terraria.wiki.gg/images/Sand_Slime.gif",
       "gifFallback": "https://raw.githubusercontent.com/pttydou/Codex-Terraria-Theme/9767df0a112e3b9a53c22a4126fcbb71dfe0a8bc/windows/TRSkin/core/local-presets/preset-terraria-underground-desert/companion-sand-slime.apng",
@@ -1602,7 +1536,6 @@ window.WIKI_DATA = {
         "Kin": 0,
         "Anomaly": 1
       },
-      "aptitudeOnLoad": null,
       "icon": "assets/shark.png",
       "gif": "https://terraria.wiki.gg/images/Shark.gif",
       "gifFallback": "https://raw.githubusercontent.com/pttydou/Codex-Terraria-Theme/9767df0a112e3b9a53c22a4126fcbb71dfe0a8bc/windows/TRSkin/core/local-presets/preset-terraria-ocean/companion-shark.apng",
@@ -1626,7 +1559,6 @@ window.WIKI_DATA = {
         "Kin": 2,
         "Anomaly": 2
       },
-      "aptitudeOnLoad": null,
       "icon": "assets/shimmer_slime.png",
       "gif": "https://terraria.wiki.gg/images/Shimmer_Slime.gif",
       "gifFallback": "https://raw.githubusercontent.com/pttydou/Codex-Terraria-Theme/9767df0a112e3b9a53c22a4126fcbb71dfe0a8bc/windows/TRSkin/core/local-presets/preset-terraria-cavern/companion-shimmer-slime.apng",
@@ -1650,7 +1582,6 @@ window.WIKI_DATA = {
         "Kin": 0,
         "Anomaly": 1
       },
-      "aptitudeOnLoad": null,
       "icon": "assets/skeleton.png",
       "gif": "https://terraria.wiki.gg/images/Skeleton.gif",
       "gifFallback": "https://raw.githubusercontent.com/pttydou/Codex-Terraria-Theme/9767df0a112e3b9a53c22a4126fcbb71dfe0a8bc/windows/TRSkin/core/local-presets/preset-terraria-aether/companion-skeleton.apng",
@@ -1674,7 +1605,6 @@ window.WIKI_DATA = {
         "Kin": 0,
         "Anomaly": 0
       },
-      "aptitudeOnLoad": null,
       "icon": "assets/snatcher.png",
       "gif": "https://terraria.wiki.gg/images/Snatcher.gif",
       "gifFallback": "https://raw.githubusercontent.com/pttydou/Codex-Terraria-Theme/9767df0a112e3b9a53c22a4126fcbb71dfe0a8bc/windows/TRSkin/core/local-presets/preset-terraria-jungle/companion-snatcher.apng",
@@ -1698,7 +1628,6 @@ window.WIKI_DATA = {
         "Kin": 0,
         "Anomaly": 1
       },
-      "aptitudeOnLoad": null,
       "icon": "assets/spiked_ice_slime.png",
       "gif": "https://terraria.wiki.gg/images/Spiked_Ice_Slime.gif",
       "gifFallback": "https://raw.githubusercontent.com/pttydou/Codex-Terraria-Theme/9767df0a112e3b9a53c22a4126fcbb71dfe0a8bc/windows/TRSkin/core/local-presets/preset-terraria-ice-biome/companion-spiked-ice-slime.apng",
@@ -1722,7 +1651,6 @@ window.WIKI_DATA = {
         "Kin": 0,
         "Anomaly": 1
       },
-      "aptitudeOnLoad": null,
       "icon": "assets/spiked_jungle_slime.png",
       "gif": "https://terraria.wiki.gg/images/Spiked_Jungle_Slime.gif",
       "gifFallback": "https://raw.githubusercontent.com/pttydou/Codex-Terraria-Theme/9767df0a112e3b9a53c22a4126fcbb71dfe0a8bc/windows/TRSkin/core/local-presets/preset-terraria-underground-jungle/companion-spiked-jungle-slime.apng",
@@ -1746,7 +1674,6 @@ window.WIKI_DATA = {
         "Kin": 0,
         "Anomaly": 0
       },
-      "aptitudeOnLoad": null,
       "icon": "assets/spore_bat.png",
       "gif": "https://terraria.wiki.gg/images/Spore_Bat.gif",
       "gifFallback": "https://raw.githubusercontent.com/pttydou/Codex-Terraria-Theme/9767df0a112e3b9a53c22a4126fcbb71dfe0a8bc/windows/TRSkin/core/local-presets/preset-terraria-underground-glowing-mushroom/companion-spore-bat.apng",
@@ -1770,7 +1697,6 @@ window.WIKI_DATA = {
         "Kin": 0,
         "Anomaly": 2
       },
-      "aptitudeOnLoad": null,
       "icon": "assets/spore_skeleton.png",
       "gif": "https://terraria.wiki.gg/images/Spore_Skeleton.gif",
       "gifFallback": "https://raw.githubusercontent.com/pttydou/Codex-Terraria-Theme/9767df0a112e3b9a53c22a4126fcbb71dfe0a8bc/windows/TRSkin/core/local-presets/preset-terraria-underground-glowing-mushroom/companion-spore-skeleton.apng",
@@ -1794,7 +1720,6 @@ window.WIKI_DATA = {
         "Kin": 0,
         "Anomaly": 1
       },
-      "aptitudeOnLoad": null,
       "icon": "assets/spore_zombie.png",
       "gif": "https://terraria.wiki.gg/images/Mushroom_Zombie.gif",
       "gifFallback": "https://raw.githubusercontent.com/pttydou/Codex-Terraria-Theme/9767df0a112e3b9a53c22a4126fcbb71dfe0a8bc/windows/TRSkin/core/local-presets/preset-terraria-glowing-mushroom/companion-spore-zombie-mushroom-zombi.apng",
@@ -1818,7 +1743,6 @@ window.WIKI_DATA = {
         "Kin": 0,
         "Anomaly": 0
       },
-      "aptitudeOnLoad": null,
       "icon": "assets/squid.png",
       "gif": "https://terraria.wiki.gg/images/Squid.gif",
       "gifFallback": "https://raw.githubusercontent.com/pttydou/Codex-Terraria-Theme/9767df0a112e3b9a53c22a4126fcbb71dfe0a8bc/windows/TRSkin/core/local-presets/preset-terraria-ocean/companion-squid.apng",
@@ -1842,7 +1766,6 @@ window.WIKI_DATA = {
         "Kin": 0,
         "Anomaly": 2
       },
-      "aptitudeOnLoad": null,
       "icon": "assets/the_groom.png",
       "gif": "https://terraria.wiki.gg/images/The_Groom.gif",
       "gifFallback": "https://raw.githubusercontent.com/pttydou/Codex-Terraria-Theme/9767df0a112e3b9a53c22a4126fcbb71dfe0a8bc/windows/TRSkin/core/local-presets/preset-terraria-blood-moon/companion-the-groom.apng",
@@ -1866,7 +1789,6 @@ window.WIKI_DATA = {
         "Kin": 0,
         "Anomaly": 2
       },
-      "aptitudeOnLoad": null,
       "icon": "assets/tim.png",
       "gif": "",
       "gifFallback": "",
@@ -1890,7 +1812,6 @@ window.WIKI_DATA = {
         "Kin": 0,
         "Anomaly": 3
       },
-      "aptitudeOnLoad": null,
       "icon": "assets/tomb_crawler.png",
       "gif": "",
       "gifFallback": "",
@@ -1914,7 +1835,6 @@ window.WIKI_DATA = {
         "Kin": 0,
         "Anomaly": 1
       },
-      "aptitudeOnLoad": null,
       "icon": "assets/umbrella_slime.png",
       "gif": "https://wiki.ronlab.site/content/terrariawiki_en_2025-10/_assets_/d8a9a8b9feaff5d65577eb04975bf021/Umbrella_Slime.gif",
       "gifFallback": "",
@@ -1938,7 +1858,6 @@ window.WIKI_DATA = {
         "Kin": 0,
         "Anomaly": 1
       },
-      "aptitudeOnLoad": null,
       "icon": "assets/undead_miner.png",
       "gif": "https://terraria.wiki.gg/images/Undead_Miner.gif",
       "gifFallback": "https://raw.githubusercontent.com/pttydou/Codex-Terraria-Theme/9767df0a112e3b9a53c22a4126fcbb71dfe0a8bc/windows/TRSkin/core/local-presets/preset-terraria-cavern/companion-undead-miner.apng",
@@ -1962,7 +1881,6 @@ window.WIKI_DATA = {
         "Kin": 0,
         "Anomaly": 0
       },
-      "aptitudeOnLoad": null,
       "icon": "assets/undead_viking.png",
       "gif": "https://terraria.wiki.gg/images/Undead_Viking.gif",
       "gifFallback": "https://raw.githubusercontent.com/pttydou/Codex-Terraria-Theme/9767df0a112e3b9a53c22a4126fcbb71dfe0a8bc/windows/TRSkin/core/local-presets/preset-terraria-ice-biome/companion-undead-viking.apng",
@@ -1986,7 +1904,6 @@ window.WIKI_DATA = {
         "Kin": 1,
         "Anomaly": 3
       },
-      "aptitudeOnLoad": null,
       "icon": "assets/voodoo_demon.png",
       "gif": "https://terraria.wiki.gg/images/Voodoo_Demon.gif",
       "gifFallback": "https://raw.githubusercontent.com/pttydou/Codex-Terraria-Theme/9767df0a112e3b9a53c22a4126fcbb71dfe0a8bc/windows/TRSkin/core/local-presets/preset-terraria-underworld/companion-voodoo-demon.apng",
@@ -2010,7 +1927,6 @@ window.WIKI_DATA = {
         "Kin": 0,
         "Anomaly": 0
       },
-      "aptitudeOnLoad": null,
       "icon": "assets/vulture.png",
       "gif": "https://terraria.wiki.gg/images/Vulture_%28flying%29.gif",
       "gifFallback": "",
@@ -2034,7 +1950,6 @@ window.WIKI_DATA = {
         "Kin": 2,
         "Anomaly": 0
       },
-      "aptitudeOnLoad": null,
       "icon": "assets/wall_creeper.png",
       "gif": "https://terraria.wiki.gg/images/Wall_Creeper_%28ground%29.gif",
       "gifFallback": "https://raw.githubusercontent.com/pttydou/Codex-Terraria-Theme/9767df0a112e3b9a53c22a4126fcbb71dfe0a8bc/windows/TRSkin/core/local-presets/preset-terraria-spider-nest/companion-wall-creeper.apng",
@@ -2058,7 +1973,6 @@ window.WIKI_DATA = {
         "Kin": 0,
         "Anomaly": 0
       },
-      "aptitudeOnLoad": null,
       "icon": "assets/yellow_slime.png",
       "gif": "https://terraria.wiki.gg/images/Yellow_Slime.gif",
       "gifFallback": "https://raw.githubusercontent.com/pttydou/Codex-Terraria-Theme/9767df0a112e3b9a53c22a4126fcbb71dfe0a8bc/windows/TRSkin/core/local-presets/preset-terraria-underground/companion-yellow-slime.apng",
@@ -2075,14 +1989,6 @@ window.WIKI_DATA = {
       "cost": "1",
       "innate": "pestilence",
       "aptitude": {
-        "Essence": 0,
-        "Tactics": 1,
-        "Technique": 1,
-        "Body": 2,
-        "Kin": 1,
-        "Anomaly": 1
-      },
-      "aptitudeOnLoad": {
         "Essence": 0,
         "Tactics": 1,
         "Technique": 1,
