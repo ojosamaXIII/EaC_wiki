@@ -17,7 +17,7 @@ window.WIKI_STATUSES = {
   flash:{en:'Flash',ja:'Flash',icon:'flash_Debuff.png',kind:'debuff',desc:'May deflect newly fired hostile projectiles; contact damage is unchanged.',descJa:'新たに発射される敵弾の狙いをずらすことがあります。接触ダメージは変化しません。'},
   cry:{en:'Cry',ja:'Cry',icon:'cry_Debuff.png',kind:'debuff',desc:'Blocks natural regeneration and Blood Tears healing; supported damage-over-time pulses gain 1 damage.',descJa:'自然回復と Blood Tears の回復を防ぎ、対応する継続ダメージの各回を1増加させます。'},
   blood_moisture:{en:'Blood Tears Moisture',ja:'Blood Tears Moisture',icon:'vanilla_103.png',kind:'buff',desc:'Restores 1 HP each second; Cry pauses this healing.',descJa:'毎秒1 HPを回復します。Cry 中は回復が停止します。'},
-  moisture:{en:'Moisture',ja:'Moisture',icon:'moisture_Buff.png',kind:'buff',desc:'Grants natural regeneration and interacts with Bubble Shield; it does not prevent burns.',descJa:'自然回復を与え、Bubble Shield と連携します。燃焼の予防効果はありません。'},
+  moisture:{en:'Moisture',ja:'Moisture',icon:'moisture_buff_icon.png',kind:'buff',desc:'Grants natural regeneration and interacts with Bubble Shield; it does not prevent burns.',descJa:'自然回復を与え、Bubble Shield と連携します。燃焼の予防効果はありません。'},
   natural_poison:{en:'Natural Poison',ja:'Natural Poison',icon:'natural_poison_Debuff.png',kind:'debuff',desc:'Deals periodic defense-ignoring damage based on the enemy’s contact ATK when applied.',descJa:'付与時の敵の接触 ATK に基づく、防御無視の定期ダメージを与えます。'},
   natural_poison_resistance:{en:'Natural Poison resistance',ja:'Natural Poison resistance',icon:null,kind:'buff',desc:'After Natural Poison ends, the enemy temporarily resists that poison based on the HP it lost.',descJa:'Natural Poison の終了後、敵は失った HP に応じた時間、その毒への耐性を得ます。'},
   enhanced_poison:{en:'Enhanced Poison',ja:'Enhanced Poison',icon:'enhancedpoison_Debuff.png',kind:'debuff',desc:'A rank-dependent poison that replaces ordinary Poisoned on eligible hits.',descJa:'対応する命中時に通常の毒を置き換える、Rank に応じた Enhanced Poison です。'},
@@ -28,12 +28,12 @@ window.WIKI_STATUSES = {
   necrosis:{en:'Necrosis',ja:'Necrosis',icon:'necrosis_Debuff.png',kind:'debuff',desc:'Limits DEF to at most 8; afterward Resistance blocks related effects temporarily.',descJa:'DEF を最大8に制限します。終了後は Resistance が関連効果を一定時間防ぎます。'},
   squid_ink:{en:'Squid Ink',ja:'Squid Ink',icon:'squid_ink_Debuff.png',kind:'debuff',desc:'With Wet, DEF -3; with Slimed, movement speed -9%.',descJa:'Wet と共存すると DEF -3、Slimed と共存すると移動速度 -9% になります。'},
   delicious:{en:'Delicious',ja:'Delicious',icon:'delicious_Buff.png',kind:'debuff',desc:'Surviving damage from a marked enemy heals the Predation wearer.',descJa:'印付きの敵からダメージを受けて生存すると、Predation の装着者が回復します。'},
-  viral_order:{en:'Viral Order',ja:'Viral Order',icon:'purple_venom_order_Buff.png',kind:'buff',desc:'Grants DEF +8 and lets eligible hits inflict Acid Venom.',descJa:'DEF +8 を与え、対応する命中で猛毒を付与できるようにします。'},
-  red_heat:{en:'Red Heat',ja:'Red Heat',icon:'red_heat_Buff.png',kind:'buff',desc:'Reduces incoming hit damage until an eligible body hit bursts the shell.',descJa:'対応する本体攻撃で殻が破裂するまで、被命中ダメージを軽減します。'},
-  calm:{en:'Calm',ja:'Calm',icon:'red_heat_calm_Buff.png',kind:'buff',desc:'ATK -2 and DEF +4; Ice Guardian instead maintains DEF +8. Prevents new Red Heat.',descJa:'ATK -2、DEF +4。Ice Guardian 中は代わりに DEF +8。新たな Red Heat を防ぎます。'},
+  viral_order:{en:'Viral Order',ja:'Viral Order',icon:'purple_venom_order_buff_icon.png',kind:'buff',desc:'Grants DEF +8 and lets eligible hits inflict Acid Venom.',descJa:'DEF +8 を与え、対応する命中で猛毒を付与できるようにします。'},
+  red_heat:{en:'Red Heat',ja:'Red Heat',icon:'red_heat_buff_icon.png',kind:'buff',desc:'Reduces incoming hit damage until an eligible body hit bursts the shell.',descJa:'対応する本体攻撃で殻が破裂するまで、被命中ダメージを軽減します。'},
+  calm:{en:'Calm',ja:'Calm',icon:'red_heat_calm_buff_icon.png',kind:'buff',desc:'ATK -2 and DEF +4; Ice Guardian instead maintains DEF +8. Prevents new Red Heat.',descJa:'ATK -2、DEF +4。Ice Guardian 中は代わりに DEF +8。新たな Red Heat を防ぎます。'},
   ice_guardian:{en:'Ice Guardian',ja:'Ice Guardian',icon:'vanilla_44.png',kind:'buff',desc:'Ice stacks protect the recipient and maintain Calm; a hit may spend a stack to retaliate.',descJa:'氷のスタックで対象を守り Calm を維持します。被弾時はスタックを使って反撃することがあります。'},
-  snow_guard:{en:'Snow Guard',ja:'Snow Guard',icon:'snow_guard_Buff.png',kind:'buff',desc:'Reduces enemy hit damage by 25% and retaliates as damage is taken.',descJa:'敵からの被命中ダメージを25%軽減し、ダメージを受けると反撃します。'},
-  revenge:{en:'Revenge',ja:'Revenge',icon:'revenge_Buff.png',kind:'buff',desc:'Each stack adds 2 non-DoT damage against Vision-marked enemies.',descJa:'1スタックごとに Vision 状態の敵への DoT 以外のダメージを2増加します。'},
+  snow_guard:{en:'Snow Guard',ja:'Snow Guard',icon:'snow_guard_buff_icon.png',kind:'buff',desc:'Reduces enemy hit damage by 25% and retaliates as damage is taken.',descJa:'敵からの被命中ダメージを25%軽減し、ダメージを受けると反撃します。'},
+  revenge:{en:'Revenge',ja:'Revenge',icon:'revenge_buff_icon.png',kind:'buff',desc:'Each stack adds 2 non-DoT damage against Vision-marked enemies.',descJa:'1スタックごとに Vision 状態の敵への DoT 以外のダメージを2増加します。'},
   avenger:{en:'Avenger',ja:'Avenger',icon:'avenger_Buff.png',kind:'buff',desc:'ATK +4 and +8 non-DoT damage against Vision-marked enemies; prevents new Revenge stacks.',descJa:'ATK +4、Vision 状態の敵への DoT 以外のダメージ +8。新たな Revenge を得ません。'},
   perceived:{en:'Perceived',ja:'Perceived',icon:'vanilla_17.png',kind:'debuff',desc:'Enemy outgoing hit damage -8 and DEF -6; prevents further Vision and Observation while active.',descJa:'敵の与命中ダメージ -8、DEF -6。持続中は Vision と Observation を受けません。'},
   vision:{en:'Vision',ja:'Vision',icon:null,kind:'debuff',desc:'Each stack lowers DEF by 1 and helps eligible allies prioritize the target.',descJa:'1スタックにつき DEF -1。対応する味方が対象を優先しやすくなります。'},
@@ -49,11 +49,11 @@ window.WIKI_STATUSES = {
   feeding:{en:'Predatory Feeding',ja:'Predatory Feeding',icon:null,kind:'buff',desc:'An allied Token’s defeat temporarily doubles supported attack damage and adds 2 incoming hit damage.',descJa:'味方 Token の敗北により、一時的に対応攻撃ダメージが2倍になり、被命中ダメージが2増加します。'},
   black_feather:{en:'Black Feather',ja:'Black Feather',icon:null,kind:'debuff',desc:'Stacks are spent as the marked enemy takes damage; each consumed stack heals eligible allies.',descJa:'印付きの敵がダメージを受けるとスタックを消費し、消費ごとに対象の味方を回復します。'},
   rage:{en:'Rage',ja:'Rage',icon:null,kind:'buff',desc:'Improves attack speed and damage while increasing incoming hit damage.',descJa:'攻撃速度とダメージが上がる一方、被命中ダメージも増加します。'},
-  copper:{en:'Copper',ja:'Copper',icon:'copper_Buff.png',kind:'buff',desc:'Grants a Companion or Token ATK +4.',descJa:'コンパニオンまたは Token の ATK +4。'},
-  silver:{en:'Silver',ja:'Silver',icon:'silver_Buff.png',kind:'buff',desc:'Grants a Companion or Token DEF +12.',descJa:'コンパニオンまたは Token の DEF +12。'},
-  gold:{en:'Gold',ja:'Gold',icon:'gold_Buff.png',kind:'buff',desc:'Grants a Companion or Token ATK and DEF +20%.',descJa:'コンパニオンまたは Token の ATK と DEF +20%。'},
+  copper:{en:'Copper',ja:'Copper',icon:'copper_buff_icon.png',kind:'buff',desc:'Grants a Companion or Token ATK +4.',descJa:'コンパニオンまたは Token の ATK +4。'},
+  silver:{en:'Silver',ja:'Silver',icon:'silver_buff_icon.png',kind:'buff',desc:'Grants a Companion or Token DEF +12.',descJa:'コンパニオンまたは Token の DEF +12。'},
+  gold:{en:'Gold',ja:'Gold',icon:'gold_buff_icon.png',kind:'buff',desc:'Grants a Companion or Token ATK and DEF +20%.',descJa:'コンパニオンまたは Token の ATK と DEF +20%。'},
   detection:{en:'Detection',ja:'Detection',icon:'vanilla_104.png',kind:'buff',desc:'Grants the owner mining speed +15% and Luck +0.05 while support is active.',descJa:'支援中の所有者に採掘速度 +15%、Luck +0.05。'},
-  fortune:{en:'Fortune',ja:'Fortune',icon:'luck_Buff.png',kind:'buff',desc:'Grants the critical chance and damage support of Luck Factor without changing Luck itself.',descJa:'Luck 自体を変えず、Luck Factor のクリティカル率・ダメージ支援を与えます。'}
+  fortune:{en:'Fortune',ja:'Fortune',icon:'luck_buff_icon.png',kind:'buff',desc:'Grants the critical chance and damage support of Luck Factor without changing Luck itself.',descJa:'Luck 自体を変えず、Luck Factor のクリティカル率・ダメージ支援を与えます。'}
 };
 
 // Relations describe effects that a Factor can cause, including conditional combinations.
