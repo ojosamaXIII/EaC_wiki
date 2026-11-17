@@ -2013,7 +2013,7 @@ window.WIKI_DATA = {
       "category": "Tactics",
       "grade": 1,
       "ranks": 4,
-      "description": "While the owner has Cozy Fire, grants the wearer 1 HP/s natural regeneration, plus 2 HP/s while the owner also has Heart Lamp.\nEach buff independently supports Rank other living Companions in the owner's Team (Rank 1/2/3/MASTER: 1/2/3/4). Recipients are randomly chosen when the buff begins and remain fixed until it ends.\nAt Tactics aptitude 2/3, also doubles the owner's Cozy Fire and Heart Lamp regeneration. Multiple wearers do not stack the same bonus; all support ends when Cozy Fire ends.\nTalk to the Guide while receiving Cozy Fire to obtain one, once per character per Guide lifetime.",
+      "description": "While the owner has Cozy Fire, grants the wearer 1 HP/s natural regeneration, plus 2 HP/s while the owner also has Heart Lamp.\nEach buff independently extends to other living Companions in the owner's Team, up to a number equal to Rank (Rank 1/2/3/MASTER: 1/2/3/4). Recipients are randomly chosen when the buff begins and remain fixed until it ends.\nAt Tactics aptitude 2/3, also doubles the owner's Cozy Fire and Heart Lamp regeneration. Multiple wearers do not stack the same bonus; all support ends when Cozy Fire ends.\nTalk to the Guide while receiving Cozy Fire to obtain one, once per character per Guide lifetime.",
       "descriptionJa": "所有者が焚き火の効果を受けている間、装着者の自然回復を毎秒1 HP増加。ハートランプも受けていればさらに毎秒2 HP増加。\n各バフは所有者のチーム内の他の生存コンパニオンをそれぞれRank体（1/2/3/MASTERで1/2/3/4体）支援する。対象はバフ開始時に抽選され、終了まで固定。\nTactics適性2/3では所有者の焚き火とハートランプの回復も2倍。同じボーナスは重複せず、焚き火終了で全支援が終了。\n焚き火を受けている状態でガイドに話すと入手できる。キャラクターごと、ガイドの生存期間ごとに1回。"
     },
     {
@@ -2104,7 +2104,7 @@ window.WIKI_DATA = {
       "category": "Anomaly",
       "grade": 1,
       "ranks": 4,
-      "description": "Keeps the wearer Bleeding, preventing natural regeneration. Direct healing still works.\nA Team Companion reaching zero HP creates an invulnerable Blood Zombie Token while its body waits. Requires no active Direct companions and no revival cooldown; summoning a Direct companion while waiting cancels revival. Cannot prevent Forbidden's linked defeat.\nThe Token moves at 1.2× Zombie speed and has a harmless grappling hook. Anomaly aptitude (0/1/2/3): ATK = baseline ATK × 0.50/0.75/1/1.50, rounded to the nearest whole number, minimum 1.\nTargets the fastest moving eligible enemy within 800 pixels and keeps that target until it disappears. Ends after 60 seconds or 1/2/3/4 credited kills at Rank 1/2/3/MASTER; enemies dying within 4 seconds of a Token hit count.\nRevives at the Token's position with 20% of baseline maximum HP plus 20% per kill, or 40% per kill at MASTER, capped by current maximum HP.\nRevival starts a 60-second cooldown shared by the source Contract. Dismissing the body removes its Token without revival; resummoning cannot bypass the cooldown.",
+      "description": "Keeps the wearer Bleeding, preventing natural regeneration. Direct healing still works.\nA Team Companion reaching zero HP creates an invulnerable Blood Zombie Token while its body waits. Requires no active Direct Companions and no revival cooldown; summoning a Direct Companion while waiting cancels revival. Cannot prevent Forbidden's linked defeat.\nThe Token moves at 1.2× Zombie speed and has a harmless grappling hook. Anomaly aptitude (0/1/2/3): ATK = baseline ATK × 0.50/0.75/1/1.50, rounded to the nearest whole number, minimum 1.\nTargets the fastest moving eligible enemy within 800 pixels and keeps that target until it disappears. Ends after 60 seconds or 1/2/3/4 credited kills at Rank 1/2/3/MASTER; enemies dying within 4 seconds of a Token hit count.\nRevives at the Token's position with 20% of baseline maximum HP plus 20% per kill, or 40% per kill at MASTER, capped by current maximum HP.\nRevival starts a 60-second cooldown shared by the source Contract. Dismissing the body removes its Token without revival; resummoning cannot bypass the cooldown.",
       "descriptionJa": "装着者を常にBleeding状態にし、自然回復を阻止する。直接回復は可能。\nチームコンパニオンのHPが0になると、本体を待機させて無敵のBlood Zombie Tokenを生成。アクティブなDirectコンパニオンがなく、復活クールダウン中でないことが必要。待機中にDirectを召喚すると復活を中止。Forbiddenによる連動敗北は防げない。\nTokenの移動速度はZombieの1.2倍で、無害なフックを持つ。Anomaly適性0/1/2/3：ATK＝基礎ATK×0.50/0.75/1/1.50、最も近い整数に丸め最低1。\n800ピクセル以内の対象可能な敵のうち移動が最速の敵を狙い、消えるまで維持。60秒経過か、Rank 1/2/3/MASTERで1/2/3/4体の撃破で終了。Token命中から4秒以内の敵死亡が数えられる。\nTokenの位置で基礎最大HPの20%に撃破ごと20%（MASTERは40%）を加えたHPで復活。現在の最大HPが上限。\n復活後は元契約で共有する60秒のクールダウン。本体を送還すると復活せずTokenが消え、再召喚でもクールダウンを回避できない。"
     },
     {
@@ -2182,7 +2182,7 @@ window.WIKI_DATA = {
       "category": "Technique",
       "grade": 1,
       "ranks": 4,
-      "description": "While targeting an enemy, has a 33% chance to fire a poisonous stinger every 3/1.5/1/0.75 seconds (Technique aptitude 0/1/2/3).\nEach worm segment checks independently, aiming at the same target.\nBase damage = 1.75 x Rank x (1 + 0.5 x (Grade - 1)), rounded up; independent of wearer ATK. MASTER counts as Rank 4.\nHits inflict Poisoned for 3 seconds. Affected by Archer; cannot trigger projectile-attack or projectile-hit Factors.",
+      "description": "While targeting an enemy, has a 33% chance to fire a poisonous stinger every 3/1.5/1/0.75 seconds (Technique aptitude 0/1/2/3).\nEach worm segment checks independently, aiming at the same target.\nBase damage = 1.75 × Rank × (1 + 0.5 × (Grade - 1)), rounded up; independent of wearer ATK. MASTER counts as Rank 4.\nHits inflict Poisoned for 3 seconds. Affected by Archer; cannot trigger projectile-attack or projectile-hit Factors.",
       "descriptionJa": "敵を狙っている間、Technique適性0/1/2/3で3/1.5/1/0.75秒ごとに33%の確率で毒針を放つ。\nワームの各節は同じ対象に向けて個別に判定。\n基礎ダメージ＝1.75×Rank×(1+0.5×(Grade-1))を切り上げ。装着者のATKに依存せず、MASTERはRank 4。\n命中で3秒間Poisonedを付与。Archerの影響を受け、投射物攻撃・投射物命中因子を発動しない。"
     },
     {
@@ -2208,7 +2208,7 @@ window.WIKI_DATA = {
       "category": "Anomaly",
       "grade": 1,
       "ranks": 4,
-      "description": "Receiving support from a compatible Factor or player effect triggers extra support, with an 8-second cooldown. Not every player heal or buff qualifies. Self-support, natural regeneration and this support pulse cannot trigger it.\nAnomaly aptitude 0: heals 1 random other allied Companion for 5% of baseline maximum HP. Aptitude 1 also grants DEF +4 for 2 seconds; aptitude 2 selects up to 2 different Companions.\nAptitude 3 instead heals the wearer, all allied Companions and allied players for 10%, without a DEF bonus. Companion healing uses baseline maximum HP; player healing uses current maximum HP. No range limit.\nSelection does not prioritize injuries. DEF bonuses refresh without stacking.\nIndependently increases AP gained by all the wearer's Factors, including this one, by ×1.5/2/2.5/3 at Rank 1/2/3/MASTER, rounded down once per reward.",
+      "description": "Receiving support from a compatible Factor or player effect triggers extra support, with an 8-second cooldown. Not every player heal or buff qualifies. Self-support, natural regeneration and this support pulse cannot trigger it.\nAnomaly aptitude 0: heals 1 random other allied Companion for 5% of baseline maximum HP. Aptitude 1 also grants DEF +4 for 2 seconds; aptitude 2 selects up to 2 different Companions.\nAptitude 3 instead heals the wearer, all allied Companions and allied players for 10%, without a DEF bonus. Companion healing uses baseline maximum HP; player healing uses current maximum HP. No range limit.\nSelection does not prioritize injuries. DEF bonuses refresh without stacking.\nIndependently multiplies AP gained by all the wearer's Factors, including this one, by 1.5/2/2.5/3 at Rank 1/2/3/MASTER, rounded down once per reward.",
       "descriptionJa": "対応する因子またはプレイヤー効果から支援を受けると追加支援を発動。クールダウン8秒。すべてのプレイヤー回復・バフが対象ではない。自己支援、自然回復、この追加支援では発動しない。\nAnomaly適性0：他の味方コンパニオンを無作為に1体、基礎最大HPの5%回復。適性1ではDEF+4を2秒追加、適性2では異なる最大2体を選ぶ。\n適性3では代わりに装着者、味方コンパニオン全員、味方プレイヤーを10%回復し、DEF増加なし。コンパニオンは基礎最大HP、プレイヤーは現在の最大HPを基準とする。距離制限なし。\n選択は負傷を優先しない。DEFボーナスは加算せず更新。\nこれとは独立して、この因子を含む装着者の全因子の獲得APをRank 1/2/3/MASTERで1.5/2/2.5/3倍にし、報酬ごとに1回切り捨てる。"
     },
     {
@@ -2325,7 +2325,7 @@ window.WIKI_DATA = {
       "category": "Essence",
       "grade": 1,
       "ranks": 4,
-      "description": "Immediately heals the wounded same-owner Companion with the lowest HP percentage, including the wearer. Each wearer has a base interval of about 3 seconds, increased by 10% per wearer in NPC order, including itself.\nBase healing = 6 + 0.35 x wearer ATK + 0.05 x target maximum HP + 0.08 x target missing HP.\nEssence aptitude (0/1/2/3): healing x0.5/0.75/1/1.15. Rank 1/2/3/MASTER: x1/1.15/1.3/1.5.\nRounds up before and after the multipliers. Healing modifiers apply; overhealing does not become attack power.\nAffected by Chanting and Simple Chanting.",
+      "description": "Immediately heals the wounded same-owner Companion with the lowest HP percentage, including the wearer. Each wearer has a base interval of about 3 seconds, increased by 10% per wearer in NPC order, including itself.\nBase healing = 6 + 0.35 × wearer ATK + 0.05 × target maximum HP + 0.08 × target missing HP.\nEssence aptitude (0/1/2/3): healing ×0.5/0.75/1/1.15. Rank 1/2/3/MASTER: ×1/1.15/1.3/1.5.\nRounds up before and after the multipliers. Healing modifiers apply; overhealing does not become attack power.\nAffected by Chanting and Simple Chanting.",
       "descriptionJa": "装着者を含む同じ所有者の負傷コンパニオンからHP割合が最も低い1体を即時回復する。各装着者の基礎間隔は約3秒で、NPC順に数えた装着者の数に応じて、自身を含め1体につき10%増加する。\n基礎回復＝6+装着者ATK×0.35+対象最大HP×0.05+対象の減少HP×0.08。\nEssence適性0/1/2/3：回復×0.5/0.75/1/1.15。Rank 1/2/3/MASTER：×1/1.15/1.3/1.5。\n倍率の前後で切り上げ。回復補正が適用され、過剰回復は攻撃力にならない。\nChantingとSimple Chantingの影響を受ける。"
     },
     {
@@ -2377,7 +2377,7 @@ window.WIKI_DATA = {
       "category": "Body",
       "grade": 1,
       "ranks": 4,
-      "description": "Enlarges the body and hitbox by x1.10/1.25/1.33/1.50 (Body aptitude 0/1/2/3).\nRank 1/2/3/MASTER: maximum HP +16/32/48/64, then x1.05/1.125/1.165/1.25 by Body aptitude. Increasing maximum HP does not heal.\nWorm segments and their spacing grow together. The larger body is easier to hit and harder to fit through narrow spaces.",
+      "description": "Enlarges the body and hitbox by ×1.10/1.25/1.33/1.50 (Body aptitude 0/1/2/3).\nRank 1/2/3/MASTER: maximum HP +16/32/48/64, then ×1.05/1.125/1.165/1.25 by Body aptitude. Increasing maximum HP does not heal.\nWorm segments and their spacing grow together. The larger body is easier to hit and harder to fit through narrow spaces.",
       "descriptionJa": "Body適性0/1/2/3で身体と当たり判定を1.10/1.25/1.33/1.50倍に拡大。\nRank 1/2/3/MASTERで最大HP+16/32/48/64、その後Body適性順に1.05/1.125/1.165/1.25倍。最大HP増加では回復しない。\nワームの節と節間も共に拡大。大きな身体は攻撃を受けやすく、狭い場所を通りにくい。"
     },
     {
@@ -2481,7 +2481,7 @@ window.WIKI_DATA = {
       "category": "Tactics",
       "grade": 1,
       "ranks": 4,
-      "description": "Surviving enemy contact or a hostile projectile hit applies 1 Black Feather to the nearest enemy within 10 tiles for 4 seconds. Reapplication refreshes the duration.\nTactics aptitude (0/1/2/3): maximum 1/2/3/4 stacks.\nEvery (current stacks x 80 / Rank) damage taken by that enemy, including DoT, consumes 1 stack. One hit can consume several.\nEach consumed stack heals all living players, Companions and Tokens worldwide. Expiry and death cleanup give no healing.\nBase healing cycles through 20 -> 10 -> 5 -> 2 -> 1 -> 20... Each player loses 0.1 Luck per 20 HP actually restored.\nDawn resets the healing cycle and Luck penalties. Healing-triggered retaliation cannot consume feathers.",
+      "description": "Surviving enemy contact or a hostile projectile hit applies 1 Black Feather to the nearest enemy within 10 tiles for 4 seconds. Reapplication refreshes the duration.\nTactics aptitude (0/1/2/3): maximum 1/2/3/4 stacks.\nEvery (current stacks × 80 / Rank) damage taken by that enemy, including DoT, consumes 1 stack. One hit can consume several.\nEach consumed stack heals all living players, Companions and Tokens worldwide. Expiry and death cleanup give no healing.\nBase healing cycles through 20 → 10 → 5 → 2 → 1 → 20... Each player loses 0.1 Luck per 20 HP actually restored.\nDawn resets the healing cycle and Luck penalties. Healing-triggered retaliation cannot consume feathers.",
       "descriptionJa": "敵の接触または敵弾を受けて生存すると、10タイル以内の最寄りの敵へBlack Featherを1スタック、4秒付与。再付与で時間を更新。\nTactics適性0/1/2/3：最大1/2/3/4スタック。\nその敵がDoTを含め現在スタック×80÷Rankのダメージを受けるごとに1消費。1回の攻撃で複数消費することもある。\n消費ごとにワールド内すべての生存プレイヤー、コンパニオン、Tokenを回復。時間切れ・死亡時の消去では回復しない。\n基礎回復は20→10→5→2→1→20…の順に循環。各プレイヤーは実際に20 HP回復するごとにLuckを0.1失う。\n夜明けに回復サイクルとLuckペナルティをリセット。回復に伴う反撃では羽を消費できない。"
     },
     {
@@ -2546,7 +2546,7 @@ window.WIKI_DATA = {
       "category": "Body",
       "grade": 1,
       "ranks": 4,
-      "description": "Grants DEF equal to Rank x Body aptitude coefficient (0/1/2/3: 3/3.5/4/4.5), rounded down.\nDoubles incoming knockback at every Rank. Knockback immunity remains effective.",
+      "description": "Grants DEF equal to Rank × Body aptitude coefficient (0/1/2/3: 3/3.5/4/4.5), rounded down.\nDoubles incoming knockback at every Rank. Knockback immunity remains effective.",
       "descriptionJa": "DEFをRank×Body適性係数（0/1/2/3で3/3.5/4/4.5）増加し、切り捨てる。\nすべてのRankで被ノックバックが2倍。ノックバック無効は引き続き有効。"
     },
     {
@@ -2559,7 +2559,7 @@ window.WIKI_DATA = {
       "category": "Essence",
       "grade": 1,
       "ranks": 4,
-      "description": "Stores 16 charge per second while detecting an enemy and retains charge when detection stops.\nCapacity = ATK x (Rank + 2) x Essence coefficient (aptitude 0/1/2/3: 0.5/0.75/1/1.25).\nDamaging body, Yo-Yo, ordinary projectile and Flesh Chunk hits against uninsulated enemies spend half the charge as defense-ignoring damage, rounded down.\nLightning chains to nearby visible enemies at 50% power per hop. Struck enemies are insulated against all wearers for 3 seconds.\nRank 1/2: 10-tile chain range; the nearest insulated enemy stops the chain. Rank 3/MASTER: 15 tiles and skips insulated enemies. MASTER retains 65% power when chaining from wet enemies.\nCombines with Thunderbolt into Red Lightning, sharing charge and discharging once per hit. Uses the higher capacity and chain Rank; either MASTER enables wet-target chaining.\nWhile fused, every 3 accumulated seconds detecting insulated enemies grants 16 extra charge, up to capacity. Progress pauses otherwise.",
+      "description": "Stores 16 charge per second while detecting an enemy and retains charge when detection stops.\nCapacity = ATK × (Rank + 2) × Essence coefficient (aptitude 0/1/2/3: 0.5/0.75/1/1.25).\nDamaging body, Yo-Yo, ordinary projectile and Flesh Chunk hits against uninsulated enemies spend half the charge as defense-ignoring damage, rounded down.\nLightning chains to nearby visible enemies at 50% power per hop. Struck enemies are insulated against all wearers for 3 seconds.\nRank 1/2: 10-tile chain range; the nearest insulated enemy stops the chain. Rank 3/MASTER: 15 tiles and skips insulated enemies. MASTER retains 65% power when chaining from wet enemies.\nCombines with Thunderbolt into Red Lightning, sharing charge and discharging once per hit. Uses the higher capacity and chain Rank; either MASTER enables wet-target chaining.\nWhile fused, every 3 accumulated seconds detecting insulated enemies grants 16 extra charge, up to capacity. Progress pauses otherwise.",
       "descriptionJa": "敵を検知中、毎秒16の電荷を蓄積し、検知終了後も保持。\n容量＝ATK×(Rank+2)×Essence係数（適性0/1/2/3で0.5/0.75/1/1.25）。\n絶縁されていない敵へダメージを与えた本体、ヨーヨー、通常弾、Flesh Chunkの命中で、電荷の半分をDEF無視ダメージとして消費し切り捨てる。\n雷は視線の通る近くの敵へ連鎖し、1回ごとに威力50%。命中した敵はすべての装着者の雷に3秒間絶縁される。\nRank 1/2：連鎖範囲10タイル、最寄りの敵が絶縁中なら停止。Rank 3/MASTER：15タイルで絶縁中の敵を飛ばす。MASTERは濡れた敵からの連鎖で威力65%を維持。\nThunderboltと融合するとRed Lightningになり、電荷を共有し1回の命中で1回放電。容量と連鎖Rankは高い方を使い、どちらかがMASTERなら濡れた敵からの連鎖が有効。\n融合中、絶縁された敵の検知時間が累積3秒ごとに電荷をさらに16追加、容量まで。他の時間は進捗を一時停止。"
     },
     {
@@ -2715,7 +2715,7 @@ window.WIKI_DATA = {
       "category": "Anomaly",
       "grade": 1,
       "ranks": 4,
-      "description": "Halves maximum HP after additive bonuses, rounded down to at least 1. Rank 1/2/3/MASTER: DEF +4/8/12/16. Removal restores maximum HP without healing.\nDefeat by enemy contact or a hostile projectile releases spores within 3 tiles, applying Confused for 8 seconds and Spore Poison without direct damage. DoT, self-damage and dismissal do not trigger it.\nSpore Poison stacks = random 1-32 x Anomaly coefficient (aptitude 0/1/2/3: 4/6/8/12).\nMaternal Colony offspring inherit these effects at birth; natural decay and parent removal do not trigger a burst. Tokens do not inherit them.\nSpore Poison deals stacks / 2 base damage every 0.25 seconds, then reduces stacks to one quarter, rounding down. Adding stacks preserves damage timing.",
+      "description": "Halves maximum HP after additive bonuses, rounded down to at least 1. Rank 1/2/3/MASTER: DEF +4/8/12/16. Removal restores maximum HP without healing.\nDefeat by enemy contact or a hostile projectile releases spores within 3 tiles, applying Confused for 8 seconds and Spore Poison without direct damage. DoT, self-damage and dismissal do not trigger it.\nSpore Poison stacks = random 1-32 × Anomaly coefficient (aptitude 0/1/2/3: 4/6/8/12).\nMaternal Colony offspring inherit these effects at birth; natural decay and parent removal do not trigger a burst. Tokens do not inherit them.\nSpore Poison deals stacks / 2 base damage every 0.25 seconds, then reduces stacks to one quarter, rounding down. Adding stacks preserves damage timing.",
       "descriptionJa": "加算ボーナス後の最大HPを半分にし、切り捨て最低1。Rank 1/2/3/MASTER：DEF+4/8/12/16。取り外し時は回復せず最大HPを戻す。\n敵の接触・敵弾による敗北時、3タイル以内へ胞子を放ち、直接ダメージなしでConfusedを8秒とSpore Poisonを付与。DoT、自傷、送還では発動しない。\nSpore Poisonスタック＝無作為な1～32×Anomaly係数（適性0/1/2/3で4/6/8/12）。\nMaternal Colonyの子は誕生時に継承。自然減衰と親の取り外しでは爆発せず、Tokenは継承しない。\nSpore Poisonは0.25秒ごとにスタック÷2の基礎ダメージを与え、スタックを4分の1に切り捨てる。追加時もダメージのタイミングは維持。"
     },
     {
@@ -2806,7 +2806,7 @@ window.WIKI_DATA = {
       "category": "Essence",
       "grade": 1,
       "ranks": 4,
-      "description": "Activates every 30 seconds while raining, turning nearby raindrops on the owner's screen into homing projectiles.\nEssence aptitude (0/1/2/3): capture radius 10/15/20/30 tiles.\nEach projectile hits once for Rank x (1 + Grade at capture / 7.5) damage; MASTER counts as Rank 4.\nIgnores DEF and allows its projectiles to hit the same enemy without blocking one another. Cannot damage invulnerable enemies.\nAffected by Chanting and Simple Chanting.",
+      "description": "Activates every 30 seconds while raining, turning nearby raindrops on the owner's screen into homing projectiles.\nEssence aptitude (0/1/2/3): capture radius 10/15/20/30 tiles.\nEach projectile hits once for Rank × (1 + Grade at capture / 7.5) damage; MASTER counts as Rank 4.\nIgnores DEF and allows its projectiles to hit the same enemy without blocking one another. Cannot damage invulnerable enemies.\nAffected by Chanting and Simple Chanting.",
       "descriptionJa": "雨天時に30秒ごとに発動し、所有者の画面内の近くの雨粒を追尾弾に変える。\nEssence適性0/1/2/3：捕捉半径10/15/20/30タイル。\n各弾は1回命中し、Rank×(1+捕捉時Grade÷7.5)ダメージ。MASTERはRank 4。\nDEFを無視し、弾同士が同じ敵への命中を妨げない。無敵の敵にはダメージを与えられない。\nChantingとSimple Chantingの影響を受ける。"
     },
     {
@@ -2832,7 +2832,7 @@ window.WIKI_DATA = {
       "category": "Tactics",
       "grade": 1,
       "ranks": 4,
-      "description": "Other living Companions in the owner's Team grant specialist bonuses to the wearer. Each specialist type counts once; self, a shared Double partner, Direct companions, Kin and Tokens cannot supply a link.\nRank 1+: Weapon Master grants ATK +2/3/4/6 and Archer grants DEF +2/3/4/6 at the wearer's Tactics aptitude 0/1/2/3.\nRank 2+: Sleight of Hand grants movement speed +5/10/15/20% by Tactics aptitude; hoppers gain jump speed instead.\nRank 3+: Simple Chanting grants +6 final power to Essence direct damage and healing, excluding DoT and other support effects.\nMASTER: Scout grants 2 Observation stacks for 4 seconds on detection, repeating every 8 seconds against the same target. Uses shared Observation and Perceived rules without counting as another Scout.\nBonuses are cumulative and use the wearer's Rank and aptitude, independent of the specialists' Rank or aptitude.",
+      "description": "Other living Companions in the owner's Team grant specialist bonuses to the wearer. Each specialist type counts once; self, a shared Double partner, Direct Companions, Kin and Tokens cannot supply a link.\nRank 1+: Weapon Master grants ATK +2/3/4/6 and Archer grants DEF +2/3/4/6 at the wearer's Tactics aptitude 0/1/2/3.\nRank 2+: Sleight of Hand grants movement speed +5/10/15/20% by Tactics aptitude; hoppers gain jump speed instead.\nRank 3+: Simple Chanting grants +6 final power to Essence direct damage and healing, excluding DoT and other support effects.\nMASTER: Scout grants 2 Observation stacks for 4 seconds on detection, repeating every 8 seconds against the same target. Uses shared Observation and Perceived rules without counting as another Scout.\nBonuses are cumulative and use the wearer's Rank and aptitude, independent of the specialists' Rank or aptitude.",
       "descriptionJa": "所有者のチーム内の他の生存コンパニオンが専門家ボーナスを装着者に付与。各専門家の種類は1回だけ数え、自身、Doubleの共有相方、Direct、Kin、Tokenはリンクを供給できない。\nRank 1以上：装着者のTactics適性0/1/2/3で、Weapon MasterはATK+2/3/4/6、ArcherはDEF+2/3/4/6。\nRank 2以上：Sleight of Handは適性順に移動速度+5/10/15/20%。Hopperは代わりにジャンプ速度。\nRank 3以上：Simple ChantingはEssenceの直接ダメージと回復の最終威力+6。DoTと他の支援効果は除く。\nMASTER：Scoutは検知時にObservationを2スタック4秒付与し、同じ対象には8秒ごとに繰り返す。Scoutを1体追加したとは数えず、共有のObservation・Perceivedルールを使う。\nボーナスは累積し、専門家のRank・適性に関係なく装着者のRank・適性を使う。"
     },
     {
@@ -2949,7 +2949,7 @@ window.WIKI_DATA = {
       "category": "Kin",
       "grade": 1,
       "ranks": 4,
-      "description": "While the wearer lives, enemy deaths anywhere can summon Shimmer Slime Tokens, regardless of who gets the kill.\nKin aptitude (0/1/2/3): 13/25/33/50% chance. Segments and boss limbs give no extra rolls; Double bodies sharing one Factor roll once per death.\nLimit: Rank Tokens per source and 8 per owner's Team. Direct summons have no shared cap.\nTokens have 66 HP and 0 DEF, and hop and throw gelatin balls for 6 x spawn Rank base damage. They follow Command orders but inherit no Factors.\nExisting Tokens retain their spawn Rank. Lowering Rank limits new summons; parent defeat, disappearance or Factor removal dismisses them.",
+      "description": "While the wearer lives, enemy deaths anywhere can summon Shimmer Slime Tokens, regardless of who gets the kill.\nKin aptitude (0/1/2/3): 13/25/33/50% chance. Segments and boss limbs give no extra rolls; Double bodies sharing one Factor roll once per death.\nLimit: Rank Tokens per source and 8 per owner's Team. Direct summons have no shared cap.\nTokens have 66 HP and 0 DEF, and hop and throw gelatin balls for 6 × spawn Rank base damage. They follow Command orders but inherit no Factors.\nExisting Tokens retain their spawn Rank. Lowering Rank limits new summons; parent defeat, disappearance or Factor removal dismisses them.",
       "descriptionJa": "装着者の生存中、誰が倒したかに関係なく、ワールド内の敵死亡でShimmer Slime Tokenが召喚されることがある。\nKin適性0/1/2/3：確率13/25/33/50%。節とボスの部位では追加抽選せず、1因子を共有するDoubleの身体は死亡ごとに1回抽選。\n上限：発生源ごとにRank体、所有者のチームごとに8体。Direct召喚には共有上限なし。\nTokenはHP 66、DEF 0で、跳ねながら生成時Rank×6の基礎ダメージのゼラチン弾を投げる。Commandに従うが因子は継承しない。\n既存Tokenは出現時のRankを保持。Rankを下げると新規召喚が制限され、親の敗北・消失・因子取り外しでTokenを送還。"
     },
     {
@@ -3040,7 +3040,7 @@ window.WIKI_DATA = {
       "category": "Kin",
       "grade": 1,
       "ranks": 4,
-      "description": "Reduces maximum HP to 66%, rounded down to a minimum of 1.\nSummons a Spider Token for every 33/25/16/12 direct damage from enemy hits the wearer survives (Kin aptitude 0/1/2/3). Excess damage carries over.\nEach Token's ATK equals the individual hit that summoned it. Maximum 4 Tokens per wearer; excess summons are lost.\nTokens have Hit HP instead of ordinary HP and DEF: Rank x 3 at spawn. Each damaging attack by the Token spends 1 Hit HP; at 0, it disappears.\nToken hits inflict Poisoned for 3 seconds. Hits against already Poisoned enemies deal +1/2/3/4 damage at the wearer's current Rank 1/2/3/MASTER.\nTokens stay linked to their summoner and can receive Token support effects.",
+      "description": "Reduces maximum HP to 66%, rounded down to a minimum of 1.\nSummons a Spider Token for every 33/25/16/12 direct damage from enemy hits the wearer survives (Kin aptitude 0/1/2/3). Excess damage carries over.\nEach Token's ATK equals the individual hit that summoned it. Maximum 4 Tokens per wearer; excess summons are lost.\nTokens have Hit HP instead of ordinary HP and DEF: Rank × 3 at spawn. Each damaging attack by the Token spends 1 Hit HP; at 0, it disappears.\nToken hits inflict Poisoned for 3 seconds. Hits against already Poisoned enemies deal +1/2/3/4 damage at the wearer's current Rank 1/2/3/MASTER.\nTokens stay linked to their summoner and can receive Token support effects.",
       "descriptionJa": "最大HPを66%に減少し、切り捨て最低1。\n装着者が生存した敵の直接被弾ダメージがKin適性0/1/2/3で33/25/16/12に達するごとにSpider Tokenを召喚。超過分は繰り越す。\n各TokenのATKは召喚を起こした個々の一撃のダメージ。装着者ごとに最大4体で、超過した召喚は失われる。\nTokenは通常HPとDEFの代わりにHit HPを持ち、出現時Rank×3。ダメージを与える攻撃ごとに1消費し、0で消滅。\nTokenの命中はPoisonedを3秒付与。既にPoisonedの敵への命中は、装着者の現在Rank 1/2/3/MASTERで+1/2/3/4ダメージ。\nTokenは召喚者とつながり、Token支援効果を受けられる。"
     },
     {
@@ -3183,7 +3183,7 @@ window.WIKI_DATA = {
       "category": "Body",
       "grade": 1,
       "ranks": 4,
-      "description": "Heals the wearer for 3 HP every 4 / Rank seconds.\nWhen another same-owner Contract Companion falls from at least 50% HP to below 50%, sacrifices 20% of the wearer's maximum HP, rounded up. This can kill the wearer, even at full stacks.\nGains stacks equal to HP actually lost, up to Rank x 20. Loses 1 stack every 0.5 seconds.\nThe ally must recover to at least 50% HP before it can trigger this again.\nEvery 4 seconds, heals the other same-owner Contract Companion with the lowest HP percentage without spending stacks.\nHealing = stacks x Body aptitude multiplier (0/1/2/3: 2/2.33/3/3.33), rounded down.",
+      "description": "Heals the wearer for 3 HP every 4 / Rank seconds.\nWhen another same-owner Contract Companion falls from at least 50% HP to below 50%, sacrifices 20% of the wearer's maximum HP, rounded up. This can kill the wearer, even at full stacks.\nGains stacks equal to HP actually lost, up to Rank × 20. Loses 1 stack every 0.5 seconds.\nThe ally must recover to at least 50% HP before it can trigger this again.\nEvery 4 seconds, heals the other same-owner Contract Companion with the lowest HP percentage without spending stacks.\nHealing = stacks × Body aptitude multiplier (0/1/2/3: 2/2.33/3/3.33), rounded down.",
       "descriptionJa": "装着者を4÷Rank秒ごとに3 HP回復。\n同一所有者の他の契約コンパニオンのHPが50%以上から50%未満に下がると、装着者の最大HPの20%を切り上げて犠牲にする。最大スタック時も装着者が倒れることがある。\n実際に失ったHPと同数のスタックを得て、上限はRank×20。0.5秒ごとに1スタック失う。\n味方はHPを50%以上に戻してからでないと再発動しない。\n4秒ごとに、同じ所有者の他の契約コンパニオンのうちHP割合が最も低い1体を、スタックを消費せず回復。\n回復量＝スタック×Body適性倍率（0/1/2/3で2/2.33/3/3.33）、切り捨て。"
     },
     {
