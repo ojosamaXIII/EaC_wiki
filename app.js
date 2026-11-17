@@ -40,6 +40,68 @@
     return `<div class="status-list">${ids.map(id=>{const e=statuses[id];if(!e)return '';const name=lang==='ja'?e.ja:e.en,description=lang==='ja'?e.descJa:e.desc,note=window.FACTOR_STATUS_NOTES?.[factorKey]?.[id];
       return `<article class="status-card">${e.icon?`<img class="status-icon" src="assets/status/${esc(e.icon)}" alt="">`:`<span class="status-no-icon" title="${pair('No separate in-game icon','独立したゲーム内アイコンなし')}" aria-hidden="true">—</span>`}<div><strong>${esc(name)}</strong> <span class="status-kind">${e.kind==='buff'?pair('Buff / beneficial effect','バフ・有利な効果'):pair('Debuff / harmful effect','デバフ・不利な効果')}</span><p>${esc(description)}</p>${note?`<p>${esc(lang==='ja'?note.ja:note.en)}</p>`:''}${e.icon?'':`<small>${pair('No separate in-game icon','独立したゲーム内アイコンなし')}</small>`}</div></article>`}).join('')}</div>`;
   }
+  const SCALE_ITEM=String.raw`(?:[+-]?\d+(?:\.\d+)?[-~～〜]\d+(?:\.\d+)?|[+-]?\d+(?:\.\d+)?|x\d+(?:\.\d+)?)`;
+  function scaleLists(line){
+    const re=new RegExp(SCALE_ITEM+String.raw`(?:/${SCALE_ITEM}){3}%?`,'g');
+    const out=[];let m;
+    while((m=re.exec(line))){
+      const raw=m[0],items=raw.replace(/%$/,'').split('/');
+      const before=line[m.index-1]||'',after=line[m.index+raw.length]||'';
+      if(before==='/'||/[\d.]/.test(before)||after==='/')continue;
+      if(items.length===4&&items[0]==='0'&&items[1]==='1'&&items[2]==='2'&&items[3]==='3')continue;
+      out.push({start:m.index,end:m.index+raw.length,raw,items,pct:raw.endsWith('%')});
+    }
+    return out;
+  }
+  function scaleMarkers(line){
+    const out=[];
+    const patterns=[
+      [/(?:Essence|Tactics|Technique|Body|Kin|Anomaly)\s*aptitude\s*\(?0\/1\/2\/3\)?/gi,'apt'],
+      [/(?:Essence|Tactics|Technique|Body|Kin|Anomaly)適性（?0\/1\/2\/3）?/g,'apt'],
+      [/\(aptitude 0\/1\/2\/3\s*:/gi,'apt'],
+      [/適性0\/1\/2\/3で/g,'apt'],
+      [/0\/1\/2\/3\s*[:で]/g,'apt'],
+      [/Rank 1\/2\/3(?:\/MASTER)?/g,'rank'],
+      [/1\/2\/3\/MASTER/g,'rank'],
+      [/by Rank\b/g,'rank'],
+      [/Rank limits/g,'rank'],
+      [/Rank順に/g,'rank'],
+      [/Rankごと/g,'rank'],
+      [/(?:Essence|Tactics|Technique|Body|Kin|Anomaly)\s*aptitude/gi,'apt'],
+      [/(?:Essence|Tactics|Technique|Body|Kin|Anomaly)適性/g,'apt'],
+      [/適性順に/g,'apt']
+    ];
+    for(const [re,axis] of patterns){let m;while((m=re.exec(line)))out.push({start:m.index,end:m.index+m[0].length,axis});}
+    return out;
+  }
+  function scaleTable(axis,items,pct){
+    const tiers=axis==='rank'?['1','2','3','MASTER']:['0','1','2','3'];
+    let vals=items.slice();
+    const sign=/^[+-]/.test(vals[0])?vals[0].charAt(0):'';
+    if(sign)vals=vals.map(v=>/^\d+(?:\.\d+)?$/.test(v)?sign+v:v);
+    if(pct)vals=vals.map(v=>v+'%');
+    return `<span class="scale-wrap"><table class="scale"><thead><tr>${tiers.map(x=>`<th>${x}</th>`).join('')}</tr></thead><tbody><tr>${vals.map(v=>`<td>${esc(v)}</td>`).join('')}</tr></tbody></table></span>`;
+  }
+  function effectHtml(desc){
+    return String(desc??'').split('\n').map(line=>{
+      const lists=scaleLists(line),markers=scaleMarkers(line);
+      if(!lists.length||!markers.length)return esc(line);
+      const bounds=[];{const bre=/[。、]|; |, |\. /g;let bm;while((bm=bre.exec(line)))bounds.push(bm.index+bm[0].length);}
+      const clause=pos=>{let c=0;for(const b of bounds)if(pos>=b)c++;return c;};
+      let out='',pos=0;
+      for(const L of lists){
+        const same=markers.filter(M=>clause(M.start)===clause(L.start));
+        const pool=same.length?same:markers;
+        let best=null,bd=Infinity;
+        for(const M of pool)if(M.start>=L.end&&M.start-L.end<bd){bd=M.start-L.end;best=M;}
+        if(!best||bd>24){best=null;bd=Infinity;for(const M of pool){const d=L.start>=M.end?L.start-M.end:(M.start>=L.end?M.start-L.end:0);if(d<bd){bd=d;best=M;}}}
+        out+=esc(line.slice(pos,L.start));
+        out+=(best&&bd<=80)?scaleTable(best.axis,L.items,L.pct):esc(L.raw);
+        pos=L.end;
+      }
+      return out+esc(line.slice(pos));
+    }).join('\n');
+  }
   function companionNativeStatuses(x){
     const native=(window.COMPANION_NATIVE_STATUSES||{})[x.id]||[];
     if(!native.length)return '';
@@ -90,7 +152,7 @@
   function companionList(){content.innerHTML=pageTitle(t('companions'),pair('A guide to the allies you can make. Select a name for its profile.','\u4ef2\u9593\u306b\u3067\u304d\u308b\u30b3\u30f3\u30d1\u30cb\u30aa\u30f3\u306e\u4e00\u89a7\u3067\u3059\u3002\u540d\u524d\u3092\u9078\u3076\u3068\u8a73\u7d30\u3092\u8868\u793a\u3057\u307e\u3059\u3002'))+`<div class="notice">${t('statsNote')} ${innateNote()}</div>`+makeFilters('companions');$('#head').innerHTML=`<tr>${['name','hp','atk','def','body','cost','innate'].map(x=>`<th>${t(x)}</th>`).join('')}</tr>`;function update(){const q=$('#search').value.toLowerCase(),sort=$('#companion-sort').value||'name',nameOf=x=>lang==='ja'?x.nameJa:x.name,locale=lang==='ja'?'ja':'en';const metric=x=>sort==='cost'?(x.cost==null?null:Number(x.cost)):(x.aptitude?.[sort]??null);let items=data.companions.filter(x=>(Object.values(x).join(' ')+' '+profileCategory(x.body)).toLowerCase().includes(q));items.sort((a,b)=>{if(sort!=='name'){const av=metric(a),bv=metric(b);if(av===null&&bv!==null)return 1;if(bv===null&&av!==null)return -1;if(av!==null&&bv!==null&&av!==bv)return bv-av}return nameOf(a).localeCompare(nameOf(b),locale)});$('#count').textContent=`${items.length} / ${data.companions.length} ${t('showing')}`;$('#rows').innerHTML=items.map(x=>`<tr><td><a href="#companion/${encodeURIComponent(x.id)}">${x.icon?`<img class="mini" src="${esc(x.icon)}" alt="">`:'<img class="mini" src="assets/mod_icon.png" alt="">'}${esc(nameOf(x))}</a>${sort!=='name'&&sort!=='cost'?`<br><span class="count">${esc(sort)}: ${metric(x)??t('notAvailable')}</span>`:''}</td><td>${esc(x.hp)}</td><td>${esc(x.atk)}</td><td>${esc(x.defense)}</td><td>${esc(profileCategory(x.body))}</td><td>${esc(x.cost||'\u2014')}</td><td>${factorLink(x.innate)}</td></tr>`).join('')||`<tr><td colspan="7" class="empty">${t('noResults')}</td></tr>`};$('#search').addEventListener('input',update);$('#companion-sort').addEventListener('change',update);update()}
   function factorList(){content.innerHTML=pageTitle(t('factors'),pair('Explore the abilities that shape a Companion\'s role.','\u30b3\u30f3\u30d1\u30cb\u30aa\u30f3\u306e\u80fd\u529b\u3092\u5f62\u4f5c\u308b\u56e0\u5b50\u3092\u8abf\u3079\u307e\u3057\u3087\u3046\u3002'))+`<div class="notice">${t('factorNote')}</div>`+makeFilters('factors');$('#head').innerHTML=`<tr>${['name','category','grade','ranks','effect'].map(x=>`<th>${t(x)}</th>`).join('')}</tr>`;$('#search').value=factorListState.search;$('#category').value=factorListState.category;$('#sort').value=factorListState.sort;$('#direction').value=factorListState.direction;function update(){factorListState.search=$('#search').value;factorListState.category=$('#category').value;factorListState.sort=$('#sort').value;factorListState.direction=$('#direction').value;const q=$('#search').value.toLowerCase(),cat=$('#category').value,sort=$('#sort').value||'name',direction=$('#direction').value==='desc'?-1:1;const nameOf=x=>factorDisplayName(lang==='ja'?x.nameJa:x.name);let items=data.factors.filter(x=>(!cat||x.category===cat)&&Object.values(x).join(' ').toLowerCase().includes(q));items.sort((a,b)=>{let result=sort==='name'?nameOf(a).localeCompare(nameOf(b),lang==='ja'?'ja':'en'):sort==='category'?a.category.localeCompare(b.category):a[sort]-b[sort];return direction*result||nameOf(a).localeCompare(nameOf(b),lang==='ja'?'ja':'en')});$('#count').textContent=`${items.length} / ${data.factors.length} ${t('showing')}`;$('#rows').innerHTML=items.map(x=>`<tr><td>${factorIcon(x.category)}<a href="#factor/${encodeURIComponent(x.key)}">${esc(nameOf(x))}</a></td><td>${esc(x.category)}</td><td>${x.grade}</td><td>${x.ranks===1?'\u2014':x.ranks}</td><td>${lang==='ja'&&!x.descriptionJa?'[English] ':''}${esc((lang==='ja'&&x.descriptionJa?x.descriptionJa:x.description).split('\n')[0])}</td></tr>`).join('')||`<tr><td colspan="5" class="empty">${t('noResults')}</td></tr>`};$('#search').addEventListener('input',update);for(const id of ['category','sort','direction'])$('#'+id).addEventListener('change',update);update()}
   function companionDetail(id){let x=data.companions.find(a=>a.id===id);if(!x){companionList();return}let source=`https://terraria.wiki.gg/wiki/${encodeURIComponent(x.name.replaceAll(' ','_'))}`;let staticImage=!x.gif;let gif=x.gif||x.staticImage;content.innerHTML=`<a class="back" href="#companions">${t('back')}</a><h1>${x.icon?`<img class="mini" src="${esc(x.icon)}" alt="">`:''}${esc(lang==='ja'?x.nameJa:x.name)}</h1><p class="lede">${pair('Companion profile','コンパニオンのプロフィール')}</p><h2>${pair('Default aptitude','\u521d\u671f\u9069\u6027')}</h2><div class="companion-overview"><aside class="infobox"><h3>${esc(lang==='ja'?x.nameJa:x.name)}</h3><div class="sprite-stage"><img class="${staticImage?'wiki-static':''}" src="${esc(gif)}" alt="${esc(x.name)} ${staticImage?'Terraria Wiki image':'animation'}" data-fallback="${esc(x.gifFallback)}" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;delete this.dataset.fallback}else{this.hidden=true;this.nextElementSibling.hidden=false}"><div class="sprite-fallback" hidden>${!staticImage&&x.icon?`<img src="${esc(x.icon)}" alt="">`:''}<span>${staticImage?pair('Wiki image unavailable','Wiki \u306e\u753b\u50cf\u3092\u8aad\u307f\u8fbc\u3081\u307e\u305b\u3093'):t('spriteMissing')}</span></div></div><dl>${[['hp',x.hp],['atk',x.atk],['def',x.defense],['body',profileCategory(x.body)],['cost',x.cost||'—'],['innate',x.innate?.replaceAll('_',' ')||'—']].map(([k,v])=>`<div><dt>${t(k)}</dt><dd>${k==='innate'?(x.innate?factorLink(x.innate):pair('None','\u306a\u3057')):esc(v)}</dd></div>`).join('')}</dl><div class="sprite-credit"><a href="${source}" target="_blank" rel="noopener">${staticImage?pair('Terraria Wiki article','Terraria Wiki \u306e\u8a18\u4e8b'):t('source')} </a>${staticImage?` | <a href="${esc(x.staticImage)}" target="_blank" rel="noopener">${pair('Wiki image','Wiki \u306e\u753b\u50cf')}</a>`:''}${x.gifFallback?` | <a href="${esc(x.gifFallback)}" target="_blank" rel="noopener">APNG</a>`:''}</div></aside>${companionStatusPanel(x)}</div><p class="companion-base-note">${t('statsNote')}</p>${window.COMPANION_NOTES?.[x.id]?`<h2>${pair('Behavior','\u884c\u52d5')}</h2><p>${esc(window.COMPANION_NOTES[x.id][lang==='ja'?1:0])}</p>`:''}${companionNativeStatuses(x)}${window.COMPANION_FLAVOR?.[x.id]?`<section class="flavor"><h2>${pair('Terraria trivia','\u30c6\u30e9\u30ea\u30a2\u306e\u8c46\u77e5\u8b58')}</h2><p class="count">${pair('About the original Terraria enemy','Terraria \u672c\u7de8\u306e\u6575\u306b\u3064\u3044\u3066')}</p><p>${esc(window.COMPANION_FLAVOR[x.id][lang==='ja'?'ja':'en'])}</p><a href="${esc(window.COMPANION_FLAVOR[x.id].source)}" target="_blank" rel="noopener">${pair('Terraria Wiki: Trivia','Terraria Wiki: Trivia')}</a></section>`:''}`}
-  function factorDetail(id){let x=data.factors.find(a=>a.key===id);if(!x){factorList();return}let name=factorDisplayName(lang==='ja'?x.nameJa:x.name),desc=lang==='ja'&&x.descriptionJa?x.descriptionJa:x.description;content.innerHTML=`<a class="back" href="#factors">${t('back')}</a>${pageTitle(name,pair('Factor reference','因子の詳細'))}<aside class="infobox"><h3>${factorIcon(x.category)}${esc(name)}</h3><dl>${[['category',x.category],['grade',x.grade],['ranks',x.ranks===1?t('oneRank'):x.ranks+' '+t('rankMax')]].map(([k,v])=>`<div><dt>${t(k)}</dt><dd>${esc(v)}</dd></div>`).join('')}</dl></aside>${x.masterName?`<div class="notice">${pair('At MASTER, its display name is','MASTER \u3067\u306e\u8868\u793a\u540d')}: <strong>${esc(factorDisplayName(lang==='ja'&&x.masterNameJa?x.masterNameJa:x.masterName))}</strong>.</div>`:''}<h2>${t('effect')}</h2>${lang==='ja'&&!x.descriptionJa?'<p class="notice">英語の原文が更新されたため、翻訳の確認が終わるまで英語で表示しています。</p>':''}<p class="effect">${esc(desc)}</p>${factorAcquisition(x)}<section class="status-section"><h2>${pair('Buffs and debuffs','\u30d0\u30d5\u30fb\u30c7\u30d0\u30d5')}</h2>${(window.FACTOR_STATUSES?.[x.key]||[]).length?`<p>${pair('Possible effects are shown below. See the Factor description above for activation conditions, targets, Rank and duration.','\u4ed8\u4e0e\u3059\u308b\u53ef\u80fd\u6027\u306e\u3042\u308b\u52b9\u679c\u3067\u3059\u3002\u767a\u52d5\u6761\u4ef6\u30fb\u5bfe\u8c61\u30fbRank\u30fb\u6301\u7d9a\u6642\u9593\u306f\u4e0a\u306e\u56e0\u5b50\u306e\u8aac\u660e\u3092\u3054\u89a7\u304f\u3060\u3055\u3044\u3002')}</p>${statusCards(window.FACTOR_STATUSES[x.key],x.key)}`:`<p>${pair('No named status effects are listed for this Factor.','\u3053\u306e\u56e0\u5b50\u306b\u3064\u3044\u3066\u63b2\u8f09\u4e2d\u306e\u540d\u524d\u4ed8\u304d\u72b6\u614b\u52b9\u679c\u306f\u3042\u308a\u307e\u305b\u3093\u3002')}</p>`}</section>`}
+  function factorDetail(id){let x=data.factors.find(a=>a.key===id);if(!x){factorList();return}let name=factorDisplayName(lang==='ja'?x.nameJa:x.name),desc=lang==='ja'&&x.descriptionJa?x.descriptionJa:x.description;content.innerHTML=`<a class="back" href="#factors">${t('back')}</a>${pageTitle(name,pair('Factor reference','因子の詳細'))}<aside class="infobox"><h3>${factorIcon(x.category)}${esc(name)}</h3><dl>${[['category',x.category],['grade',x.grade],['ranks',x.ranks===1?t('oneRank'):x.ranks+' '+t('rankMax')]].map(([k,v])=>`<div><dt>${t(k)}</dt><dd>${esc(v)}</dd></div>`).join('')}</dl></aside>${x.masterName?`<div class="notice">${pair('At MASTER, its display name is','MASTER \u3067\u306e\u8868\u793a\u540d')}: <strong>${esc(factorDisplayName(lang==='ja'&&x.masterNameJa?x.masterNameJa:x.masterName))}</strong>.</div>`:''}<h2>${t('effect')}</h2>${lang==='ja'&&!x.descriptionJa?'<p class="notice">英語の原文が更新されたため、翻訳の確認が終わるまで英語で表示しています。</p>':''}<div class="effect">${effectHtml(desc)}</div>${factorAcquisition(x)}<section class="status-section"><h2>${pair('Buffs and debuffs','\u30d0\u30d5\u30fb\u30c7\u30d0\u30d5')}</h2>${(window.FACTOR_STATUSES?.[x.key]||[]).length?`<p>${pair('Possible effects are shown below. See the Factor description above for activation conditions, targets, Rank and duration.','\u4ed8\u4e0e\u3059\u308b\u53ef\u80fd\u6027\u306e\u3042\u308b\u52b9\u679c\u3067\u3059\u3002\u767a\u52d5\u6761\u4ef6\u30fb\u5bfe\u8c61\u30fbRank\u30fb\u6301\u7d9a\u6642\u9593\u306f\u4e0a\u306e\u56e0\u5b50\u306e\u8aac\u660e\u3092\u3054\u89a7\u304f\u3060\u3055\u3044\u3002')}</p>${statusCards(window.FACTOR_STATUSES[x.key],x.key)}`:`<p>${pair('No named status effects are listed for this Factor.','\u3053\u306e\u56e0\u5b50\u306b\u3064\u3044\u3066\u63b2\u8f09\u4e2d\u306e\u540d\u524d\u4ed8\u304d\u72b6\u614b\u52b9\u679c\u306f\u3042\u308a\u307e\u305b\u3093\u3002')}</p>`}</section>`}
   function medallionRequirements(ids,bloodMoon=false){
     const links=ids.map(id=>{const companion=data.companions.find(c=>c.id===id);return companion?`<a class="medallion-companion-link" href="#companion/${encodeURIComponent(id)}">${companion.icon?`<img class="medallion-companion-icon" src="${esc(companion.icon)}" alt="">`:''}${esc(companion.name)}</a>`:esc(id.replaceAll('_',' '))}).join(', ');
     const text=bloodMoon?pair('Register all of these Companions in Contract Documents, then claim Reward from the Contract scholar during a Blood Moon:','以下のコンパニオンをすべて Contract Documents に登録すると、Blood Moon 中に Contract scholar の Reward から受け取れます:'):pair('Register all of these Companions in Contract Documents, then claim Reward from the Contract scholar:','以下のコンパニオンをすべて Contract Documents に登録すると、Contract scholar の Reward から受け取れます:');
