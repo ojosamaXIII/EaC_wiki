@@ -2352,7 +2352,7 @@ window.WIKI_DATA = {
       "grade": 1,
       "ranks": 4,
       "description": "Reaching 0 HP releases an ice explosion before defeat or Bloodstained's replacement. Dismissal, natural offspring decay and friendly Grenade damage do not trigger it.\nBase damage = current ATK × Rank × 1.8, or ×2.66 instead of ×1.8 at MASTER, rounded down, minimum 1. Normal enemy defense applies.\nEssence aptitude 0/1/2/3: radius 1/1.5/2/3 tiles. Applies Frostburn for 4 seconds and passes through terrain without destroying it. A Worm releases one explosion from its head.\nKin offspring inherit Rank and Essence aptitude at birth, using their own baseline ATK; Tokens do not inherit it.\nAffected by Simple Chanting. Cannot trigger attack-hit Factors.",
-      "descriptionJa": "HPが0になると、敗北またはBloodstainedによる置換の前に氷の爆発を放つ。送還、子の自然減衰、味方の手榴弾では発動しない。\n基礎ダメージ＝現在ATK×Rank×1.8、MASTERでは1.8の代わりに2.66。切り捨て最低1。通常の敵DEFを適用。\nEssence適性0/1/2/3：半径1/1.5/2/3タイル。Frostburnを4秒付与し、地形を破壊せず貫通する。ワームは頭から1回爆発。\nKinの子は誕生時のRankとEssence適性を継承し、自身の基礎ATKを使用。Tokenは継承しない。\nSimple Chantingの影響を受け、攻撃命中因子を発動しない。"
+      "descriptionJa": "HPが0になると、敗北またはBloodstainedによる置換の前に氷の爆発を放つ。送還、子の自然減衰、味方の手りゅう弾では発動しない。\n基礎ダメージ＝現在ATK×Rank×1.8、MASTERでは1.8の代わりに2.66。切り捨て最低1。通常の敵DEFを適用。\nEssence適性0/1/2/3：半径1/1.5/2/3タイル。Frostburnを4秒付与し、地形を破壊せず貫通する。ワームは頭から1回爆発。\nKinの子は誕生時のRankとEssence適性を継承し、自身の基礎ATKを使用。Tokenは継承しない。\nSimple Chantingの影響を受け、攻撃命中因子を発動しない。"
     },
     {
       "id": "fungal_infection",
@@ -2417,7 +2417,7 @@ window.WIKI_DATA = {
       "grade": 1,
       "ranks": 4,
       "description": "Throws a Grenade at a detected enemy, ready immediately. Cooldown at Technique aptitude 0/1/2/3: 12/10/8/6 seconds after each throw.\nBase damage = current ATK × (1 + Rank / 4) + 12, rounded down. Uses normal Grenade flight and explosions without destroying terrain or hurting players.\nThe blast also damages allied Companions, including the wearer, for 15% of its base power, rounded down, minimum 1. Friendly fire ignores DEF but retains other damage modifiers, and does not trigger enemy-hit or offensive Factors.",
-      "descriptionJa": "検知した敵に手榴弾を投げる。初回は即座に使用可能。投擲後の再使用時間はTechnique適性0/1/2/3で12/10/8/6秒。\n基礎ダメージは現在ATK×(1+Rank/4)+12を切り捨て。通常の手榴弾と同様に飛行・爆発するが、地形とプレイヤーを傷つけない。\n装着者を含む味方コンパニオンにも基礎威力の15%（切り捨て、最低1）のダメージを与える。味方への攻撃はDEFを無視するが他の補正を受け、敵命中・攻撃因子を発動しない。"
+      "descriptionJa": "検知した敵に手りゅう弾を投げる。初回は即座に使用可能。投てき後の再使用時間はTechnique適性0/1/2/3で12/10/8/6秒。\n基礎ダメージは現在ATK×(1+Rank/4)+12を切り捨て。通常の手りゅう弾と同様に飛行・爆発するが、地形とプレイヤーを傷つけない。\n装着者を含む味方コンパニオンにも基礎威力の15%（切り捨て、最低1）のダメージを与える。味方への攻撃はDEFを無視するが他の補正を受け、敵命中・攻撃因子を発動しない。"
     },
     {
       "id": "hookshot",
@@ -2612,7 +2612,7 @@ window.WIKI_DATA = {
       "grade": 1,
       "ranks": 4,
       "description": "After 8 seconds of continuously detecting enemies, drops 1/2/3/4 meteors at Rank 1/2/3/MASTER. Losing detection resets the wait.\nMeteors fall around the wearer's position when the wave begins, rather than aiming at enemies.\nDamage = floor(current ATK × Essence coefficient) + 12. Essence aptitude (0/1/2/3): 0.40/0.60/1.00/1.20.\nMeteors collide with terrain and cause no burn or explosion. Removal cancels pending drops; defeat or dismissal removes fired meteors.\nAffected by Chanting, Simple Chanting and Archer.",
-      "descriptionJa": "敵を8秒間連続で検知すると、Rank 1/2/3/MASTERで隕石1/2/3/4個を落とす。検知を失うと待機をリセット。\n隕石は敵を狙わず、波の開始時の装着者位置の周囲に落ちる。\nダメージ＝現在ATK×Essence係数を切り捨て+12。Essence適性0/1/2/3：0.40/0.60/1.00/1.20。\n地形に衝突し、燃焼・爆発はない。取り外しで発射待ちを中止し、敗北・送還で発射済み隕石を消す。\nChanting、Simple Chanting、Archerの影響を受ける。"
+      "descriptionJa": "敵を8秒間連続で検知すると、Rank 1/2/3/MASTERでいん石1/2/3/4個を落とす。検知を失うと待機をリセット。\nいん石は敵を狙わず、波の開始時の装着者位置の周囲に落ちる。\nダメージ＝現在ATK×Essence係数を切り捨て+12。Essence適性0/1/2/3：0.40/0.60/1.00/1.20。\n地形に衝突し、燃焼・爆発はない。取り外しで発射待ちを中止し、敗北・送還で発射済みいん石を消す。\nChanting、Simple Chanting、Archerの影響を受ける。"
     },
     {
       "id": "moisture",
@@ -2976,7 +2976,7 @@ window.WIKI_DATA = {
       "grade": 1,
       "ranks": 4,
       "description": "Increases movement speed by 10/20/25/33% at Tactics aptitude 0/1/2/3. Hoppers gain jump speed instead; stationary bodies remain stationary.\nThrows an additional knife immediately on detecting an enemy, then every 3 seconds. Base damage = 6 × Rank × current Grade.\nRank 2+: knives have a 50% chance to inflict Poisoned for 10 seconds.\nChanging targets or removing and re-equipping does not reset the throw cooldown. Knives are enhanced by Archer but do not trigger other attack Factors.",
-      "descriptionJa": "Tactics適性0/1/2/3で移動速度+10/20/25/33%。Hopperは代わりにジャンプ速度を得て、固定された身体は移動しない。\n敵の検知時に追加のナイフを即座に投げ、以後3秒ごとに投げる。基礎ダメージ＝6×Rank×現在Grade。\nRank 2以上：ナイフは50%の確率でPoisonedを10秒付与。\n対象変更や取り外し・再装着でも投擲クールダウンはリセットされない。ナイフはArcherに強化されるが他の攻撃因子を発動しない。"
+      "descriptionJa": "Tactics適性0/1/2/3で移動速度+10/20/25/33%。Hopperは代わりにジャンプ速度を得て、固定された身体は移動しない。\n敵の検知時に追加のナイフを即座に投げ、以後3秒ごとに投げる。基礎ダメージ＝6×Rank×現在Grade。\nRank 2以上：ナイフは50%の確率でPoisonedを10秒付与。\n対象変更や取り外し・再装着でも投てきクールダウンはリセットされない。ナイフはArcherに強化されるが他の攻撃因子を発動しない。"
     },
     {
       "id": "snake_bone",

@@ -68,11 +68,11 @@ window.COMPANION_FLAVOR = (() => {
   add(['hoplite'], 'These ancient spear-bearers still walk the marble ruins of a buried civilization.', '古代の槍使いたちは、地中に埋もれた文明の大理石の遺跡を今も歩き続けています。', 'Hoplite');
   add(['ice_bat'], 'The chill of an Ice Bat can leave its prey frozen in place.', 'アイスバットの冷気は、獲物の動きを凍らせてしまうことがあります。', 'Ice_Bat');
   add(['lac_beetle'], 'A beetle of the underground jungle whose secretions produce a violet dye.', '地下ジャングルに棲み、紫色の染料になる液体を持つ甲虫です。', 'Lac_Beetle');
-  add(['meteor_head'], 'Some fragments of a fallen meteorite are more lively than they first appear.', '落ちた隕石の破片の中には、思いがけず動き出すものもあります。', 'Meteor_Head');
+  add(['meteor_head'], 'Some fragments of a fallen meteorite are more lively than they first appear.', '落ちたいん石の破片の中には、思いがけず動き出すものもあります。', 'Meteor_Head');
   add(['piranha'], 'One sharp-toothed piranha is dangerous enough; they often gather in groups.', '鋭い歯を持つピラニアは一匹でも危険ですが、群れを作ることもあります。', 'Piranha');
   add(['salamander'], 'This cave-dwelling amphibian defends itself with a corrosive spray.', '洞窟で暮らす両生類で、身を守るために腐食性の液体を吐きます。', 'Salamander');
   add(['sand_slime'], 'Life in the dry desert has given this slime the appearance of living sand.', '乾いた砂漠に適応し、生きた砂のような姿になったスライムです。', 'Sand_Slime');
-  add(['shark'], 'The Bestiary depicts the shark as a relentless ocean hunter.', '図鑑では、海を執拗に追いかける狩人として紹介されています。', 'Shark');
+  add(['shark'], 'The Bestiary depicts the shark as a relentless ocean hunter.', '図鑑では、海を執ように追いかける狩人として紹介されています。', 'Shark');
   add(['skeleton'], 'The Bestiary tells of an old expedition whose remains still patrol the caves.', '図鑑では、昔の探検隊の亡骸が今も洞窟を巡回していると語られています。', 'Skeleton');
   add(['snatcher'], 'A sharp-toothed jungle plant that can hide in mud and reach out over a distance.', '泥の中に隠れ、離れた場所まで伸びることができる鋭い歯の植物です。', 'Snatcher');
   add(['spiked_ice_slime'], 'Prolonged cold has left this slime carrying shards of ice in its body.', '長い間冷気にさらされ、体の中に氷のかけらを持つようになったスライムです。', 'Spiked_Ice_Slime');
