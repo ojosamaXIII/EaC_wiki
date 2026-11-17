@@ -62,4 +62,4 @@ table.scale th,table.scale td{padding:1px 7px;border:1px solid #a4a4a4;text-alig
 table.scale th{background:#000080;color:#fff}
 
 @font-face{font-family:'W95FA';src:url('assets/win95fa-latin-400-normal.woff2') format('woff2');font-style:normal;font-weight:400;font-display:swap}
-body,body *{font-family:'W95FA','MS PGothic','ＭＳ Ｐゴシック','Yu Gothic',Meiryo,sans-serif!important}
+body,body *{font-family:'W95FA','DotGothic16','MS PGothic','ＭＳ Ｐゴシック','Yu Gothic',Meiryo,sans-serif!important}
