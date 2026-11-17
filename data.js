@@ -9,6 +9,7 @@ window.WIKI_DATA = {
       "defense": "6",
       "body": "GroundWalker",
       "cost": "1",
+      "grade": 4,
       "innate": null,
       "aptitude": {
         "Essence": 0,
@@ -32,6 +33,7 @@ window.WIKI_DATA = {
       "defense": "1",
       "body": "RootedTurret",
       "cost": "0.75",
+      "grade": 1,
       "innate": "quick_to_anger",
       "aptitude": {
         "Essence": 0,
@@ -55,6 +57,7 @@ window.WIKI_DATA = {
       "defense": "4",
       "body": "GroundWalker",
       "cost": "1",
+      "grade": 2,
       "innate": "mushroom",
       "aptitude": {
         "Essence": 1,
@@ -78,6 +81,7 @@ window.WIKI_DATA = {
       "defense": "3",
       "body": "RootedTurret",
       "cost": "1",
+      "grade": 1,
       "innate": "sand_dust",
       "aptitude": {
         "Essence": 0,
@@ -101,6 +105,7 @@ window.WIKI_DATA = {
       "defense": "5",
       "body": "GroundWalker",
       "cost": "1",
+      "grade": 2,
       "innate": "rampage",
       "aptitude": {
         "Essence": 0,
@@ -124,6 +129,7 @@ window.WIKI_DATA = {
       "defense": "12",
       "body": "Flyer",
       "cost": "0.75",
+      "grade": 2,
       "innate": "command",
       "aptitude": {
         "Essence": 0,
@@ -147,6 +153,7 @@ window.WIKI_DATA = {
       "defense": "4",
       "body": "GroundHopper",
       "cost": "0.75",
+      "grade": 1,
       "innate": "night_sight",
       "aptitude": {
         "Essence": 0,
@@ -170,6 +177,7 @@ window.WIKI_DATA = {
       "defense": "0",
       "body": "GroundCrawler",
       "cost": "0.75",
+      "grade": 2,
       "innate": "tick",
       "aptitude": {
         "Essence": 0,
@@ -193,6 +201,7 @@ window.WIKI_DATA = {
       "defense": "5",
       "body": "GroundWalker",
       "cost": "1",
+      "grade": 2,
       "innate": "lifeline",
       "aptitude": {
         "Essence": 0,
@@ -216,6 +225,7 @@ window.WIKI_DATA = {
       "defense": "7",
       "body": "Jellyfish",
       "cost": "1",
+      "grade": 1,
       "innate": "thunderbolt",
       "aptitude": {
         "Essence": 2,
@@ -239,6 +249,7 @@ window.WIKI_DATA = {
       "defense": "2",
       "body": "GroundHopper",
       "cost": "0.75",
+      "grade": 1,
       "innate": "bubble_shield",
       "aptitude": {
         "Essence": 2,
@@ -262,6 +273,7 @@ window.WIKI_DATA = {
       "defense": "0",
       "body": "WormSegmented",
       "cost": "2",
+      "grade": 3,
       "innate": "snake_bone",
       "aptitude": {
         "Essence": 0,
@@ -285,6 +297,7 @@ window.WIKI_DATA = {
       "defense": "0",
       "body": "Flyer",
       "cost": "0.5",
+      "grade": 1,
       "innate": "vampirism",
       "aptitude": {
         "Essence": 0,
@@ -308,6 +321,7 @@ window.WIKI_DATA = {
       "defense": "12",
       "body": "GroundWalker",
       "cost": "1",
+      "grade": 1,
       "innate": "red_heat",
       "aptitude": {
         "Essence": 0,
@@ -331,6 +345,7 @@ window.WIKI_DATA = {
       "defense": "7",
       "body": "GroundWalker",
       "cost": "0.75",
+      "grade": 1,
       "innate": "light_shell",
       "aptitude": {
         "Essence": 0,
@@ -354,6 +369,7 @@ window.WIKI_DATA = {
       "defense": "9",
       "body": "GroundWalker",
       "cost": "1",
+      "grade": 1,
       "innate": "lacerate",
       "aptitude": {
         "Essence": 0,
@@ -377,6 +393,7 @@ window.WIKI_DATA = {
       "defense": "0",
       "body": "Flyer",
       "cost": "0.75",
+      "grade": 1,
       "innate": "bloodline",
       "aptitude": {
         "Essence": 0,
@@ -400,6 +417,7 @@ window.WIKI_DATA = {
       "defense": "0",
       "body": "Flyer",
       "cost": "1",
+      "grade": 4,
       "innate": null,
       "aptitude": {
         "Essence": 0,
@@ -423,6 +441,7 @@ window.WIKI_DATA = {
       "defense": "15",
       "body": "GroundWalker",
       "cost": "1",
+      "grade": 1,
       "innate": "ice_guardian",
       "aptitude": {
         "Essence": 2,
@@ -446,6 +465,7 @@ window.WIKI_DATA = {
       "defense": "2",
       "body": "Caster",
       "cost": "1.25",
+      "grade": 4,
       "innate": null,
       "aptitude": {
         "Essence": 3,
@@ -469,6 +489,7 @@ window.WIKI_DATA = {
       "defense": "4",
       "body": "Flyer",
       "cost": "1",
+      "grade": 3,
       "innate": "greater_demon",
       "aptitude": {
         "Essence": 1,
@@ -492,6 +513,7 @@ window.WIKI_DATA = {
       "defense": "8",
       "body": "Flyer",
       "cost": "0.75",
+      "grade": 1,
       "innate": "stare",
       "aptitude": {
         "Essence": 0,
@@ -515,6 +537,7 @@ window.WIKI_DATA = {
       "defense": "15",
       "body": "WormSegmented",
       "cost": "1.5",
+      "grade": 3,
       "innate": "corrosion",
       "aptitude": {
         "Essence": 0,
@@ -538,6 +561,7 @@ window.WIKI_DATA = {
       "defense": "8",
       "body": "GroundWalker",
       "cost": "1",
+      "grade": 2,
       "innate": "archaeologist",
       "aptitude": {
         "Essence": 0,
@@ -561,6 +585,7 @@ window.WIKI_DATA = {
       "defense": "1",
       "body": "Flyer",
       "cost": "0.75",
+      "grade": 2,
       "innate": "blood_tears",
       "aptitude": {
         "Essence": 2,
@@ -584,6 +609,7 @@ window.WIKI_DATA = {
       "defense": "9",
       "body": "GroundHopper",
       "cost": "1",
+      "grade": 4,
       "innate": null,
       "aptitude": {
         "Essence": 0,
@@ -607,6 +633,7 @@ window.WIKI_DATA = {
       "defense": "7",
       "body": "Flyer",
       "cost": "0.75",
+      "grade": 1,
       "innate": "soul_trail",
       "aptitude": {
         "Essence": 2,
@@ -630,6 +657,7 @@ window.WIKI_DATA = {
       "defense": "5",
       "body": "GroundWalker",
       "cost": "1",
+      "grade": 2,
       "innate": "flesh_chunk",
       "aptitude": {
         "Essence": 1,
@@ -653,6 +681,7 @@ window.WIKI_DATA = {
       "defense": "1",
       "body": "Caster",
       "cost": "1",
+      "grade": 3,
       "innate": "lesser_demon",
       "aptitude": {
         "Essence": 3,
@@ -676,6 +705,7 @@ window.WIKI_DATA = {
       "defense": "10",
       "body": "Flyer",
       "cost": "0.75",
+      "grade": 1,
       "innate": "moisture",
       "aptitude": {
         "Essence": 2,
@@ -699,6 +729,7 @@ window.WIKI_DATA = {
       "defense": "10",
       "body": "GroundWalker",
       "cost": "1",
+      "grade": 1,
       "innate": "frozen_death",
       "aptitude": {
         "Essence": 1,
@@ -722,6 +753,7 @@ window.WIKI_DATA = {
       "defense": "14",
       "body": "VineCrawler",
       "cost": "1.25",
+      "grade": 2,
       "innate": "mushroom_bomb",
       "aptitude": {
         "Essence": 2,
@@ -745,6 +777,7 @@ window.WIKI_DATA = {
       "defense": "0",
       "body": "Hovering",
       "cost": "0.75",
+      "grade": 1,
       "innate": "double",
       "aptitude": {
         "Essence": 2,
@@ -768,6 +801,7 @@ window.WIKI_DATA = {
       "defense": "14",
       "body": "GroundWalker",
       "cost": "1.25",
+      "grade": 1,
       "innate": "gigantism",
       "aptitude": {
         "Essence": 0,
@@ -791,6 +825,7 @@ window.WIKI_DATA = {
       "defense": "5",
       "body": "WormSegmented",
       "cost": "1.25",
+      "grade": 1,
       "innate": "predation",
       "aptitude": {
         "Essence": 0,
@@ -814,6 +849,7 @@ window.WIKI_DATA = {
       "defense": "6",
       "body": "GroundWalker",
       "cost": "0.5",
+      "grade": 1,
       "innate": "luck_factor",
       "aptitude": {
         "Essence": 0,
@@ -837,6 +873,7 @@ window.WIKI_DATA = {
       "defense": "1",
       "body": "GroundWalker",
       "cost": "0.75",
+      "grade": 2,
       "innate": "archer",
       "aptitude": {
         "Essence": 0,
@@ -860,6 +897,7 @@ window.WIKI_DATA = {
       "defense": "4",
       "body": "GroundWalker",
       "cost": "0.75",
+      "grade": 2,
       "innate": "rank_and_file",
       "aptitude": {
         "Essence": 0,
@@ -883,6 +921,7 @@ window.WIKI_DATA = {
       "defense": "4",
       "body": "GroundWalker",
       "cost": "0.75",
+      "grade": 1,
       "innate": "scout",
       "aptitude": {
         "Essence": 0,
@@ -906,6 +945,7 @@ window.WIKI_DATA = {
       "defense": "2",
       "body": "Caster",
       "cost": "1",
+      "grade": 2,
       "innate": "simple_chanting",
       "aptitude": {
         "Essence": 2,
@@ -929,6 +969,7 @@ window.WIKI_DATA = {
       "defense": "6",
       "body": "GroundWalker",
       "cost": "0.75",
+      "grade": 2,
       "innate": "sleight_of_hand",
       "aptitude": {
         "Essence": 0,
@@ -952,6 +993,7 @@ window.WIKI_DATA = {
       "defense": "8",
       "body": "GroundWalker",
       "cost": "1",
+      "grade": 2,
       "innate": "weapon_master",
       "aptitude": {
         "Essence": 0,
@@ -975,6 +1017,7 @@ window.WIKI_DATA = {
       "defense": "5",
       "body": "GroundHopper",
       "cost": "1.25",
+      "grade": 1,
       "innate": "currency",
       "aptitude": {
         "Essence": 0,
@@ -998,6 +1041,7 @@ window.WIKI_DATA = {
       "defense": "2",
       "body": "GroundHopper",
       "cost": "0.5",
+      "grade": 1,
       "innate": "fresh_green_breeze",
       "aptitude": {
         "Essence": 2,
@@ -1021,6 +1065,7 @@ window.WIKI_DATA = {
       "defense": "6",
       "body": "Flyer",
       "cost": "1",
+      "grade": 2,
       "innate": "feather",
       "aptitude": {
         "Essence": 1,
@@ -1044,6 +1089,7 @@ window.WIKI_DATA = {
       "defense": "9",
       "body": "Flyer",
       "cost": "0.75",
+      "grade": 3,
       "innate": "yakiniku",
       "aptitude": {
         "Essence": 1,
@@ -1067,6 +1113,7 @@ window.WIKI_DATA = {
       "defense": "16",
       "body": "GroundWalker",
       "cost": "1.25",
+      "grade": 2,
       "innate": "gladiator",
       "aptitude": {
         "Essence": 0,
@@ -1090,6 +1137,7 @@ window.WIKI_DATA = {
       "defense": "3",
       "body": "Flyer",
       "cost": "1",
+      "grade": 2,
       "innate": "swarm",
       "aptitude": {
         "Essence": 1,
@@ -1113,6 +1161,7 @@ window.WIKI_DATA = {
       "defense": "2",
       "body": "Flyer",
       "cost": "0.5",
+      "grade": 1,
       "innate": "eightfold_frost",
       "aptitude": {
         "Essence": 0,
@@ -1136,6 +1185,7 @@ window.WIKI_DATA = {
       "defense": "6",
       "body": "GroundHopper",
       "cost": "0.75",
+      "grade": 1,
       "innate": "cold",
       "aptitude": {
         "Essence": 2,
@@ -1159,6 +1209,7 @@ window.WIKI_DATA = {
       "defense": "0",
       "body": "Flyer",
       "cost": "0.5",
+      "grade": 2,
       "innate": "poison_carrier",
       "aptitude": {
         "Essence": 1,
@@ -1182,6 +1233,7 @@ window.WIKI_DATA = {
       "defense": "7",
       "body": "GroundHopper",
       "cost": "1",
+      "grade": 1,
       "innate": "natural_poison",
       "aptitude": {
         "Essence": 2,
@@ -1205,6 +1257,7 @@ window.WIKI_DATA = {
       "defense": "7",
       "body": "GroundWalker",
       "cost": "1",
+      "grade": 1,
       "innate": "purple_venom",
       "aptitude": {
         "Essence": 1,
@@ -1228,6 +1281,7 @@ window.WIKI_DATA = {
       "defense": "8",
       "body": "VineCrawler",
       "cost": "1.25",
+      "grade": 2,
       "innate": "man_eating",
       "aptitude": {
         "Essence": 1,
@@ -1251,6 +1305,7 @@ window.WIKI_DATA = {
       "defense": "0",
       "body": "Flyer",
       "cost": "0.5",
+      "grade": 1,
       "innate": "meteor",
       "aptitude": {
         "Essence": 2,
@@ -1274,6 +1329,7 @@ window.WIKI_DATA = {
       "defense": "8",
       "body": "GroundHopper",
       "cost": "1.25",
+      "grade": 2,
       "innate": "maternal_colony",
       "aptitude": {
         "Essence": 0,
@@ -1297,6 +1353,7 @@ window.WIKI_DATA = {
       "defense": "8",
       "body": "GroundWalker",
       "cost": "1",
+      "grade": 2,
       "innate": "spore",
       "aptitude": {
         "Essence": 2,
@@ -1320,6 +1377,7 @@ window.WIKI_DATA = {
       "defense": "9",
       "body": "Jellyfish",
       "cost": "1",
+      "grade": 1,
       "innate": "lightning_strike",
       "aptitude": {
         "Essence": 2,
@@ -1343,6 +1401,7 @@ window.WIKI_DATA = {
       "defense": "0",
       "body": "GroundHopper",
       "cost": "0.75",
+      "grade": 2,
       "innate": "dependency",
       "aptitude": {
         "Essence": 2,
@@ -1366,6 +1425,7 @@ window.WIKI_DATA = {
       "defense": "0",
       "body": "Swimming",
       "cost": "0.75",
+      "grade": 2,
       "innate": "ruts",
       "aptitude": {
         "Essence": 0,
@@ -1389,6 +1449,7 @@ window.WIKI_DATA = {
       "defense": "2",
       "body": "GroundHopper",
       "cost": "0.75",
+      "grade": 1,
       "innate": "sunlight",
       "aptitude": {
         "Essence": 1,
@@ -1412,6 +1473,7 @@ window.WIKI_DATA = {
       "defense": "6",
       "body": "GroundWalker",
       "cost": "1",
+      "grade": 1,
       "innate": "torrential_rain",
       "aptitude": {
         "Essence": 0,
@@ -1435,6 +1497,7 @@ window.WIKI_DATA = {
       "defense": "7",
       "body": "Flyer",
       "cost": "0.75",
+      "grade": 1,
       "innate": "ill_omen",
       "aptitude": {
         "Essence": 0,
@@ -1458,6 +1521,7 @@ window.WIKI_DATA = {
       "defense": "4",
       "body": "GroundHopper",
       "cost": "0.75",
+      "grade": 1,
       "innate": "spark",
       "aptitude": {
         "Essence": 0,
@@ -1481,6 +1545,7 @@ window.WIKI_DATA = {
       "defense": "10",
       "body": "GroundWalker",
       "cost": "1",
+      "grade": 2,
       "innate": "snake_venom",
       "aptitude": {
         "Essence": 2,
@@ -1504,6 +1569,7 @@ window.WIKI_DATA = {
       "defense": "8",
       "body": "GroundHopper",
       "cost": "1",
+      "grade": 1,
       "innate": "sandpit",
       "aptitude": {
         "Essence": 1,
@@ -1527,6 +1593,7 @@ window.WIKI_DATA = {
       "defense": "6",
       "body": "Swimming",
       "cost": "1",
+      "grade": 1,
       "innate": "sharkron_form",
       "aptitude": {
         "Essence": 0,
@@ -1550,6 +1617,7 @@ window.WIKI_DATA = {
       "defense": "2",
       "body": "GroundHopper",
       "cost": "0.75",
+      "grade": 1,
       "innate": "shimmer_flux",
       "aptitude": {
         "Essence": 1,
@@ -1573,6 +1641,7 @@ window.WIKI_DATA = {
       "defense": "11",
       "body": "GroundWalker",
       "cost": "1",
+      "grade": 1,
       "innate": "big_boned",
       "aptitude": {
         "Essence": 0,
@@ -1596,6 +1665,7 @@ window.WIKI_DATA = {
       "defense": "7",
       "body": "VineCrawler",
       "cost": "1",
+      "grade": 1,
       "innate": "binding",
       "aptitude": {
         "Essence": 1,
@@ -1619,6 +1689,7 @@ window.WIKI_DATA = {
       "defense": "8",
       "body": "GroundHopper",
       "cost": "1",
+      "grade": 1,
       "innate": "ice_stalactite",
       "aptitude": {
         "Essence": 2,
@@ -1642,6 +1713,7 @@ window.WIKI_DATA = {
       "defense": "8",
       "body": "GroundHopper",
       "cost": "1",
+      "grade": 1,
       "innate": "spike_needles",
       "aptitude": {
         "Essence": 1,
@@ -1665,6 +1737,7 @@ window.WIKI_DATA = {
       "defense": "8",
       "body": "Flyer",
       "cost": "0.75",
+      "grade": 2,
       "innate": "fungal_infection",
       "aptitude": {
         "Essence": 2,
@@ -1688,6 +1761,7 @@ window.WIKI_DATA = {
       "defense": "7",
       "body": "GroundWalker",
       "cost": "1",
+      "grade": 2,
       "innate": "host",
       "aptitude": {
         "Essence": 0,
@@ -1711,6 +1785,7 @@ window.WIKI_DATA = {
       "defense": "8",
       "body": "GroundWalker",
       "cost": "1",
+      "grade": 2,
       "innate": "parasitism",
       "aptitude": {
         "Essence": 1,
@@ -1734,6 +1809,7 @@ window.WIKI_DATA = {
       "defense": "12",
       "body": "Jellyfish",
       "cost": "1",
+      "grade": 1,
       "innate": "squid_ink",
       "aptitude": {
         "Essence": 0,
@@ -1757,6 +1833,7 @@ window.WIKI_DATA = {
       "defense": "6",
       "body": "GroundWalker",
       "cost": "1",
+      "grade": 2,
       "innate": "revenge",
       "aptitude": {
         "Essence": 0,
@@ -1780,6 +1857,7 @@ window.WIKI_DATA = {
       "defense": "4",
       "body": "Caster",
       "cost": "1.5",
+      "grade": 3,
       "innate": "chanting",
       "aptitude": {
         "Essence": 3,
@@ -1803,6 +1881,7 @@ window.WIKI_DATA = {
       "defense": "2",
       "body": "WormSegmented",
       "cost": "2",
+      "grade": 3,
       "innate": "predatory_feeding",
       "aptitude": {
         "Essence": 0,
@@ -1826,6 +1905,7 @@ window.WIKI_DATA = {
       "defense": "4",
       "body": "GroundHopper",
       "cost": "0.75",
+      "grade": 2,
       "innate": "rain",
       "aptitude": {
         "Essence": 1,
@@ -1849,6 +1929,7 @@ window.WIKI_DATA = {
       "defense": "8",
       "body": "GroundWalker",
       "cost": "1",
+      "grade": 1,
       "innate": "detection",
       "aptitude": {
         "Essence": 0,
@@ -1872,6 +1953,7 @@ window.WIKI_DATA = {
       "defense": "10",
       "body": "GroundWalker",
       "cost": "1.25",
+      "grade": 2,
       "innate": "frost_step",
       "aptitude": {
         "Essence": 1,
@@ -1895,6 +1977,7 @@ window.WIKI_DATA = {
       "defense": "2",
       "body": "Flyer",
       "cost": "1",
+      "grade": 3,
       "innate": "forbidden",
       "aptitude": {
         "Essence": 1,
@@ -1918,6 +2001,7 @@ window.WIKI_DATA = {
       "defense": "11",
       "body": "Flyer",
       "cost": "0.75",
+      "grade": 1,
       "innate": "scavenger",
       "aptitude": {
         "Essence": 0,
@@ -1941,6 +2025,7 @@ window.WIKI_DATA = {
       "defense": "7",
       "body": "GroundCrawler",
       "cost": "1",
+      "grade": 2,
       "innate": "spiderling",
       "aptitude": {
         "Essence": 0,
@@ -1964,6 +2049,7 @@ window.WIKI_DATA = {
       "defense": "3",
       "body": "GroundHopper",
       "cost": "0.75",
+      "grade": 1,
       "innate": "jiggle",
       "aptitude": {
         "Essence": 0,
@@ -1987,6 +2073,7 @@ window.WIKI_DATA = {
       "defense": "7",
       "body": "GroundWalker",
       "cost": "1",
+      "grade": 1,
       "innate": "pestilence",
       "aptitude": {
         "Essence": 0,
