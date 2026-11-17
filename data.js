@@ -2014,7 +2014,7 @@ window.WIKI_DATA = {
       "grade": 1,
       "ranks": 4,
       "description": "While the owner has Cozy Fire, grants the wearer 1 HP/s natural regeneration, plus 2 HP/s while the owner also has Heart Lamp.\nEach buff independently extends to other living Companions in the owner's Team, up to a number equal to Rank (Rank 1/2/3/MASTER: 1/2/3/4). Recipients are randomly chosen when the buff begins and remain fixed until it ends.\nAt Tactics aptitude 2/3, also doubles the owner's Cozy Fire and Heart Lamp regeneration. Multiple wearers do not stack the same bonus; all support ends when Cozy Fire ends.\nTalk to the Guide while receiving Cozy Fire to obtain one, once per character per Guide lifetime.",
-      "descriptionJa": "所有者が焚き火の効果を受けている間、装着者の自然回復を毎秒1 HP増加。ハートランプも受けていればさらに毎秒2 HP増加。\n各バフは所有者のチーム内の他の生存コンパニオンをそれぞれRank体（1/2/3/MASTERで1/2/3/4体）支援する。対象はバフ開始時に抽選され、終了まで固定。\nTactics適性2/3では所有者の焚き火とハートランプの回復も2倍。同じボーナスは重複せず、焚き火終了で全支援が終了。\n焚き火を受けている状態でガイドに話すと入手できる。キャラクターごと、ガイドの生存期間ごとに1回。"
+      "descriptionJa": "所有者が焚き火の効果を受けている間、装着者の自然回復が毎秒1 HP増える。ハートランプの効果も受けていれば、さらに毎秒2 HP増える。\n各バフは、所有者のチームにいる他の生存コンパニオンへ個別に及ぶ。対象はRank 1/2/3/MASTERで1/2/3/4体までで、バフ開始時に抽選され、終了まで変わらない。\nTactics適性2/3では、所有者の焚き火とハートランプによる回復も2倍になる。同じボーナスは重複せず、焚き火の効果が終わると支援もすべて終わる。\n焚き火を受けている状態でガイドに話すと入手できる。キャラクターごと、ガイドの生存期間ごとに1回。"
     },
     {
       "id": "archaeologist",
@@ -2040,7 +2040,7 @@ window.WIKI_DATA = {
       "grade": 1,
       "ranks": 4,
       "description": "Enhances the wearer's projectiles, including Factor shots, Yo-Yo and Counterweight. Does not grant a firing ability.\nRank 1+: adds one hit to finite piercing, dealing 50% damage on that extra hit, or full damage at MASTER. Finite shots cannot hit the same enemy twice; infinite piercing gains no extra hit.\nRank 2+: projectile speed +25%. Rank 3+: critical chance +10 percentage points. Technique aptitude 0 disables these two bonuses.\nTechnique aptitude 2/3: +1/+3 damage after defense and critical scaling on the first hit.\nBonuses are fixed when firing. Independent Kin and Token shots are excluded; enhancement does not enable additional Factor triggers.",
-      "descriptionJa": "装着者の投射物を強化する。因子の弾、ヨーヨー、カウンターウェイトも含む。射撃能力自体は付与しない。\nRank 1以上：有限貫通の命中回数+1。追加命中のダメージは50%、MASTERでは100%。有限貫通弾は同じ敵に2回命中できず、無限貫通には回数を追加しない。\nRank 2以上：弾速+25%。Rank 3以上：クリティカル率+10ポイント。Technique適性0ではこの2効果は無効。\nTechnique適性2/3：初回命中の防御・クリティカル計算後に+1/+3ダメージ。\nボーナスは発射時に固定。独立したKinやTokenの弾は対象外で、追加の因子発動も許可しない。"
+      "descriptionJa": "装着者の投射物を強化する。因子の弾、ヨーヨー、カウンターウェイトも含む。射撃能力自体は付与しない。\nRank 1以上：有限貫通の命中回数+1。追加命中のダメージは50%、MASTERでは100%。有限貫通弾は同じ敵に2回命中できず、無限貫通には回数を追加しない。\nRank 2以上：弾速+25%。Rank 3以上：クリティカル率+10ポイント。Technique適性0ではこの2効果は無効。\nTechnique適性2/3：初回命中では、防御とクリティカルの計算後に+1/+3ダメージが加わる。\nボーナスは発射時に固定。独立したKinやTokenの弾は対象外で、追加の因子発動も許可しない。"
     },
     {
       "id": "big_boned",
@@ -2079,7 +2079,7 @@ window.WIKI_DATA = {
       "grade": 1,
       "ranks": 4,
       "description": "Drops blood rain below the wearer every 11 ticks, without requiring an enemy. Chanting and shot speed do not change this interval.\nBase damage = current ATK / 2 × Essence aptitude coefficient (0/1/2/3: 0.5/0.75/1/1.5), rounded down, minimum 1.\nDamaging hits apply only the current Rank's effect for 2 seconds: Rank 1 heals the enemy for 1 HP/s; Rank 2 applies Wet; Rank 3 applies Bleeding; MASTER applies Cry.\nBleeding deals 1 defense-ignoring damage every 5 ticks, refreshing without stacking. Cry blocks natural regeneration and the Rank-1 healing, and adds 1 damage to supported DoT pulses without blocking direct healing.\nAffected by Simple Chanting and Archer. Cannot trigger projectile-attack or projectile-hit Factors. Removal stops the rain and its projectiles; applied debuffs expire normally.",
-      "descriptionJa": "敵の有無に関係なく、装着者の下に11 tickごとに血の雨を降らせる。Chantingや射撃速度は間隔を変えない。\n基礎ダメージ＝現在ATK÷2×Essence適性係数（0/1/2/3で0.5/0.75/1/1.5）。切り捨て、最低1。\n有効命中時、現在Rankの効果のみ2秒付与：Rank 1は敵を毎秒1 HP回復、Rank 2はWet、Rank 3はBleeding、MASTERはCry。\nBleedingは5 tickごとにDEF無視の1ダメージを与え、重複せず更新。Cryは自然回復とRank 1の回復を阻止し、対応するDoTの判定に+1ダメージを加える。直接回復は阻止しない。\nSimple ChantingとArcherの影響を受け、投射物攻撃・投射物命中因子を発動しない。取り外すと雨と弾が消え、付与済みデバフは通常どおり終了する。"
+      "descriptionJa": "敵の有無に関係なく、装着者の下に11 tickごとに血の雨を降らせる。Chantingや射撃速度は間隔を変えない。\n基礎ダメージ＝現在ATK÷2×Essence適性係数（0/1/2/3で0.5/0.75/1/1.5）。切り捨て、最低1。\nダメージを与えた命中では、現在のRankの効果だけを2秒間付与する：Rank 1は敵を毎秒1 HP回復、Rank 2はWet、Rank 3はBleeding、MASTERはCry。\nBleedingは5 tickごとにDEF無視の1ダメージを与え、重複せず更新。Cryは自然回復とRank 1の回復を阻止し、対応するDoTの判定に+1ダメージを加える。直接回復は阻止しない。\nSimple ChantingとArcherの影響を受け、投射物攻撃・投射物命中因子を発動しない。取り外すと雨と弾が消え、付与済みデバフは通常どおり終了する。"
     },
     {
       "id": "bloodline",
@@ -2105,7 +2105,7 @@ window.WIKI_DATA = {
       "grade": 1,
       "ranks": 4,
       "description": "Keeps the wearer Bleeding, preventing natural regeneration. Direct healing still works.\nA Team Companion reaching zero HP creates an invulnerable Blood Zombie Token while its body waits. Requires no active Direct Companions and no revival cooldown; summoning a Direct Companion while waiting cancels revival. Cannot prevent Forbidden's linked defeat.\nThe Token moves at 1.2× Zombie speed and has a harmless grappling hook. Anomaly aptitude (0/1/2/3): ATK = baseline ATK × 0.50/0.75/1/1.50, rounded to the nearest whole number, minimum 1.\nTargets the fastest moving eligible enemy within 800 pixels and keeps that target until it disappears. Ends after 60 seconds or 1/2/3/4 credited kills at Rank 1/2/3/MASTER; enemies dying within 4 seconds of a Token hit count.\nRevives at the Token's position with 20% of baseline maximum HP plus 20% per kill, or 40% per kill at MASTER, capped by current maximum HP.\nRevival starts a 60-second cooldown shared by the source Contract. Dismissing the body removes its Token without revival; resummoning cannot bypass the cooldown.",
-      "descriptionJa": "装着者を常にBleeding状態にし、自然回復を阻止する。直接回復は可能。\nチームコンパニオンのHPが0になると、本体を待機させて無敵のBlood Zombie Tokenを生成。アクティブなDirectコンパニオンがなく、復活クールダウン中でないことが必要。待機中にDirectを召喚すると復活を中止。Forbiddenによる連動敗北は防げない。\nTokenの移動速度はZombieの1.2倍で、無害なフックを持つ。Anomaly適性0/1/2/3：ATK＝基礎ATK×0.50/0.75/1/1.50、最も近い整数に丸め最低1。\n800ピクセル以内の対象可能な敵のうち移動が最速の敵を狙い、消えるまで維持。60秒経過か、Rank 1/2/3/MASTERで1/2/3/4体の撃破で終了。Token命中から4秒以内の敵死亡が数えられる。\nTokenの位置で基礎最大HPの20%に撃破ごと20%（MASTERは40%）を加えたHPで復活。現在の最大HPが上限。\n復活後は元契約で共有する60秒のクールダウン。本体を送還すると復活せずTokenが消え、再召喚でもクールダウンを回避できない。"
+      "descriptionJa": "装着者を常にBleeding状態にし、自然回復を阻止する。直接回復は可能。\nチームコンパニオンのHPが0になると、本体は待機状態になり、無敵のBlood Zombie Tokenが生まれる。ただし、活動中のDirectコンパニオンがおらず、復活のクールダウン中でないことが条件。待機中にDirectコンパニオンを召喚すると復活は中止される。Forbiddenによる連動敗北は防げない。\nTokenの移動速度はZombieの1.2倍で、無害なフックを持つ。Anomaly適性0/1/2/3：ATK＝基礎ATK×0.50/0.75/1/1.50、最も近い整数に丸め最低1。\n800ピクセル以内の対象可能な敵のうち移動が最速の敵を狙い、消えるまで維持。60秒経過か、Rank 1/2/3/MASTERで1/2/3/4体の撃破で終了。Tokenの命中から4秒以内に死んだ敵も数えられる。\nTokenの位置で基礎最大HPの20%に撃破ごと20%（MASTERは40%）を加えたHPで復活。現在の最大HPが上限。\n復活後は元契約で共有する60秒のクールダウン。本体を送還すると復活せずTokenが消え、再召喚でもクールダウンを回避できない。"
     },
     {
       "id": "brightness",
@@ -2183,7 +2183,7 @@ window.WIKI_DATA = {
       "grade": 1,
       "ranks": 4,
       "description": "While targeting an enemy, has a 33% chance to fire a poisonous stinger every 3/1.5/1/0.75 seconds (Technique aptitude 0/1/2/3).\nEach worm segment checks independently, aiming at the same target.\nBase damage = 1.75 × Rank × (1 + 0.5 × (Grade - 1)), rounded up; independent of wearer ATK. MASTER counts as Rank 4.\nHits inflict Poisoned for 3 seconds. Affected by Archer; cannot trigger projectile-attack or projectile-hit Factors.",
-      "descriptionJa": "敵を狙っている間、Technique適性0/1/2/3で3/1.5/1/0.75秒ごとに33%の確率で毒針を放つ。\nワームの各節は同じ対象に向けて個別に判定。\n基礎ダメージ＝1.75×Rank×(1+0.5×(Grade-1))を切り上げ。装着者のATKに依存せず、MASTERはRank 4。\n命中で3秒間Poisonedを付与。Archerの影響を受け、投射物攻撃・投射物命中因子を発動しない。"
+      "descriptionJa": "敵を狙っている間、Technique適性0/1/2/3で3/1.5/1/0.75秒ごとに33%の確率で毒針を放つ。\nワームの各節は同じ対象に向けて個別に判定。\n基礎ダメージ＝1.75×Rank×(1+0.5×(Grade-1))、切り上げ。装着者のATKに依存せず、MASTERはRank 4。\n命中で3秒間Poisonedを付与。Archerの影響を受け、投射物攻撃・投射物命中因子を発動しない。"
     },
     {
       "id": "currency",
@@ -2326,7 +2326,7 @@ window.WIKI_DATA = {
       "grade": 1,
       "ranks": 4,
       "description": "Immediately heals the wounded same-owner Companion with the lowest HP percentage, including the wearer. Each wearer has a base interval of about 3 seconds, increased by 10% per wearer in NPC order, including itself.\nBase healing = 6 + 0.35 × wearer ATK + 0.05 × target maximum HP + 0.08 × target missing HP.\nEssence aptitude (0/1/2/3): healing ×0.5/0.75/1/1.15. Rank 1/2/3/MASTER: ×1/1.15/1.3/1.5.\nRounds up before and after the multipliers. Healing modifiers apply; overhealing does not become attack power.\nAffected by Chanting and Simple Chanting.",
-      "descriptionJa": "装着者を含む同じ所有者の負傷コンパニオンからHP割合が最も低い1体を即時回復する。各装着者の基礎間隔は約3秒で、NPC順に数えた装着者の数に応じて、自身を含め1体につき10%増加する。\n基礎回復＝6+装着者ATK×0.35+対象最大HP×0.05+対象の減少HP×0.08。\nEssence適性0/1/2/3：回復×0.5/0.75/1/1.15。Rank 1/2/3/MASTER：×1/1.15/1.3/1.5。\n倍率の前後で切り上げ。回復補正が適用され、過剰回復は攻撃力にならない。\nChantingとSimple Chantingの影響を受ける。"
+      "descriptionJa": "同じ所有者の負傷したコンパニオンのうち、HP割合が最も低い1体を即座に回復する。装着者自身も対象になる。各装着者の基礎間隔は約3秒で、装着者1体につき10%ずつ長くなる（自身も数に含め、数える順はNPC順）。\n基礎回復＝6+装着者ATK×0.35+対象最大HP×0.05+対象の減少HP×0.08。\nEssence適性0/1/2/3：回復×0.5/0.75/1/1.15。Rank 1/2/3/MASTER：×1/1.15/1.3/1.5。\n倍率の前後で切り上げ。回復補正が適用され、過剰回復は攻撃力にならない。\nChantingとSimple Chantingの影響を受ける。"
     },
     {
       "id": "frost_step",
@@ -2391,7 +2391,7 @@ window.WIKI_DATA = {
       "grade": 1,
       "ranks": 4,
       "description": "Rank effects accumulate.\nRank 1+: incoming knockback -20%; maximum HP +16/20/24/32 (Technique aptitude 0/1/2/3), without healing.\nRank 2+: surviving enemy hits grant +8 DEF for 2/2.5/3/4 seconds by Technique aptitude. Repeated hits refresh without stacking.\nRank 3+: the same bonus also grants +8 ATK.\nMASTER: Phalanx reduces the current Team's incoming hit damage by 4% per living Contract Companion. Multiple MASTER wearers do not stack.\nDouble bodies count separately. Direct summons, Kin, Tokens and worm followers do not provide or receive Phalanx.",
-      "descriptionJa": "Rank効果は累積。\nRank 1以上：被ノックバック-20%、Technique適性0/1/2/3で最大HP+16/20/24/32。回復はしない。\nRank 2以上：敵の攻撃を受けて生存するとDEF+8を適性順に2/2.5/3/4秒付与。再被弾で加算せず更新。\nRank 3以上：同じボーナスにATK+8も追加。\nMASTER：Phalanxは現在のチームの被命中ダメージを、生存する契約コンパニオン1体につき4%軽減。MASTER装着者が複数でも重複しない。\nDoubleの身体は別々に数える。Direct召喚、Kin、Token、ワームの追従節はPhalanxを提供せず受けない。"
+      "descriptionJa": "Rankの効果は累積する。\nRank 1以上：被ノックバック-20%、Technique適性0/1/2/3で最大HP+16/20/24/32。回復はしない。\nRank 2以上：敵の攻撃を受けて生存するとDEF+8を適性順に2/2.5/3/4秒付与。再被弾で加算せず更新。\nRank 3以上：同じボーナスにATK+8も追加。\nMASTER：Phalanxは現在のチームの被命中ダメージを、生存する契約コンパニオン1体につき4%軽減。MASTER装着者が複数でも重複しない。\nDoubleの身体は別々に数える。Direct召喚、Kin、Token、ワームの追従節はPhalanxを提供せず受けない。"
     },
     {
       "id": "greater_demon",
@@ -2443,7 +2443,7 @@ window.WIKI_DATA = {
       "grade": 1,
       "ranks": 4,
       "description": "Maintains Poisoned while equipped. Rank 2 adds Stinky, Rank 3 maintains 8 Spore Poison stacks, and MASTER adds Acid Venom. These effects accumulate and cannot be cleansed while equipped.\nBody aptitude (0/1/2/3): adds 1/2/2.5/4 seconds between wearer DoT pulses, including Spore Poison and the first pulse. Damage per pulse is unchanged; the 8 owned stacks do not decay.\nDamaging body, Yo-Yo, ordinary projectile and Flesh Chunk hits inflict the unlocked effects: ordinary debuffs last 4 seconds; Spore Poison adds 1-32 random stacks.\nEnemies do not gain the longer DoT interval. External debuffs are not copied, and removal clears only Factor-owned effects.",
-      "descriptionJa": "装着中はPoisonedを維持。Rank 2でStinky、Rank 3でSpore Poison 8スタック、MASTERでAcid Venomを追加。効果は累積し、装着中は解除できない。\nBody適性0/1/2/3：装着者のDoT判定間隔に1/2/2.5/4秒を追加。Spore Poisonと初回判定も含む。1回のダメージ量は変わらず、所有する8スタックは減衰しない。\nダメージを与える本体、ヨーヨー、通常弾、Flesh Chunkで解放済み効果を付与。通常デバフは4秒、Spore Poisonは1～32スタックを無作為に追加。\n敵のDoT間隔は延長されない。外部デバフはコピーせず、取り外し時は因子が所有する効果のみ消す。"
+      "descriptionJa": "装着中はPoisonedを維持。Rank 2でStinky、Rank 3でSpore Poison 8スタック、MASTERでAcid Venomを追加。効果は累積し、装着中は解除できない。\nBody適性0/1/2/3：装着者のDoT判定間隔に1/2/2.5/4秒を追加。Spore Poisonと初回判定も含む。1回のダメージ量は変わらず、所有する8スタックは減衰しない。\nダメージを与える本体、ヨーヨー、通常弾、Flesh Chunkの命中で、解放済みの効果を付与する。通常デバフは4秒、Spore Poisonは1～32スタックを無作為に追加。\n敵のDoT間隔は延長されない。外部デバフはコピーせず、取り外し時は因子が所有する効果のみ消す。"
     },
     {
       "id": "ice_guardian",
@@ -2456,7 +2456,7 @@ window.WIKI_DATA = {
       "grade": 1,
       "ranks": 4,
       "description": "Every 9/7/5/4 seconds (Essence aptitude 0/1/2/3), grants 1 ice stack to a random same-owner Contract Companion, including the wearer.\nIce does not expire. Its cap is the highest delivered Rank, up to 4, until all stacks are spent. While iced, Calm grants ATK -2 and DEF +8 and prevents new Red Heat without removing existing heat.\nA damaging enemy hit spends 1 stack to fire an ice projectile at the attacker or a nearby enemy (base damage 14). Without a target, no stack is spent.\nCombining ice with Bubble Shield consumes both reservoirs for 40 seconds of Snow Guard: enemy hit damage -25%.\nEvery 10 actual damage taken during Snow fires a defense-ignoring Frost Shard (base damage 14) and spends 1 second. Expiry fires a defense-ignoring Frost Wave (base damage 18); defeat or despawn does not.\nNew ice and bubbles can accumulate during Snow without refreshing or fusing again. Delivered protection persists after issuer removal.\nShots benefit from Archer but cannot trigger external Hit Factors. Affected by Chanting and Simple Chanting.",
-      "descriptionJa": "Essence適性0/1/2/3で9/7/5/4秒ごとに、装着者を含む同一所有者の契約コンパニオンから無作為に1体へ氷を1スタック付与。\n氷は時間切れにならない。上限は全消費まで、付与された最高Rank（最大4）。氷がある間はCalmでATK-2、DEF+8となり、既存の熱は消さず新たなRed Heatを防ぐ。\n敵からダメージを受けると1スタックを消費し、攻撃者か近くの敵に基礎14ダメージの氷の投射物を放つ。対象がなければ消費しない。\nBubble Shieldと組み合わさると両方の蓄積を消費し、40秒のSnow Guardとなって敵からの被命中ダメージ-25%。\nSnow中に実ダメージを10受けるごとにDEF無視の基礎14ダメージのFrost Shardを放ち、残り時間を1秒消費。時間切れではDEF無視の基礎18ダメージのFrost Waveを放つが、敗北・消失では放たない。\nSnow中も新しい氷とバブルは蓄積できるが、Snowの更新・再融合はしない。付与済みの保護は発行者の取り外し後も残る。\n弾はArcherの恩恵を受けるが外部Hit因子を発動しない。ChantingとSimple Chantingの影響を受ける。"
+      "descriptionJa": "Essence適性0/1/2/3で9/7/5/4秒ごとに、装着者を含む同一所有者の契約コンパニオンから無作為に1体へ氷を1スタック付与。\n氷は時間切れにならない。上限は、付与されたうち最も高いRank（最大4）で、すべて消費されるまで変わらない。氷がある間はCalmでATK-2、DEF+8となり、既存の熱は消さず新たなRed Heatを防ぐ。\n敵からダメージを受けると1スタックを消費し、攻撃者か近くの敵に基礎14ダメージの氷の投射物を放つ。対象がなければ消費しない。\nBubble Shieldと組み合わさると両方の蓄積を消費し、40秒のSnow Guardとなって敵からの被命中ダメージ-25%。\nSnow Guard中、実際に10ダメージ受けるごとに、DEF無視で基礎14ダメージのFrost Shardを放ち、残り時間を1秒使う。時間切れではDEF無視の基礎18ダメージのFrost Waveを放つが、敗北・消失では放たない。\nSnow中も新しい氷とバブルは蓄積できるが、Snowの更新・再融合はしない。付与済みの保護は発行者の取り外し後も残る。\n弾はArcherの恩恵を受けるが外部Hit因子を発動しない。ChantingとSimple Chantingの影響を受ける。"
     },
     {
       "id": "ice_stalactite",
@@ -2482,7 +2482,7 @@ window.WIKI_DATA = {
       "grade": 1,
       "ranks": 4,
       "description": "Surviving enemy contact or a hostile projectile hit applies 1 Black Feather to the nearest enemy within 10 tiles for 4 seconds. Reapplication refreshes the duration.\nTactics aptitude (0/1/2/3): maximum 1/2/3/4 stacks.\nEvery (current stacks × 80 / Rank) damage taken by that enemy, including DoT, consumes 1 stack. One hit can consume several.\nEach consumed stack heals all living players, Companions and Tokens worldwide. Expiry and death cleanup give no healing.\nBase healing cycles through 20 → 10 → 5 → 2 → 1 → 20... Each player loses 0.1 Luck per 20 HP actually restored.\nDawn resets the healing cycle and Luck penalties. Healing-triggered retaliation cannot consume feathers.",
-      "descriptionJa": "敵の接触または敵弾を受けて生存すると、10タイル以内の最寄りの敵へBlack Featherを1スタック、4秒付与。再付与で時間を更新。\nTactics適性0/1/2/3：最大1/2/3/4スタック。\nその敵がDoTを含め現在スタック×80÷Rankのダメージを受けるごとに1消費。1回の攻撃で複数消費することもある。\n消費ごとにワールド内すべての生存プレイヤー、コンパニオン、Tokenを回復。時間切れ・死亡時の消去では回復しない。\n基礎回復は20→10→5→2→1→20…の順に循環。各プレイヤーは実際に20 HP回復するごとにLuckを0.1失う。\n夜明けに回復サイクルとLuckペナルティをリセット。回復に伴う反撃では羽を消費できない。"
+      "descriptionJa": "敵の接触または敵弾を受けて生存すると、10タイル以内の最寄りの敵へBlack Featherを1スタック、4秒付与。再付与で時間を更新。\nTactics適性0/1/2/3：最大1/2/3/4スタック。\nその敵が受けるダメージが、DoT分も含めて（現在のスタック数×80÷Rank）に達するごとに、スタックを1つ消費する。1回の攻撃で複数消費することもある。\n消費ごとにワールド内すべての生存プレイヤー、コンパニオン、Tokenを回復。時間切れ・死亡時の消去では回復しない。\n基礎回復は20→10→5→2→1→20…の順に循環。各プレイヤーは実際に20 HP回復するごとにLuckを0.1失う。\n夜明けに回復サイクルとLuckペナルティをリセット。回復に伴う反撃では羽を消費できない。"
     },
     {
       "id": "jiggle",
@@ -2495,7 +2495,7 @@ window.WIKI_DATA = {
       "grade": 1,
       "ranks": 4,
       "description": "Stores 20/40/50/60% of enemy contact and hostile projectile damage at Body aptitude 0/1/2/3, without reducing the hit. Capacity at Rank 1/2/3/MASTER: 50/60/70/100% of baseline maximum HP, excluding Factor bonuses.\nWith at least 10% of baseline maximum HP stored and HP missing, starting a jump spends stored whole HP to heal. Non-jumping bodies use a normal attack action instead. Excess remains stored.\nAfter healing, jump takeoff speed ×1.35 and incoming knockback ×1.5 for 3-15 seconds, scaling with actual healing relative to baseline maximum HP.\nA successful reactivation while active heals again and ends the effect. Defeat, dismissal or removal clears the reserve; cannot prevent a lethal hit.",
-      "descriptionJa": "敵の接触・敵弾ダメージのBody適性0/1/2/3で20/40/50/60%を、被弾を軽減せず蓄積。容量はRank 1/2/3/MASTERで因子ボーナスを除く基礎最大HPの50/60/70/100%。\n基礎最大HPの10%以上を蓄積しHPが減っていると、ジャンプ開始時に整数分の蓄積HPを消費して回復。ジャンプしない身体は代わりに通常攻撃動作を使う。余りは残る。\n回復後、実回復量の基礎最大HPに対する割合に応じて3～15秒間、ジャンプ開始速度1.35倍、被ノックバック1.5倍。\n効果中に再発動が成功すると再び回復して効果を終了。敗北・送還・取り外しで蓄積を消去。致死攻撃は防げない。"
+      "descriptionJa": "敵の接触・敵弾ダメージのBody適性0/1/2/3で20/40/50/60%を、被弾を軽減せず蓄積。容量はRank 1/2/3/MASTERで因子ボーナスを除く基礎最大HPの50/60/70/100%。\n蓄積が基礎最大HPの10%以上あり、HPが減っているとき、ジャンプを始めると蓄積したHPを整数分だけ使って回復する。ジャンプしない身体は代わりに通常攻撃動作を使う。余りは残る。\n回復後、実回復量の基礎最大HPに対する割合に応じて3～15秒間、ジャンプ開始速度1.35倍、被ノックバック1.5倍。\n効果中に再発動が成功すると再び回復して効果を終了。敗北・送還・取り外しで蓄積を消去。致死攻撃は防げない。"
     },
     {
       "id": "lacerate",
@@ -2534,7 +2534,7 @@ window.WIKI_DATA = {
       "grade": 1,
       "ranks": 4,
       "description": "Increases the wearer's maximum HP by 10/20/30/40% at Anomaly aptitude 0/1/2/3, without healing.\nWhen another summoned Team Companion has 60% HP or less, transfers 24 HP per second from the wearer until the target exceeds 70% HP. Prioritizes the lowest HP percentage and has no range limit.\nLeaves the wearer at least 1 HP. When the transfer ends, heals the wearer for 10/20/30/40% of HP spent at Rank 1/2/3/MASTER. Cooldown: 12 seconds after the transfer.\nTransfers do not trigger healing or hit effects. Excludes Tokens and Kin offspring.",
-      "descriptionJa": "Anomaly適性0/1/2/3で装着者の最大HPを10/20/30/40%増加。回復はしない。\n別の召喚中チームコンパニオンのHPが60%以下になると、対象が70%を超えるまで装着者から毎秒24 HPを移す。HP割合が最も低い対象を優先し、距離制限はない。\n装着者は最低1 HP残る。移送終了時、Rank 1/2/3/MASTERで消費HPの10/20/30/40%を装着者に回復する。終了後の再使用時間は12秒。\n移送は回復・命中効果を発動せず、トークンとKinの子は対象外。"
+      "descriptionJa": "Anomaly適性0/1/2/3で装着者の最大HPが10/20/30/40%増える。回復はしない。\n別の召喚中チームコンパニオンのHPが60%以下になると、対象が70%を超えるまで装着者から毎秒24 HPを移す。HP割合が最も低い対象を優先し、距離制限はない。\n装着者は最低1 HP残る。移送終了時、Rank 1/2/3/MASTERで消費HPの10/20/30/40%を装着者に回復する。終了後の再使用時間は12秒。\n移送は回復・命中効果を発動せず、トークンとKinの子は対象外。"
     },
     {
       "id": "light_shell",
@@ -2547,7 +2547,7 @@ window.WIKI_DATA = {
       "grade": 1,
       "ranks": 4,
       "description": "Grants DEF equal to Rank × Body aptitude coefficient (0/1/2/3: 3/3.5/4/4.5), rounded down.\nDoubles incoming knockback at every Rank. Knockback immunity remains effective.",
-      "descriptionJa": "DEFをRank×Body適性係数（0/1/2/3で3/3.5/4/4.5）増加し、切り捨てる。\nすべてのRankで被ノックバックが2倍。ノックバック無効は引き続き有効。"
+      "descriptionJa": "DEFはRank×Body適性係数（0/1/2/3で3/3.5/4/4.5）に等しくなる。端数は切り捨てる。\nすべてのRankで被ノックバックが2倍。ノックバック無効は引き続き有効。"
     },
     {
       "id": "lightning_strike",
@@ -2599,7 +2599,7 @@ window.WIKI_DATA = {
       "grade": 1,
       "ranks": 4,
       "description": "Creates one small offspring every 6/6/4/4 primary attack actions at Rank 1/2/3/MASTER, up to 1/2/3/4 per wearer. Misses count; each damaging Yo-Yo hit counts. MASTER can reserve one offspring while at capacity.\nOffspring use supported body AI at 75% size. Kin aptitude (0/1/2/3): HP, ATK and DEF equal 30/45/60/75% of the parent's baseline stats at birth, rounded down, excluding Factor bonuses.\nLose 1% of their generated base maximum HP each second, unaffected by mitigation. Unsupported stationary bodies cannot create offspring.\nInherit only Sunlight, Night Sight, Frozen Death and Parasitism effects at birth, with no Factors or recursive offspring. Natural decay does not trigger their death effects.\nParent defeat, disappearance or removal dismisses offspring without death effects.",
-      "descriptionJa": "Rank 1/2/3/MASTERで主攻撃動作6/6/4/4回ごとに小さな子を1体生成。装着者ごとの上限は1/2/3/4体。空振りも数え、ダメージを与えたヨーヨー命中は各1回と数える。MASTERは上限中に子を1体予約できる。\n子は対応する身体AIを75%のサイズで使用。Kin適性0/1/2/3：HP、ATK、DEFは誕生時の親の基礎ステータスの30/45/60/75%、切り捨て。因子ボーナスは含まない。\n毎秒、生成時の基礎最大HPの1%を失い、軽減されない。非対応の固定身体では生成できない。\n誕生時にSunlight、Night Sight、Frozen Death、Parasitismの効果だけを継承し、因子そのものや再帰的な子は持たない。自然減衰では死亡効果は発動しない。\n親の敗北・消失または取り外しで、死亡効果なしに子を送還。"
+      "descriptionJa": "Rank 1/2/3/MASTERで主攻撃動作6/6/4/4回ごとに小さな子を1体生成。装着者ごとの上限は1/2/3/4体。空振りも数え、ダメージを与えたヨーヨー命中は各1回と数える。MASTERでは、上限に達していても子を1体だけ予約できる。\n子は対応する身体AIを75%のサイズで使用。Kin適性0/1/2/3：HP、ATK、DEFは誕生時の親の基礎ステータスの30/45/60/75%、切り捨て。因子ボーナスは含まない。\n毎秒、生成時の基礎最大HPの1%を失い、軽減されない。非対応の固定身体では生成できない。\n誕生時にSunlight、Night Sight、Frozen Death、Parasitismの効果だけを継承し、因子そのものや再帰的な子は持たない。自然減衰では死亡効果は発動しない。\n親の敗北・消失または取り外しで、子は死亡効果なしに送還される。"
     },
     {
       "id": "meteor",
@@ -2651,7 +2651,7 @@ window.WIKI_DATA = {
       "grade": 1,
       "ranks": 4,
       "description": "Surviving enemy contact or a hostile projectile hit scatters Truffle Spores, with no extra cooldown.\nRank 1/2/3/MASTER: scatters 1/1-2/1-3/1-4 spores. Each applies 1-12/1-16/1-20/1-32 Spore Poison stacks at Essence aptitude 0/1/2/3, independent of ATK.\nEach spore affects one enemy without direct damage. Spore Poison stacks are shared with other sources: every 0.25 seconds, deals base damage equal to half the stacks, then reduces stacks to one quarter, rounding down.\nApplied poison persists after source loss. Spores cannot trigger projectile-hit Factors.",
-      "descriptionJa": "敵の接触・敵弾を受けて生存するとTruffle Sporeを散布。追加クールダウンなし。\nRank 1/2/3/MASTER：胞子を1/1～2/1～3/1～4個散布。各胞子はEssence適性0/1/2/3で1～12/1～16/1～20/1～32のSpore Poisonを付与し、ATKには依存しない。\n各胞子は直接ダメージなしで敵1体に作用。Spore Poisonは他の発生源とスタックを共有し、0.25秒ごとにスタックの半分の基礎ダメージを与え、その後スタックを4分の1に切り捨てる。\n付与された毒は発生源の消失後も残る。胞子は投射物命中因子を発動しない。"
+      "descriptionJa": "敵の接触・敵弾を受けて生存するとTruffle Sporeを散布。追加クールダウンなし。\nRank 1/2/3/MASTER：胞子を1/1～2/1～3/1～4個散布。各胞子はEssence適性0/1/2/3で1～12/1～16/1～20/1～32のSpore Poisonを付与し、ATKには依存しない。\n各胞子は直接ダメージなしで敵1体に作用。Spore Poisonは他の発生源とスタックを共有し、0.25秒ごとにスタックの半分の基礎ダメージを与え、その後、スタックを4分の1に減らす（切り捨て）。\n付与された毒は発生源の消失後も残る。胞子は投射物命中因子を発動しない。"
     },
     {
       "id": "natural_poison",
@@ -2716,7 +2716,7 @@ window.WIKI_DATA = {
       "grade": 1,
       "ranks": 4,
       "description": "Halves maximum HP after additive bonuses, rounded down to at least 1. Rank 1/2/3/MASTER: DEF +4/8/12/16. Removal restores maximum HP without healing.\nDefeat by enemy contact or a hostile projectile releases spores within 3 tiles, applying Confused for 8 seconds and Spore Poison without direct damage. DoT, self-damage and dismissal do not trigger it.\nSpore Poison stacks = random 1-32 × Anomaly coefficient (aptitude 0/1/2/3: 4/6/8/12).\nMaternal Colony offspring inherit these effects at birth; natural decay and parent removal do not trigger a burst. Tokens do not inherit them.\nSpore Poison deals stacks / 2 base damage every 0.25 seconds, then reduces stacks to one quarter, rounding down. Adding stacks preserves damage timing.",
-      "descriptionJa": "加算ボーナス後の最大HPを半分にし、切り捨て最低1。Rank 1/2/3/MASTER：DEF+4/8/12/16。取り外し時は回復せず最大HPを戻す。\n敵の接触・敵弾による敗北時、3タイル以内へ胞子を放ち、直接ダメージなしでConfusedを8秒とSpore Poisonを付与。DoT、自傷、送還では発動しない。\nSpore Poisonスタック＝無作為な1～32×Anomaly係数（適性0/1/2/3で4/6/8/12）。\nMaternal Colonyの子は誕生時に継承。自然減衰と親の取り外しでは爆発せず、Tokenは継承しない。\nSpore Poisonは0.25秒ごとにスタック÷2の基礎ダメージを与え、スタックを4分の1に切り捨てる。追加時もダメージのタイミングは維持。"
+      "descriptionJa": "加算ボーナス後の最大HPを半分にし、切り捨て最低1。Rank 1/2/3/MASTER：DEF+4/8/12/16。取り外し時は回復せず最大HPを戻す。\n敵の接触・敵弾による敗北時、3タイル以内へ胞子を放ち、直接ダメージなしでConfusedを8秒とSpore Poisonを付与。DoT、自傷、送還では発動しない。\nSpore Poisonスタック＝無作為な1～32×Anomaly係数（適性0/1/2/3で4/6/8/12）。\nMaternal Colonyの子は誕生時に継承。自然減衰と親の取り外しでは爆発せず、Tokenは継承しない。\nSpore Poisonは0.25秒ごとにスタック÷2の基礎ダメージを与え、スタックを4分の1に減らす（切り捨て）。追加時もダメージのタイミングは維持。"
     },
     {
       "id": "pestilence",
@@ -2820,7 +2820,7 @@ window.WIKI_DATA = {
       "grade": 1,
       "ranks": 4,
       "description": "Starts a charge when the wearer targets an enemy or lands a direct body hit. Approach speed increases to 2.5× over 1.5 seconds.\nThe first damaging body hit replaces its base damage with current ATK × Rank / 2 + 8, rounded down. Yo-Yo hits can trigger this effect on supported bodies; ordinary projectiles cannot.\nThe charge ends after a damaging body hit or 3 seconds. After a timeout, the speed bonus fades over 1 second. Hookshots can be used during the charge; a hook hit deals 1.5 times normal Rampage strike damage.\nAn expanding impact wave hits each enemy once for 40% of the Rampage strike's damage.\nThe charge attack deals 3 times its normal knockback. The wearer receives twice as much knockback while charging.\nCooldown after the charge ends depends on Technique aptitude (0/1/2/3: 12/10/8/6 seconds).\nRequires a Ground Fighter/Hopper, Flying Chaser, Swimmer, Crawler, Worm or Vine body.",
-      "descriptionJa": "敵を狙うか本体の直接攻撃を命中させると突進開始。接近速度が1.5秒かけて2.5倍まで上昇。\n最初にダメージを与えた本体命中の基礎ダメージを現在ATK×Rank÷2+8に置き換え、切り捨てる。対応身体ではヨーヨーでも発動し、通常弾では発動しない。\nダメージを与える本体命中か3秒経過で突進終了。時間切れ時は速度ボーナスが1秒かけて消える。突進中もフックを使用でき、フック命中は通常のRampage攻撃の1.5倍ダメージ。\n衝撃波が広がり、各敵にRampage攻撃の40%のダメージを1回与える。\n突進攻撃のノックバックは通常の3倍、突進中に受けるノックバックは2倍。\n終了後のクールダウンはTechnique適性0/1/2/3で12/10/8/6秒。\nGround Fighter/Hopper、Flying Chaser、Swimmer、Crawler、Worm、Vineの身体が必要。"
+      "descriptionJa": "敵を狙うか本体の直接攻撃を命中させると突進を開始する。接近速度が1.5秒かけて2.5倍まで上昇。\n最初にダメージを与えた本体命中の基礎ダメージを現在ATK×Rank÷2+8に置き換える（切り捨て）。対応身体ではヨーヨーでも発動し、通常弾では発動しない。\nダメージを与える本体命中か3秒経過で突進終了。時間切れ時は速度ボーナスが1秒かけて消える。突進中もフックを使用でき、フック命中は通常のRampage攻撃の1.5倍ダメージ。\n衝撃波が広がり、各敵にRampage攻撃の40%のダメージを1回与える。\n突進攻撃のノックバックは通常の3倍、突進中に受けるノックバックは2倍。\n終了後のクールダウンはTechnique適性0/1/2/3で12/10/8/6秒。\nGround Fighter/Hopper、Flying Chaser、Swimmer、Crawler、Worm、Vineの身体が必要。"
     },
     {
       "id": "rank_and_file",
@@ -2833,7 +2833,7 @@ window.WIKI_DATA = {
       "grade": 1,
       "ranks": 4,
       "description": "Other living Companions in the owner's Team grant specialist bonuses to the wearer. Each specialist type counts once; self, a shared Double partner, Direct Companions, Kin and Tokens cannot supply a link.\nRank 1+: Weapon Master grants ATK +2/3/4/6 and Archer grants DEF +2/3/4/6 at the wearer's Tactics aptitude 0/1/2/3.\nRank 2+: Sleight of Hand grants movement speed +5/10/15/20% by Tactics aptitude; hoppers gain jump speed instead.\nRank 3+: Simple Chanting grants +6 final power to Essence direct damage and healing, excluding DoT and other support effects.\nMASTER: Scout grants 2 Observation stacks for 4 seconds on detection, repeating every 8 seconds against the same target. Uses shared Observation and Perceived rules without counting as another Scout.\nBonuses are cumulative and use the wearer's Rank and aptitude, independent of the specialists' Rank or aptitude.",
-      "descriptionJa": "所有者のチーム内の他の生存コンパニオンが専門家ボーナスを装着者に付与。各専門家の種類は1回だけ数え、自身、Doubleの共有相方、Direct、Kin、Tokenはリンクを供給できない。\nRank 1以上：装着者のTactics適性0/1/2/3で、Weapon MasterはATK+2/3/4/6、ArcherはDEF+2/3/4/6。\nRank 2以上：Sleight of Handは適性順に移動速度+5/10/15/20%。Hopperは代わりにジャンプ速度。\nRank 3以上：Simple ChantingはEssenceの直接ダメージと回復の最終威力+6。DoTと他の支援効果は除く。\nMASTER：Scoutは検知時にObservationを2スタック4秒付与し、同じ対象には8秒ごとに繰り返す。Scoutを1体追加したとは数えず、共有のObservation・Perceivedルールを使う。\nボーナスは累積し、専門家のRank・適性に関係なく装着者のRank・適性を使う。"
+      "descriptionJa": "所有者のチーム内の他の生存コンパニオンが専門家ボーナスを装着者に付与。各専門家の種類は1回だけ数え、自身、Doubleの共有相方、Directコンパニオン、Kin、Tokenはリンクを供給できない。\nRank 1以上：装着者のTactics適性0/1/2/3で、Weapon MasterはATK+2/3/4/6、ArcherはDEF+2/3/4/6。\nRank 2以上：Sleight of Handは適性順に移動速度+5/10/15/20%。Hopperは代わりにジャンプ速度。\nRank 3以上：Simple ChantingはEssenceの直接ダメージと回復の最終威力+6。DoTと他の支援効果は除く。\nMASTER：Scoutは検知時にObservationを2スタック4秒付与し、同じ対象には8秒ごとに繰り返す。Scoutを1体追加したとは数えず、共有のObservation・Perceivedルールを使う。\nボーナスは累積し、専門家のRank・適性に関係なく装着者のRank・適性を使う。"
     },
     {
       "id": "red_heat",
@@ -2937,7 +2937,7 @@ window.WIKI_DATA = {
       "grade": 1,
       "ranks": 4,
       "description": "Transforms the wearer into a flying Sharkron on summon or respawn. Installing while summoned takes effect at the next spawn.\nIncreases base stats with Rank. Movement speed is halved in water.\nWhile transformed, time-triggered Factor abilities are unavailable and other Factor aptitudes change according to the original Body aptitude.\nRemoval restores the original form without healing.",
-      "descriptionJa": "召喚・復帰時に装着者を飛行するSharkronに変身。召喚中の装着は次の出現時に適用。\nRankに応じて基礎ステータスを増加。水中では移動速度が半減。\n変身中は時間発動型因子を使用できず、元のBody適性に応じて他の因子適性が変化。\n取り外しで回復せず元の形態へ戻る。"
+      "descriptionJa": "召喚・復帰時に装着者を飛行するSharkronに変身。召喚中の装着は次の出現時に適用。\nRankに応じて基礎ステータスが上がる。水中では移動速度が半減。\n変身中は時間発動型因子を使用できず、元のBody適性に応じて他の因子適性が変化。\n取り外しで回復せず元の形態へ戻る。"
     },
     {
       "id": "shimmer_flux",
@@ -3041,7 +3041,7 @@ window.WIKI_DATA = {
       "grade": 1,
       "ranks": 4,
       "description": "Reduces maximum HP to 66%, rounded down to a minimum of 1.\nSummons a Spider Token for every 33/25/16/12 direct damage from enemy hits the wearer survives (Kin aptitude 0/1/2/3). Excess damage carries over.\nEach Token's ATK equals the individual hit that summoned it. Maximum 4 Tokens per wearer; excess summons are lost.\nTokens have Hit HP instead of ordinary HP and DEF: Rank × 3 at spawn. Each damaging attack by the Token spends 1 Hit HP; at 0, it disappears.\nToken hits inflict Poisoned for 3 seconds. Hits against already Poisoned enemies deal +1/2/3/4 damage at the wearer's current Rank 1/2/3/MASTER.\nTokens stay linked to their summoner and can receive Token support effects.",
-      "descriptionJa": "最大HPを66%に減少し、切り捨て最低1。\n装着者が生存した敵の直接被弾ダメージがKin適性0/1/2/3で33/25/16/12に達するごとにSpider Tokenを召喚。超過分は繰り越す。\n各TokenのATKは召喚を起こした個々の一撃のダメージ。装着者ごとに最大4体で、超過した召喚は失われる。\nTokenは通常HPとDEFの代わりにHit HPを持ち、出現時Rank×3。ダメージを与える攻撃ごとに1消費し、0で消滅。\nTokenの命中はPoisonedを3秒付与。既にPoisonedの敵への命中は、装着者の現在Rank 1/2/3/MASTERで+1/2/3/4ダメージ。\nTokenは召喚者とつながり、Token支援効果を受けられる。"
+      "descriptionJa": "最大HPを66%に減少し、切り捨て最低1。\n装着者が生存した敵の直接被弾ダメージがKin適性0/1/2/3で33/25/16/12に達するごとにSpider Tokenを召喚。超過分は繰り越す。\n各TokenのATKは召喚を起こした個々の一撃のダメージ。装着者ごとに最大4体で、超過した召喚は失われる。\nTokenは通常のHPとDEFの代わりにHit HPを持ち、出現時はRank×3になる。ダメージを与える攻撃ごとに1消費し、0で消滅。\nTokenの命中はPoisonedを3秒付与。既にPoisonedの敵への命中は、装着者の現在Rank 1/2/3/MASTERで+1/2/3/4ダメージ。\nTokenは召喚者とつながり、Token支援効果を受けられる。"
     },
     {
       "id": "spore",
@@ -3054,7 +3054,7 @@ window.WIKI_DATA = {
       "grade": 1,
       "ranks": 4,
       "description": "Scatters spores every 6/5/4/3 tiles descended (Essence aptitude 0/1/2/3), without needing an enemy. Upward and horizontal travel preserve accumulated descent; recall and teleport reset it.\nRank 1/2/3/MASTER: scatters 1/1-2/1-3/1-4 random spores. Each delivers 1-16 random Spore Poison stacks to one enemy, without direct damage or projectile-hit Factor effects.\nSpore Poison shares an additive pool across sources. Every 0.25 seconds, deals stacks / 2 base damage, then reduces stacks to one quarter, rounding down. Adding stacks preserves damage timing.\nATK does not affect stacks. Poison persists after source loss; removal and resummoning reset descent.",
-      "descriptionJa": "敵の有無に関係なく、Essence適性0/1/2/3で6/5/4/3タイル下降するごとに胞子を散布。上昇・水平移動では累積下降距離を維持し、呼び戻し・テレポートではリセット。\nRank 1/2/3/MASTER：無作為に1/1～2/1～3/1～4個の胞子を散布。各胞子は敵1体に無作為な1～16のSpore Poisonを付与し、直接ダメージや投射物命中因子の効果はない。\nSpore Poisonは発生源をまたいでスタックを加算。0.25秒ごとにスタック÷2の基礎ダメージを与え、スタックを4分の1に切り捨てる。追加時もダメージのタイミングを維持。\nATKはスタックに影響しない。毒は発生源の消失後も残り、取り外し・再召喚で下降距離をリセット。"
+      "descriptionJa": "敵の有無に関係なく、Essence適性0/1/2/3で6/5/4/3タイル下降するごとに胞子を散布。上昇・水平移動では累積下降距離を維持し、呼び戻し・テレポートではリセット。\nRank 1/2/3/MASTER：無作為に1/1～2/1～3/1～4個の胞子を散布。各胞子は敵1体に無作為な1～16のSpore Poisonを付与し、直接ダメージや投射物命中因子の効果はない。\nSpore Poisonは発生源をまたいでスタックを加算。0.25秒ごとにスタック÷2の基礎ダメージを与え、スタックを4分の1に減らす（切り捨て）。追加時もダメージのタイミングを維持。\nATKはスタックに影響しない。毒は発生源の消失後も残り、取り外し・再召喚で下降距離をリセット。"
     },
     {
       "id": "squid_ink",
@@ -3184,7 +3184,7 @@ window.WIKI_DATA = {
       "grade": 1,
       "ranks": 4,
       "description": "Heals the wearer for 3 HP every 4 / Rank seconds.\nWhen another same-owner Contract Companion falls from at least 50% HP to below 50%, sacrifices 20% of the wearer's maximum HP, rounded up. This can kill the wearer, even at full stacks.\nGains stacks equal to HP actually lost, up to Rank × 20. Loses 1 stack every 0.5 seconds.\nThe ally must recover to at least 50% HP before it can trigger this again.\nEvery 4 seconds, heals the other same-owner Contract Companion with the lowest HP percentage without spending stacks.\nHealing = stacks × Body aptitude multiplier (0/1/2/3: 2/2.33/3/3.33), rounded down.",
-      "descriptionJa": "装着者を4÷Rank秒ごとに3 HP回復。\n同一所有者の他の契約コンパニオンのHPが50%以上から50%未満に下がると、装着者の最大HPの20%を切り上げて犠牲にする。最大スタック時も装着者が倒れることがある。\n実際に失ったHPと同数のスタックを得て、上限はRank×20。0.5秒ごとに1スタック失う。\n味方はHPを50%以上に戻してからでないと再発動しない。\n4秒ごとに、同じ所有者の他の契約コンパニオンのうちHP割合が最も低い1体を、スタックを消費せず回復。\n回復量＝スタック×Body適性倍率（0/1/2/3で2/2.33/3/3.33）、切り捨て。"
+      "descriptionJa": "装着者を4÷Rank秒ごとに3 HP回復。\n同一所有者の他の契約コンパニオンのHPが50%以上から50%未満に下がると、装着者の最大HPの20%（切り上げ）を犠牲にする。最大スタック時も装着者が倒れることがある。\n実際に失ったHPと同数のスタックを得て、上限はRank×20。0.5秒ごとに1スタック失う。\n味方はHPを50%以上に戻してからでないと再発動しない。\n4秒ごとに、同じ所有者の他の契約コンパニオンのうちHP割合が最も低い1体を、スタックを消費せず回復。\n回復量＝スタック×Body適性倍率（0/1/2/3で2/2.33/3/3.33）、切り捨て。"
     },
     {
       "id": "yo_yoyo",
@@ -3197,7 +3197,7 @@ window.WIKI_DATA = {
       "grade": 1,
       "ranks": 4,
       "description": "Adds a mid-range yoyo weapon and encourages supported bodies to keep ranged spacing. Technique aptitude 0/1/2/3: reach 5/7/10/15 tiles. Launch requires line of sight; terrain blocks the yoyo.\nBase damage = current ATK ×0.5/0.6/0.7/0.8 at Rank 1/2/3/MASTER, rounded down, minimum 1. Maximum 1 yoyo per body; the same enemy can be hit once every 40 ticks.\nHits count as body hits. Factor activation chances are multiplied by 25/33/50/66% at Technique aptitude 0/1/2/3, including guaranteed effects, with a separate roll for each Factor.\nMASTER: after 4 damaging hits, may launch a Counterweight for half current yoyo base damage, using the same aptitude-based chance. Maximum 1 active Counterweight; failed rolls remain ready. Counterweights cannot trigger attack-hit Factors.\nAffected by Archer. Archers and Hovering Shooters retain their ordinary shots; Casters attack only while materialized.",
-      "descriptionJa": "中距離ヨーヨー武器を追加し、対応身体が遠距離の間合いを保ちやすくする。Technique適性0/1/2/3：射程5/7/10/15タイル。発射には視線が必要で地形に遮られる。\nRank 1/2/3/MASTER：基礎ダメージ＝現在ATK×0.5/0.6/0.7/0.8、切り捨て最低1。身体ごとに最大1個、同じ敵へは40 tickに1回命中。\n命中は本体命中として扱う。確定効果を含む因子の発動確率はTechnique適性0/1/2/3で25/33/50/66%に乗算され、各因子で個別抽選。\nMASTER：ダメージ命中4回後、同じ適性別確率で現在のヨーヨー基礎ダメージの半分のCounterweightを発射することがある。有効なCounterweightは最大1個。抽選失敗後も発射準備を維持し、Counterweightは攻撃命中因子を発動しない。\nArcherの影響を受ける。ArcherとHovering Shooterは通常弾を維持し、Casterは実体化中のみ攻撃する。"
+      "descriptionJa": "中距離ヨーヨー武器を追加し、対応身体が遠距離の間合いを保ちやすくする。Technique適性0/1/2/3：射程5/7/10/15タイル。発射には視線が必要で地形に遮られる。\nRank 1/2/3/MASTER：基礎ダメージ＝現在ATK×0.5/0.6/0.7/0.8、切り捨て最低1。身体ごとに最大1個、同じ敵へは40 tickに1回命中。\n命中は本体命中として扱う。因子の発動確率には、確定効果も含めて、Technique適性0/1/2/3で25/33/50/66%が掛けられる。抽選は因子ごとに行う。\nMASTER：ダメージ命中4回後、同じ適性別確率で現在のヨーヨー基礎ダメージの半分のCounterweightを発射することがある。有効なCounterweightは最大1個。抽選失敗後も発射準備を維持し、Counterweightは攻撃命中因子を発動しない。\nArcherの影響を受ける。ArcherとHovering Shooterは通常弾を維持し、Casterは実体化中のみ攻撃する。"
     }
   ]
 };

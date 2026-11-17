@@ -20,7 +20,7 @@ window.COMPANION_FLAVOR = (() => {
   add(['doctor_bones'], 'The hat-wearing Doctor Bones is a playful nod to the archaeologist Indiana Jones.', '帽子をかぶった Doctor Bones は、考古学者インディ・ジョーンズにちなんだキャラクターです。', 'Doctor_Bones');
   add(['tim'], 'Tim shares his name with an enchanter from Monty Python and the Holy Grail.', 'Tim の名前は映画「モンティ・パイソン・アンド・ホーリー・グレイル」の魔法使いに由来します。', 'Tim');
   add(['harpy'], 'The Harpy draws on Greek and Roman mythology, where harpies combine human and bird features.', 'ハーピーは、人と鳥の姿をあわせ持つギリシャ・ローマ神話の存在に由来します。', 'Harpy');
-  add(['bone_serpent'], 'Terraria’s Bestiary tells of ancient serpentine rulers that shed their dark scales long ago.', 'Terraria の図鑑には、遠い昔に黒曜石の鱗を脱ぎ捨てた蛇のような支配者たちが記されています。', 'Bone_Serpent');
+  add(['bone_serpent'], 'Terraria’s Bestiary tells of ancient serpentine rulers that shed their dark scales long ago.', 'Terraria の図鑑には、遠い昔に黒い鱗を脱ぎ捨てた蛇のような支配者たちが記されています。', 'Bone_Serpent');
   add(['flying_fish'], 'Real flying fish glide above the water; their Terraria counterpart is rather more at home in the air.', '実際のトビウオは水面上を滑空しますが、Terraria の仲間は空中を飛び回ります。', 'Flying_Fish');
   add(['crimera'], 'Its name blends “crimson” with “chimera,” a creature assembled from different animals.', 'Crimera の名は「crimson」と、さまざまな動物の特徴を持つ「chimera」を組み合わせたものです。', 'Crimera');
   add(['hornet'], 'Real hornets are wasps; unlike Terraria’s hornets, they do not shoot their stingers.', '現実の hornet はスズメバチの仲間で、Terraria のように針を飛ばすことはできません。', 'Hornet');
@@ -72,7 +72,7 @@ window.COMPANION_FLAVOR = (() => {
   add(['piranha'], 'One sharp-toothed piranha is dangerous enough; they often gather in groups.', '鋭い歯を持つピラニアは一匹でも危険ですが、群れを作ることもあります。', 'Piranha');
   add(['salamander'], 'This cave-dwelling amphibian defends itself with a corrosive spray.', '洞窟で暮らす両生類で、身を守るために腐食性の液体を吐きます。', 'Salamander');
   add(['sand_slime'], 'Life in the dry desert has given this slime the appearance of living sand.', '乾いた砂漠に適応し、生きた砂のような姿になったスライムです。', 'Sand_Slime');
-  add(['shark'], 'The Bestiary depicts the shark as a relentless ocean hunter.', '図鑑では、海を執ように追いかける狩人として紹介されています。', 'Shark');
+  add(['shark'], 'The Bestiary depicts the shark as a relentless ocean hunter.', '図鑑では、執拗に獲物を追う海の狩人として紹介されています。', 'Shark');
   add(['skeleton'], 'The Bestiary tells of an old expedition whose remains still patrol the caves.', '図鑑では、昔の探検隊の亡骸が今も洞窟を巡回していると語られています。', 'Skeleton');
   add(['snatcher'], 'A sharp-toothed jungle plant that can hide in mud and reach out over a distance.', '泥の中に隠れ、離れた場所まで伸びることができる鋭い歯の植物です。', 'Snatcher');
   add(['spiked_ice_slime'], 'Prolonged cold has left this slime carrying shards of ice in its body.', '長い間冷気にさらされ、体の中に氷のかけらを持つようになったスライムです。', 'Spiked_Ice_Slime');
@@ -82,7 +82,7 @@ window.COMPANION_FLAVOR = (() => {
   add(['tomb_crawler'], 'Among Terraria’s many desert worms, the Tomb Crawler has a taste for careless explorers.', 'さまざまなワームが棲む砂漠で、不用意な冒険者を狙う一種です。', 'Tomb_Crawler');
   add(['voodoo_demon'], 'The Bestiary connects this demon’s doll to a soul bound to the world’s guardian.', '図鑑では、このデーモンの人形と世界の守護者につながる魂の関係が語られています。', 'Voodoo_Demon');
   add(['vulture'], 'Built for desert heat, vultures are scavengers that guard their meals.', '砂漠の暑さに適応し、見つけた獲物を守る鳥です。', 'Vulture');
-  add(['wall_creeper'], 'The Bestiary depicts these eight-legged hunters as patient web-spinning predators.', '図鑑では、八本の脚を持ち、獲物を包み込む狩人として描かれています。', 'Wall_Creeper');
+  add(['wall_creeper'], 'The Bestiary depicts these eight-legged hunters as patient web-spinning predators.', '図鑑では、八本の脚を持ち、糸を張って辛抱強く獲物を待つ狩人として描かれています。', 'Wall_Creeper');
   add(['blue_jellyfish','pink_jellyfish'], 'Terraria’s Bestiary warns swimmers to beware the jellyfish’s electric sting.', 'Terraria の図鑑は、泳ぐ人にクラゲの電気のひと刺しを警告しています。', 'Jellyfish');
   add(['golden_slime'], 'In Terraria, Golden Slimes and Pinky are both unusually easy to knock back.', 'Terraria の Golden Slime と Pinky は、どちらも特にノックバックを受けやすいスライムです。', 'Pinky');
   add(['zombie'], 'The Bestiary suggests that an open door is an easy invitation for the undead.', '図鑑によれば、開けっぱなしの扉はアンデッドを招き入れることになりかねません。', 'Zombie');
