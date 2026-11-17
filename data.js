@@ -2014,7 +2014,7 @@ window.WIKI_DATA = {
       "grade": 1,
       "ranks": 4,
       "description": "While the owner has Cozy Fire, grants the wearer 1 HP/s natural regeneration, plus 2 HP/s while the owner also has Heart Lamp.\nEach buff independently extends to other living Companions in the owner's Team, up to a number equal to Rank (Rank 1/2/3/MASTER: 1/2/3/4). Recipients are randomly chosen when the buff begins and remain fixed until it ends.\nAt Tactics aptitude 2/3, also doubles the owner's Cozy Fire and Heart Lamp regeneration. Multiple wearers do not stack the same bonus; all support ends when Cozy Fire ends.\nTalk to the Guide while receiving Cozy Fire to obtain one, once per character per Guide lifetime.",
-      "descriptionJa": "所有者が焚き火の効果を受けている間、装着者の自然回復が毎秒1 HP増える。ハートランプの効果も受けていれば、さらに毎秒2 HP増える。\n各バフは、所有者のチームにいる他の生存コンパニオンへ個別に及ぶ。対象はRank 1/2/3/MASTERで1/2/3/4体までで、バフ開始時に抽選され、終了まで変わらない。\nTactics適性2/3では、所有者の焚き火とハートランプによる回復も2倍になる。同じボーナスは重複せず、焚き火の効果が終わると支援もすべて終わる。\n焚き火を受けている状態でガイドに話すと入手できる。キャラクターごと、ガイドの生存期間ごとに1回。"
+      "descriptionJa": "所有者が焚き火の効果を受けている間、装着者の自然回復が毎秒1 HP増える。ハートランプの効果も受けていれば、さらに毎秒2 HP増える。\n各バフは所有者のチームにいる他の生存コンパニオンへ個別に及ぶ。対象はRank 1/2/3/MASTERで1/2/3/4体までで、バフ開始時に抽選され、終了まで変わらない。\nTactics適性2/3では所有者の焚き火とハートランプによる回復も2倍になる。同じボーナスは重複せず、焚き火の効果が終わると支援もすべて終わる。\n焚き火を受けている状態でガイドに話すと入手できる。キャラクターごと、ガイドの生存期間ごとに1回。"
     },
     {
       "id": "archaeologist",
@@ -2040,7 +2040,7 @@ window.WIKI_DATA = {
       "grade": 1,
       "ranks": 4,
       "description": "Enhances the wearer's projectiles, including Factor shots, Yo-Yo and Counterweight. Does not grant a firing ability.\nRank 1+: adds one hit to finite piercing, dealing 50% damage on that extra hit, or full damage at MASTER. Finite shots cannot hit the same enemy twice; infinite piercing gains no extra hit.\nRank 2+: projectile speed +25%. Rank 3+: critical chance +10 percentage points. Technique aptitude 0 disables these two bonuses.\nTechnique aptitude 2/3: +1/+3 damage after defense and critical scaling on the first hit.\nBonuses are fixed when firing. Independent Kin and Token shots are excluded; enhancement does not enable additional Factor triggers.",
-      "descriptionJa": "装着者の投射物を強化する。因子の弾、ヨーヨー、カウンターウェイトも含む。射撃能力自体は付与しない。\nRank 1以上：有限貫通の命中回数+1。追加命中のダメージは50%、MASTERでは100%。有限貫通弾は同じ敵に2回命中できず、無限貫通には回数を追加しない。\nRank 2以上：弾速+25%。Rank 3以上：クリティカル率+10ポイント。Technique適性0ではこの2効果は無効。\nTechnique適性2/3：初回命中では、防御とクリティカルの計算後に+1/+3ダメージが加わる。\nボーナスは発射時に固定。独立したKinやTokenの弾は対象外で、追加の因子発動も許可しない。"
+      "descriptionJa": "装着者の投射物を強化する。因子の弾、ヨーヨー、カウンターウェイトも含む。射撃能力自体は付与しない。\nRank 1以上：有限貫通の命中回数+1。追加命中のダメージは50%、MASTERでは100%。有限貫通弾は同じ敵に2回命中できず、無限貫通には回数を追加しない。\nRank 2以上：弾速+25%。Rank 3以上：クリティカル率+10ポイント。Technique適性0ではこの2効果は無効。\nTechnique適性2/3：初回命中では防御とクリティカルの計算後に+1/+3ダメージが加わる。\nボーナスは発射時に固定。独立したKinやTokenの弾は対象外で、追加の因子発動も許可しない。"
     },
     {
       "id": "big_boned",
@@ -2079,7 +2079,7 @@ window.WIKI_DATA = {
       "grade": 1,
       "ranks": 4,
       "description": "Drops blood rain below the wearer every 11 ticks, without requiring an enemy. Chanting and shot speed do not change this interval.\nBase damage = current ATK / 2 × Essence aptitude coefficient (0/1/2/3: 0.5/0.75/1/1.5), rounded down, minimum 1.\nDamaging hits apply only the current Rank's effect for 2 seconds: Rank 1 heals the enemy for 1 HP/s; Rank 2 applies Wet; Rank 3 applies Bleeding; MASTER applies Cry.\nBleeding deals 1 defense-ignoring damage every 5 ticks, refreshing without stacking. Cry blocks natural regeneration and the Rank-1 healing, and adds 1 damage to supported DoT pulses without blocking direct healing.\nAffected by Simple Chanting and Archer. Cannot trigger projectile-attack or projectile-hit Factors. Removal stops the rain and its projectiles; applied debuffs expire normally.",
-      "descriptionJa": "敵の有無に関係なく、装着者の下に11 tickごとに血の雨を降らせる。Chantingや射撃速度は間隔を変えない。\n基礎ダメージ＝現在ATK÷2×Essence適性係数（0/1/2/3で0.5/0.75/1/1.5）。切り捨て、最低1。\nダメージを与えた命中では、現在のRankの効果だけを2秒間付与する：Rank 1は敵を毎秒1 HP回復、Rank 2はWet、Rank 3はBleeding、MASTERはCry。\nBleedingは5 tickごとにDEF無視の1ダメージを与え、重複せず更新。Cryは自然回復とRank 1の回復を阻止し、対応するDoTの判定に+1ダメージを加える。直接回復は阻止しない。\nSimple ChantingとArcherの影響を受け、投射物攻撃・投射物命中因子を発動しない。取り外すと雨と弾が消え、付与済みデバフは通常どおり終了する。"
+      "descriptionJa": "敵の有無に関係なく、装着者の下に11 tickごとに血の雨を降らせる。Chantingや射撃速度は間隔を変えない。\n基礎ダメージ＝現在ATK÷2×Essence適性係数（0/1/2/3で0.5/0.75/1/1.5）。切り捨て、最低1。\nダメージを与えた命中では現在のRankの効果だけを2秒間付与する：Rank 1は敵を毎秒1 HP回復、Rank 2はWet、Rank 3はBleeding、MASTERはCry。\nBleedingは5 tickごとにDEF無視の1ダメージを与え、重複せず更新。Cryは自然回復とRank 1の回復を阻止し、対応するDoTの判定に+1ダメージを加える。直接回復は阻止しない。\nSimple ChantingとArcherの影響を受け、投射物攻撃・投射物命中因子を発動しない。取り外すと雨と弾が消え、付与済みデバフは通常どおり終了する。"
     },
     {
       "id": "bloodline",
@@ -2456,7 +2456,7 @@ window.WIKI_DATA = {
       "grade": 1,
       "ranks": 4,
       "description": "Every 9/7/5/4 seconds (Essence aptitude 0/1/2/3), grants 1 ice stack to a random same-owner Contract Companion, including the wearer.\nIce does not expire. Its cap is the highest delivered Rank, up to 4, until all stacks are spent. While iced, Calm grants ATK -2 and DEF +8 and prevents new Red Heat without removing existing heat.\nA damaging enemy hit spends 1 stack to fire an ice projectile at the attacker or a nearby enemy (base damage 14). Without a target, no stack is spent.\nCombining ice with Bubble Shield consumes both reservoirs for 40 seconds of Snow Guard: enemy hit damage -25%.\nEvery 10 actual damage taken during Snow fires a defense-ignoring Frost Shard (base damage 14) and spends 1 second. Expiry fires a defense-ignoring Frost Wave (base damage 18); defeat or despawn does not.\nNew ice and bubbles can accumulate during Snow without refreshing or fusing again. Delivered protection persists after issuer removal.\nShots benefit from Archer but cannot trigger external Hit Factors. Affected by Chanting and Simple Chanting.",
-      "descriptionJa": "Essence適性0/1/2/3で9/7/5/4秒ごとに、装着者を含む同一所有者の契約コンパニオンから無作為に1体へ氷を1スタック付与。\n氷は時間切れにならない。上限は、付与されたうち最も高いRank（最大4）で、すべて消費されるまで変わらない。氷がある間はCalmでATK-2、DEF+8となり、既存の熱は消さず新たなRed Heatを防ぐ。\n敵からダメージを受けると1スタックを消費し、攻撃者か近くの敵に基礎14ダメージの氷の投射物を放つ。対象がなければ消費しない。\nBubble Shieldと組み合わさると両方の蓄積を消費し、40秒のSnow Guardとなって敵からの被命中ダメージ-25%。\nSnow Guard中、実際に10ダメージ受けるごとに、DEF無視で基礎14ダメージのFrost Shardを放ち、残り時間を1秒使う。時間切れではDEF無視の基礎18ダメージのFrost Waveを放つが、敗北・消失では放たない。\nSnow中も新しい氷とバブルは蓄積できるが、Snowの更新・再融合はしない。付与済みの保護は発行者の取り外し後も残る。\n弾はArcherの恩恵を受けるが外部Hit因子を発動しない。ChantingとSimple Chantingの影響を受ける。"
+      "descriptionJa": "Essence適性0/1/2/3で9/7/5/4秒ごとに、装着者を含む同一所有者の契約コンパニオンから無作為に1体へ氷を1スタック付与。\n氷は時間切れにならない。上限は付与されたうち最も高いRank（最大4）で、すべて消費されるまで変わらない。氷がある間はCalmでATK-2、DEF+8となり、既存の熱は消さず新たなRed Heatを防ぐ。\n敵からダメージを受けると1スタックを消費し、攻撃者か近くの敵に基礎14ダメージの氷の投射物を放つ。対象がなければ消費しない。\nBubble Shieldと組み合わさると両方の蓄積を消費し、40秒のSnow Guardとなって敵からの被命中ダメージ-25%。\nSnow Guard中、実際に10ダメージ受けるごとに、DEF無視で基礎14ダメージのFrost Shardを放ち、残り時間を1秒使う。時間切れではDEF無視の基礎18ダメージのFrost Waveを放つが、敗北・消失では放たない。\nSnow中も新しい氷とバブルは蓄積できるが、Snowの更新・再融合はしない。付与済みの保護は発行者の取り外し後も残る。\n弾はArcherの恩恵を受けるが外部Hit因子を発動しない。ChantingとSimple Chantingの影響を受ける。"
     },
     {
       "id": "ice_stalactite",
@@ -2599,7 +2599,7 @@ window.WIKI_DATA = {
       "grade": 1,
       "ranks": 4,
       "description": "Creates one small offspring every 6/6/4/4 primary attack actions at Rank 1/2/3/MASTER, up to 1/2/3/4 per wearer. Misses count; each damaging Yo-Yo hit counts. MASTER can reserve one offspring while at capacity.\nOffspring use supported body AI at 75% size. Kin aptitude (0/1/2/3): HP, ATK and DEF equal 30/45/60/75% of the parent's baseline stats at birth, rounded down, excluding Factor bonuses.\nLose 1% of their generated base maximum HP each second, unaffected by mitigation. Unsupported stationary bodies cannot create offspring.\nInherit only Sunlight, Night Sight, Frozen Death and Parasitism effects at birth, with no Factors or recursive offspring. Natural decay does not trigger their death effects.\nParent defeat, disappearance or removal dismisses offspring without death effects.",
-      "descriptionJa": "Rank 1/2/3/MASTERで主攻撃動作6/6/4/4回ごとに小さな子を1体生成。装着者ごとの上限は1/2/3/4体。空振りも数え、ダメージを与えたヨーヨー命中は各1回と数える。MASTERでは、上限に達していても子を1体だけ予約できる。\n子は対応する身体AIを75%のサイズで使用。Kin適性0/1/2/3：HP、ATK、DEFは誕生時の親の基礎ステータスの30/45/60/75%、切り捨て。因子ボーナスは含まない。\n毎秒、生成時の基礎最大HPの1%を失い、軽減されない。非対応の固定身体では生成できない。\n誕生時にSunlight、Night Sight、Frozen Death、Parasitismの効果だけを継承し、因子そのものや再帰的な子は持たない。自然減衰では死亡効果は発動しない。\n親の敗北・消失または取り外しで、子は死亡効果なしに送還される。"
+      "descriptionJa": "Rank 1/2/3/MASTERで主攻撃動作6/6/4/4回ごとに小さな子を1体生成。装着者ごとの上限は1/2/3/4体。空振りも数え、ダメージを与えたヨーヨー命中は各1回と数える。MASTERでは上限に達していても子を1体だけ予約できる。\n子は対応する身体AIを75%のサイズで使用。Kin適性0/1/2/3：HP、ATK、DEFは誕生時の親の基礎ステータスの30/45/60/75%、切り捨て。因子ボーナスは含まない。\n毎秒、生成時の基礎最大HPの1%を失い、軽減されない。非対応の固定身体では生成できない。\n誕生時にSunlight、Night Sight、Frozen Death、Parasitismの効果だけを継承し、因子そのものや再帰的な子は持たない。自然減衰では死亡効果は発動しない。\n親の敗北・消失または取り外しで、子は死亡効果なしに送還される。"
     },
     {
       "id": "meteor",
@@ -3041,7 +3041,7 @@ window.WIKI_DATA = {
       "grade": 1,
       "ranks": 4,
       "description": "Reduces maximum HP to 66%, rounded down to a minimum of 1.\nSummons a Spider Token for every 33/25/16/12 direct damage from enemy hits the wearer survives (Kin aptitude 0/1/2/3). Excess damage carries over.\nEach Token's ATK equals the individual hit that summoned it. Maximum 4 Tokens per wearer; excess summons are lost.\nTokens have Hit HP instead of ordinary HP and DEF: Rank × 3 at spawn. Each damaging attack by the Token spends 1 Hit HP; at 0, it disappears.\nToken hits inflict Poisoned for 3 seconds. Hits against already Poisoned enemies deal +1/2/3/4 damage at the wearer's current Rank 1/2/3/MASTER.\nTokens stay linked to their summoner and can receive Token support effects.",
-      "descriptionJa": "最大HPを66%に減少し、切り捨て最低1。\n装着者が生存した敵の直接被弾ダメージがKin適性0/1/2/3で33/25/16/12に達するごとにSpider Tokenを召喚。超過分は繰り越す。\n各TokenのATKは召喚を起こした個々の一撃のダメージ。装着者ごとに最大4体で、超過した召喚は失われる。\nTokenは通常のHPとDEFの代わりにHit HPを持ち、出現時はRank×3になる。ダメージを与える攻撃ごとに1消費し、0で消滅。\nTokenの命中はPoisonedを3秒付与。既にPoisonedの敵への命中は、装着者の現在Rank 1/2/3/MASTERで+1/2/3/4ダメージ。\nTokenは召喚者とつながり、Token支援効果を受けられる。"
+      "descriptionJa": "最大HPを66%に減少し、切り捨て最低1。\n装着者が生存した敵の直接被弾ダメージがKin適性0/1/2/3で33/25/16/12に達するごとにSpider Tokenを召喚。超過分は繰り越す。\n各TokenのATKは召喚を起こした個々の一撃のダメージ。装着者ごとに最大4体で、超過した召喚は失われる。\nTokenは通常のHPとDEFの代わりにHit HPを持ち、出現時はRank×3になる。ダメージを与える攻撃ごとに1消費し、0で消滅。\nTokenの命中はPoisonedを3秒付与。既にPoisonedの敵への命中は装着者の現在Rank 1/2/3/MASTERで+1/2/3/4ダメージ。\nTokenは召喚者とつながり、Token支援効果を受けられる。"
     },
     {
       "id": "spore",
@@ -3080,7 +3080,7 @@ window.WIKI_DATA = {
       "grade": 1,
       "ranks": 4,
       "description": "Immediately marks the selected enemy with Vision for 4 seconds. Repeats every 8/6/4/2 seconds at Tactics aptitude 0/1/2/3.\nApplies Rank stacks, reducing enemy DEF by 1 per stack. Reapplication replaces the stacks and refreshes duration, even from a lower-Rank wearer.\nThe owner's other Companions prefer eligible marked enemies within their normal targeting limits.\nCombining Vision with Scout's Observation consumes both to grant Perceived for 8 seconds: outgoing hit damage -8 before defense and DEF -6. Perceived cannot be refreshed and blocks new Vision and Observation.",
-      "descriptionJa": "選択した敵にVisionを4秒即時付与。Tactics適性0/1/2/3で8/6/4/2秒ごとに繰り返す。\nRankスタックを付与し、1スタックにつき敵DEF-1。再付与時は低Rankの装着者からでもスタックを置き換え時間を更新。\n所有者の他のコンパニオンは、通常の索敵制限内で対象可能な印付きの敵を優先。\nVisionとScoutのObservationを組み合わせると両方を消費しPerceivedを8秒付与：防御前の与命中ダメージ-8、DEF-6。Perceivedは更新できず、新しいVisionとObservationを防ぐ。"
+      "descriptionJa": "選択した敵にVisionを4秒即時付与。Tactics適性0/1/2/3で8/6/4/2秒ごとに繰り返す。\nRankスタックを付与し、1スタックにつき敵DEF-1。再付与時は低Rankの装着者からでもスタックを置き換え時間を更新。\n所有者の他のコンパニオンは通常の索敵制限内で対象可能な印付きの敵を優先。\nVisionとScoutのObservationを組み合わせると両方を消費しPerceivedを8秒付与：防御前の与命中ダメージ-8、DEF-6。Perceivedは更新できず、新しいVisionとObservationを防ぐ。"
     },
     {
       "id": "sunlight",
@@ -3197,7 +3197,7 @@ window.WIKI_DATA = {
       "grade": 1,
       "ranks": 4,
       "description": "Adds a mid-range yoyo weapon and encourages supported bodies to keep ranged spacing. Technique aptitude 0/1/2/3: reach 5/7/10/15 tiles. Launch requires line of sight; terrain blocks the yoyo.\nBase damage = current ATK ×0.5/0.6/0.7/0.8 at Rank 1/2/3/MASTER, rounded down, minimum 1. Maximum 1 yoyo per body; the same enemy can be hit once every 40 ticks.\nHits count as body hits. Factor activation chances are multiplied by 25/33/50/66% at Technique aptitude 0/1/2/3, including guaranteed effects, with a separate roll for each Factor.\nMASTER: after 4 damaging hits, may launch a Counterweight for half current yoyo base damage, using the same aptitude-based chance. Maximum 1 active Counterweight; failed rolls remain ready. Counterweights cannot trigger attack-hit Factors.\nAffected by Archer. Archers and Hovering Shooters retain their ordinary shots; Casters attack only while materialized.",
-      "descriptionJa": "中距離ヨーヨー武器を追加し、対応身体が遠距離の間合いを保ちやすくする。Technique適性0/1/2/3：射程5/7/10/15タイル。発射には視線が必要で地形に遮られる。\nRank 1/2/3/MASTER：基礎ダメージ＝現在ATK×0.5/0.6/0.7/0.8、切り捨て最低1。身体ごとに最大1個、同じ敵へは40 tickに1回命中。\n命中は本体命中として扱う。因子の発動確率には、確定効果も含めて、Technique適性0/1/2/3で25/33/50/66%が掛けられる。抽選は因子ごとに行う。\nMASTER：ダメージ命中4回後、同じ適性別確率で現在のヨーヨー基礎ダメージの半分のCounterweightを発射することがある。有効なCounterweightは最大1個。抽選失敗後も発射準備を維持し、Counterweightは攻撃命中因子を発動しない。\nArcherの影響を受ける。ArcherとHovering Shooterは通常弾を維持し、Casterは実体化中のみ攻撃する。"
+      "descriptionJa": "中距離ヨーヨー武器を追加し、対応身体が遠距離の間合いを保ちやすくする。Technique適性0/1/2/3：射程5/7/10/15タイル。発射には視線が必要で地形に遮られる。\nRank 1/2/3/MASTER：基礎ダメージ＝現在ATK×0.5/0.6/0.7/0.8、切り捨て最低1。身体ごとに最大1個、同じ敵へは40 tickに1回命中。\n命中は本体命中として扱う。因子の発動確率には確定効果も含めて、Technique適性0/1/2/3で25/33/50/66%が掛けられる。抽選は因子ごとに行う。\nMASTER：ダメージ命中4回後、同じ適性別確率で現在のヨーヨー基礎ダメージの半分のCounterweightを発射することがある。有効なCounterweightは最大1個。抽選失敗後も発射準備を維持し、Counterweightは攻撃命中因子を発動しない。\nArcherの影響を受ける。ArcherとHovering Shooterは通常弾を維持し、Casterは実体化中のみ攻撃する。"
     }
   ]
 };

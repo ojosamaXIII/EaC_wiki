@@ -48,7 +48,7 @@ window.COMPANION_NOTES = {
   cyan_beetle: ['Walks, jumps and attacks nearby enemies.', '歩いたり跳んだりしながら、近くの敵を攻撃します。'],
   lac_beetle: ['Walks, jumps and attacks nearby enemies.', '歩いたり跳んだりしながら、近くの敵を攻撃します。'],
   cochineal_beetle: ['Walks, jumps and attacks nearby enemies.', '歩いたり跳んだりしながら、近くの敵を攻撃します。'],
-  undead_viking: ['Its innate Frost Step leaves frost underfoot while grounded and detecting enemies ahead.', '生得因子 Frost Step は、地面にいて前方の敵を検知している間、足元に霜を残します。'],
+  undead_viking: ['Its innate Frost Step leaves frost underfoot while grounded and detecting enemies ahead.', '生得因子 Frost Step は地面にいて前方の敵を検知している間、足元に霜を残します。'],
   spiked_ice_slime: ['A hopping Companion. Equipped Factors provide icicle firing.', '跳ねながら移動します。つららの発射は装備した因子によって提供されます。'],
   spiked_jungle_slime: ['A hopping Companion. Jungle spike firing belongs to Factors.', '跳ねながら移動します。ジャングルの針の発射は因子の能力です。'],
   spore_zombie: ['Each Contract retains one of two appearances.', '各契約は 2 種類のうち 1 つの外見を保持します。'],
