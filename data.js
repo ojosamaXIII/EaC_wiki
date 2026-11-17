@@ -2026,8 +2026,8 @@ window.WIKI_DATA = {
       "category": "Tactics",
       "grade": 1,
       "ranks": 1,
-      "description": "Enemy deaths increase damage against their Banner group while a wearer is present, regardless of who gets the kill. No Rank or AP growth.\nTactics aptitude (0/1/2/3): +0.25/0.50/0.75/1 damage per death, up to +6 after 24/12/8/6 kills.\nThe fixed bonus applies to attack hits and projectiles, not DoT.\nEach individual Factor retains its research through extraction and transfer. Shared manifestations count each kill once.",
-      "descriptionJa": "装着者が存在している間、敵の死亡によりそのバナーグループに対するダメージが増加する。誰が倒したかは問わない。Rank・AP成長なし。\nTactics適性0/1/2/3で死亡1体につき+0.25/0.50/0.75/1ダメージ。24/12/8/6体で上限+6。\n固定ボーナスは攻撃と投射物の命中に適用され、DoTには適用されない。\n研究は因子個体に保存され、取り外しや移し替え後も維持される。同じ因子を共有する実体は死亡を1回だけ数える。"
+      "description": "While a wearer is present, every enemy death adds research for that enemy's Banner group, whoever lands the kill.\nResearch raises damage against that Banner group by +0.25/0.50/0.75/1 per death (Tactics aptitude 0/1/2/3), up to +6, reached after 24/12/8/6 deaths.\nThe bonus is a fixed addition to attack hits and projectiles; it does not apply to DoT.\nResearch belongs to the individual Factor: it is kept through extraction and transfer, and this Factor has no Rank or AP growth. If several manifestations share one Factor, each death is counted only once.",
+      "descriptionJa": "装着者が存在している間、敵が死亡するたびに、その敵のバナーグループへの「研究」がたまる。誰が倒したかは問わない。\n研究により、そのバナーグループへのダメージが死亡1体につき+0.25/0.50/0.75/1（Tactics適性0/1/2/3）増える。上限は+6で、24/12/8/6体で到達する。\nこのボーナスは攻撃と投射物の命中に固定値として加算され、DoTには適用されない。\n研究は因子個体に保存され、取り外しや移し替え後も維持される。この因子にRank・AP成長はない。同じ因子を共有する実体が複数いても、死亡は1回だけ数える。"
     },
     {
       "id": "archer",
