@@ -86,14 +86,15 @@
       return NodeFilter.FILTER_ACCEPT;
     }});
     const nodes=[];while(walker.nextNode())nodes.push(walker.currentNode);
+    const linked=new Set();
     for(const n of nodes){
       const text=n.nodeValue;re.lastIndex=0;if(!re.test(text))continue;re.lastIndex=0;
       const frag=document.createDocumentFragment();let last=0,m,wrapped=false;
       while((m=re.exec(text))!==null){
-        const slug=slugOf(m[0]);if(!slug)continue;
+        const slug=slugOf(m[0]);if(!slug||linked.has(slug))continue;
         if(m.index>last)frag.appendChild(document.createTextNode(text.slice(last,m.index)));
         const span=document.createElement('span');span.className='term-ref';span.dataset.term=slug;span.tabIndex=0;span.textContent=m[0];frag.appendChild(span);
-        last=m.index+m[0].length;wrapped=true;
+        last=m.index+m[0].length;wrapped=true;linked.add(slug);
       }
       if(!wrapped)continue;
       if(last<text.length)frag.appendChild(document.createTextNode(text.slice(last)));
