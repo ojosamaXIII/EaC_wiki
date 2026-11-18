@@ -63,3 +63,11 @@ table.scale th{background:#000080;color:#fff}
 
 @font-face{font-family:'W95FA';src:url('assets/win95fa-latin-400-normal.woff2') format('woff2');font-style:normal;font-weight:400;font-display:swap}
 body,body *{font-family:'W95FA','DotGothic16','MS PGothic','ＭＳ Ｐゴシック','Yu Gothic',Meiryo,sans-serif!important}
+
+/* Glossary term references and popup (systems page) */
+.term-ref{border-bottom:1px dotted #0000a8;cursor:help}
+#term-pop{position:fixed;z-index:80;display:none;max-width:300px;max-height:40vh;overflow:auto;background:#ffffe1;border:1px solid #000;padding:8px 10px;font-size:.86em;line-height:1.55;box-shadow:2px 2px 5px rgba(0,0,0,.35)}
+#term-pop p{margin:4px 0 6px}
+#term-pop a{font-weight:700}
+@keyframes termflash{0%{background:#fff3a0}100%{background:transparent}}
+tr.term-flash td{animation:termflash 1.9s ease}
