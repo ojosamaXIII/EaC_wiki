@@ -63,6 +63,7 @@ table.scale th{background:#000080;color:#fff}
 
 @font-face{font-family:'W95FA';src:url('assets/win95fa-latin-400-normal.woff2') format('woff2');font-style:normal;font-weight:400;font-display:swap}
 body,body *{font-family:'W95FA','DotGothic16','MS PGothic','ＭＳ Ｐゴシック','Yu Gothic',Meiryo,sans-serif!important}
+body,body *{font-weight:normal!important;font-synthesis-weight:none}
 
 /* Glossary term references and popup (systems page) */
 .term-ref{border-bottom:1px dotted #0000a8;cursor:help}
