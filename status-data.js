@@ -58,7 +58,7 @@ window.WIKI_STATUSES = {
 
 // Relations describe effects that a Factor can cause, including conditional combinations.
 window.FACTOR_STATUSES = {
-  Binding:['binding'], BloodTears:['blood_moisture','wet','bleeding','cry'], Bloodstained:['bleeding'], Brightness:['flash'],
+  Binding:['binding'], BloodTears:['blood_moisture','wet','bleeding','cry'], Brightness:['flash'],
   BubbleShield:['bubble','snow_guard'], Cold:['temperature','frostburn'], Corrosion:['poison'], Currency:['copper','silver','gold'],
   Detection:['detection'], EightfoldFrost:['temperature'], Flame:['fire'], FrostStep:['frostburn','wet','temperature'],
   FrozenDeath:['frostburn'], FungalInfection:['poison','stinky','spore_poison','acid_venom','wet','slimed'], Gladiator:['gladiator','phalanx'],

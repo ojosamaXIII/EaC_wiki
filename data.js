@@ -2182,19 +2182,6 @@ window.WIKI_DATA = {
       "descriptionJa": "選択した敵1体を装着者と鎖でつなぎ、攻撃可能な間は優先する。\n鎖でつながれた敵へのダメージ命中で、回復補正前に装着者をRank HP回復。クールダウン0.25秒。\n敵の死亡時、Body適性0/1/2/3で20/16/12/6の自傷を受ける。これにより倒れることもある。\n敵の消失、因子の取り外し、装着者の敗北では反動なく鎖が外れる。距離や地形の障害で対象は切り替わらない。"
     },
     {
-      "id": "bloodstained",
-      "key": "Bloodstained",
-      "name": "Bloodstained Factor",
-      "nameJa": "Bloodstained Factor",
-      "masterName": "",
-      "masterNameJa": "",
-      "category": "Anomaly",
-      "grade": 1,
-      "ranks": 4,
-      "description": "Keeps the wearer Bleeding, preventing natural regeneration. Direct healing still works.\nA Team Companion reaching zero HP creates an invulnerable Blood Zombie Token while its body waits. Requires no active Direct Companions and no revival cooldown; summoning a Direct Companion while waiting cancels revival. Cannot prevent Forbidden's linked defeat.\nThe Token moves at 1.2× Zombie speed and has a harmless grappling hook. Anomaly aptitude (0/1/2/3): ATK = baseline ATK × 0.50/0.75/1/1.50, rounded to the nearest whole number, minimum 1.\nTargets the fastest moving eligible enemy within 800 pixels and keeps that target until it disappears. Ends after 60 seconds or 1/2/3/4 credited kills at Rank 1/2/3/MASTER; enemies dying within 4 seconds of a Token hit count.\nRevives at the Token's position with 20% of baseline maximum HP plus 20% per kill, or 40% per kill at MASTER, capped by current maximum HP.\nRevival starts a 60-second cooldown shared by the source Contract. Dismissing the body removes its Token without revival; resummoning cannot bypass the cooldown.",
-      "descriptionJa": "装着者を常にBleeding状態にし、自然回復を阻止する。直接回復は可能。\nチームコンパニオンのHPが0になると、本体は待機状態になり、無敵のBlood Zombie Tokenが生まれる。ただし、活動中のDirectコンパニオンがおらず、復活のクールダウン中でないことが条件。待機中にDirectコンパニオンを召喚すると復活は中止される。Forbiddenによる連動敗北は防げない。\nTokenの移動速度はZombieの1.2倍で、無害なフックを持つ。Anomaly適性0/1/2/3：ATK＝基礎ATK×0.50/0.75/1/1.50、最も近い整数に丸め最低1。\n800ピクセル以内の対象可能な敵のうち移動が最速の敵を狙い、消えるまで維持。60秒経過か、Rank 1/2/3/MASTERで1/2/3/4体の撃破で終了。Tokenの命中から4秒以内に死んだ敵も数えられる。\nTokenの位置で基礎最大HPの20%に撃破ごと20%（MASTERは40%）を加えたHPで復活。現在の最大HPが上限。\n復活後は元契約で共有する60秒のクールダウン。本体を送還すると復活せずTokenが消え、再召喚でもクールダウンを回避できない。"
-    },
-    {
       "id": "brightness",
       "key": "Brightness",
       "name": "Brightness Factor",
@@ -2505,19 +2492,6 @@ window.WIKI_DATA = {
       "ranks": 4,
       "description": "Throws a Grenade at a detected enemy, ready immediately. Cooldown at Technique aptitude 0/1/2/3: 12/10/8/6 seconds after each throw.\nBase damage = current ATK × (1 + Rank / 4) + 12, rounded down. Uses normal Grenade flight and explosions without destroying terrain or hurting players.\nThe blast also damages allied Companions, including the wearer, for 15% of its base power, rounded down, minimum 1. Friendly fire ignores DEF but retains other damage modifiers, and does not trigger enemy-hit or offensive Factors.",
       "descriptionJa": "検知した敵に手りゅう弾を投げる。初回は即座に使用可能。投てき後の再使用時間はTechnique適性0/1/2/3で12/10/8/6秒。\n基礎ダメージは現在ATK×(1+Rank/4)+12を切り捨て。通常の手りゅう弾と同様に飛行・爆発するが、地形とプレイヤーを傷つけない。\n装着者を含む味方コンパニオンにも基礎威力の15%（切り捨て、最低1）のダメージを与える。味方への攻撃はDEFを無視するが他の補正を受け、敵命中・攻撃因子を発動しない。"
-    },
-    {
-      "id": "hookshot",
-      "key": "Hookshot",
-      "name": "Hookshot Factor",
-      "nameJa": "Hookshot Factor",
-      "masterName": "",
-      "masterNameJa": "",
-      "category": "Technique",
-      "grade": 1,
-      "ranks": 4,
-      "description": "Retired. Cannot be crafted or installed and has no effect.\nMelee GroundWalker Companions instead have a built-in harmless self-pull hook with 11.5-tile reach and a 4-second cooldown. Ground Archers are excluded.\nPreviously installed individuals remain in Contract storage with their progression.",
-      "descriptionJa": "廃止済み。作成・装着できず、効果もない。\n代わりに近接GroundWalkerコンパニオンは、11.5タイルの射程と4秒のクールダウンを持つ、無害な自己牽引用フックを標準で備える。Ground Archerは対象外。\n以前に装着した個体は成長状態を保って契約の保管領域に残る。"
     },
     {
       "id": "host",
