@@ -3101,8 +3101,8 @@ window.WIKI_DATA = {
       "category": "Anomaly",
       "grade": 1,
       "ranks": 4,
-      "description": "Leaves a stationary soul silhouette every 2 tiles traveled. Each lasts 2 seconds and can hit each enemy once, with walls blocking damage.\nRank 1/2/3/MASTER: up to 2/4/6/8 silhouettes, replacing the oldest at capacity.\nBase damage = current ATK × Anomaly coefficient (aptitude 0/1/2/3: 0.20/0.40/0.80/1.00), rounded down. Normal enemy defense applies; power below 1 creates none.\nTeleportation leaves no trail. Removal, defeat, dismissal or suppressed attacks clears existing silhouettes.",
-      "descriptionJa": "移動2タイルごとにその場に魂の残像を残す。各残像は2秒持続し敵ごとに1回命中、壁はダメージを遮る。\nRank 1/2/3/MASTER：最大2/4/6/8個。上限時は最古のものを置き換え。\n基礎ダメージ＝現在ATK×Anomaly係数（適性0/1/2/3で0.20/0.40/0.80/1.00）、切り捨て。通常の敵DEFを適用し、威力が1未満なら生成しない。\nテレポートでは残像を残さない。取り外し、敗北、送還、攻撃抑制時には既存の残像を消す。"
+      "description": "Leaves a stationary soul silhouette every 2 tiles traveled. Each lasts 2 seconds and can hit each enemy once, with walls blocking damage.\nRank 1/2/3/MASTER: up to 2/4/6/8 silhouettes, replacing the oldest at capacity.\nBase damage = current ATK × Anomaly coefficient (aptitude 0/1/2/3: 0.20/0.40/0.50/0.60), rounded down. Normal enemy defense applies; power below 1 creates none.\nTeleportation leaves no trail. Removal, defeat, dismissal or suppressed attacks clears existing silhouettes.",
+      "descriptionJa": "移動2タイルごとにその場に魂の残像を残す。各残像は2秒持続し敵ごとに1回命中、壁はダメージを遮る。\nRank 1/2/3/MASTER：最大2/4/6/8個。上限時は最古のものを置き換え。\n基礎ダメージ＝現在ATK×Anomaly係数（適性0/1/2/3で0.20/0.40/0.50/0.60）、切り捨て。通常の敵DEFを適用し、威力が1未満なら生成しない。\nテレポートでは残像を残さない。取り外し、敗北、送還、攻撃抑制時には既存の残像を消す。"
     },
     {
       "id": "spark",
