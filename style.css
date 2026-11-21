@@ -72,3 +72,5 @@ body,body *{font-weight:normal!important;font-synthesis-weight:none}
 #term-pop a{font-weight:700}
 @keyframes termflash{0%{background:#fff3a0}100%{background:transparent}}
 tr.term-flash td{animation:termflash 1.9s ease}
+
+.factor-formula{font-size:1.25em;font-weight:600;line-height:1.5;white-space:pre-line;overflow-wrap:anywhere;margin:0 0 1em}
