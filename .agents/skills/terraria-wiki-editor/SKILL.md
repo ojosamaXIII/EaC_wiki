@@ -102,6 +102,8 @@ These are JavaScript data files, not Markdown articles. Article URLs are rendere
 
 ## Workflow
 
+Read `references/editorial-audit-2026-11-21.md` for the baseline page inventory, verified editorial findings and unresolved facts. Use the latest repository source as the authority for future edits; the audit is a dated snapshot.
+
 1. Inventory current article categories and data counts. Identify where every visible English string originates.
 2. Read the Official Terraria Wiki style guide and sample pages appropriate to each article type. If inaccessible, use directly verified search excerpts and state the limitation.
 3. For each article, separate **fact**, **terminology**, **tone**, **structure**, and **unverified statement**.
