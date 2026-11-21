@@ -2,11 +2,11 @@
 window.COMPANION_FLAVOR = (() => {
   const entries = {};
   const add = (ids, en, ja, article) => ids.forEach(id => {
-    entries[id] = {en, ja, source: `https://terraria.wiki.gg/wiki/${article}#Trivia`};
+    entries[id] = {en, ja, source: `https://terraria.wiki.gg/wiki/${article}`};
   });
   add(['blue_slime','green_slime','purple_slime','red_slime','yellow_slime','black_slime'],
-    'Ordinary slimes are such familiar first foes that Terraria commemorates the encounter in a painting.',
-    'おなじみのスライムとの初めての遭遇は、Terraria の絵画にも描かれています。', 'Slimes');
+    'A Terraria painting depicts an early encounter with a slime.',
+    'Terraria の絵画には、スライムとの最初の遭遇が描かれています。', 'Slimes');
   add(['cave_bat','jungle_bat','hellbat','spore_bat'],
     'Several Terraria bats have an unused animation frame that shows them hanging upside down.',
     'Terraria のいくつかのコウモリには逆さにつかまる未使用のアニメーションフレームがあります。', 'Cave_Bat');
@@ -17,20 +17,20 @@ window.COMPANION_FLAVOR = (() => {
   add(['umbrella_slime'], 'An umbrella may shelter its owner from rain, but its former owner discovered that it offers little protection from slime.', '傘は雨を防げても、スライムから持ち主を守れるとは限らないようです。', 'Umbrella_Slime');
   add(['demon_eye'], 'The Demon Eye inspired the appearance of several other eyes, including the Eye of Cthulhu.', 'Demon Eye の姿はEye of Cthulhu をはじめとする他の目のモチーフになっています。', 'Demon_Eye');
   add(['drippler'], 'Terraria’s Bestiary connects Dripplers to Demon Eyes gathered together beneath a Blood Moon.', 'Terraria の図鑑ではBlood Moon の下で集まった Demon Eye と Drippler のつながりが語られています。', 'Drippler');
-  add(['doctor_bones'], 'The hat-wearing Doctor Bones is a playful nod to the archaeologist Indiana Jones.', '帽子をかぶった Doctor Bones は考古学者インディ・ジョーンズにちなんだキャラクターです。', 'Doctor_Bones');
+  add(['doctor_bones'], 'The appearance of Doctor Bones references the fictional archaeologist Indiana Jones.', 'Doctor Bones の外見は、架空の考古学者インディ・ジョーンズを元にしています。', 'Doctor_Bones');
   add(['tim'], 'Tim shares his name with an enchanter from Monty Python and the Holy Grail.', 'Tim の名前は映画「モンティ・パイソン・アンド・ホーリー・グレイル」の魔法使いに由来します。', 'Tim');
   add(['harpy'], 'The Harpy draws on Greek and Roman mythology, where harpies combine human and bird features.', 'ハーピーは人と鳥の姿をあわせ持つギリシャ・ローマ神話の存在に由来します。', 'Harpy');
   add(['bone_serpent'], 'Terraria’s Bestiary tells of ancient serpentine rulers that shed their dark scales long ago.', 'Terraria の図鑑には遠い昔に黒い鱗を脱ぎ捨てた蛇のような支配者たちが記されています。', 'Bone_Serpent');
-  add(['flying_fish'], 'Real flying fish glide above the water; their Terraria counterpart is rather more at home in the air.', '実際のトビウオは水面上を滑空しますが、Terraria の仲間は空中を飛び回ります。', 'Flying_Fish');
+  add(['flying_fish'], 'Unlike real flying fish, which glide above water, the Flying Fish in Terraria travels through the air.', '実際のトビウオは水面上を滑空しますが、Terraria の Flying Fish は空中を移動します。', 'Flying_Fish');
   add(['crimera'], 'Its name blends “crimson” with “chimera,” a creature assembled from different animals.', 'Crimera の名は「crimson」と、さまざまな動物の特徴を持つ「chimera」を組み合わせたものです。', 'Crimera');
   add(['hornet'], 'Real hornets are wasps; unlike Terraria’s hornets, they do not shoot their stingers.', '現実の hornet はスズメバチの仲間で、Terraria のように針を飛ばすことはできません。', 'Hornet');
-  add(['angry_dandelion'], 'Even a dandelion can become troublesome in the wind; Terraria’s version may leave Dayblooms behind.', '風に吹かれたタンポポも油断できません。Terraria では Daybloom を落とすことがあります。', 'Angry_Dandelion');
+  add(['angry_dandelion'], 'The Angry Dandelion can drop Daybloom in Terraria.', 'Terraria の Angry Dandelion は Daybloom を落とすことがあります。', 'Angry_Dandelion');
   add(['giant_shelly'], 'Although Giant Shellies come in two colors, the Terraria banner and Bestiary depict the purple variety.', 'Giant Shelly は2色いますが、Terraria の旗と図鑑に描かれるのは紫色の姿です。', 'Giant_Shelly');
   add(['spore_zombie'], 'The glowing fungi have taken hold of these zombies, with an appetite of their own.', '光るキノコに操られたゾンビ。キノコにも欲しいものがあるようです。', 'Spore_Zombie');
   add(['spore_skeleton'], 'Damp caverns provide a home for fungi growing on old bones.', '湿った洞窟では古い骨を住みかに光るキノコが育ちます。', 'Spore_Skeleton');
   add(['undead_viking'], 'The Bestiary recalls seafaring warriors whose remains now roam icy caverns.', '図鑑ではかつて海を渡った戦士の亡骸が氷の洞窟をさまようと語られています。', 'Undead_Viking');
-  add(['zombie_eskimo'], 'The winter-clad enemy was known by a different name in earlier Terraria versions.', '冬服を着たこの敵は以前の Terraria では別の名前で呼ばれていました。', 'Frozen_Zombie');
-  add(['raincoat_zombie'], 'Its bright rain gear is appropriate: in Terraria this zombie appears during rainy nights.', '明るい雨具がお似合いです。Terraria では雨の夜に姿を見せます。', 'Raincoat_Zombie');
+  add(['zombie_eskimo'], 'The Frozen Zombie was previously named Zombie Eskimo in older Terraria versions.', 'Frozen Zombie は以前の Terraria では Zombie Eskimo という名前でした。', 'Frozen_Zombie');
+  add(['raincoat_zombie'], 'Raincoat Zombies appear at night during rain.', 'Raincoat Zombie は雨が降る夜に出現します。', 'Raincoat_Zombie');
   add(['blood_crawler'], 'Unlike most spiders, Terraria’s Blood Crawlers are described as acting together under the Crimson’s influence.', 'Terraria の図鑑によると、Blood Crawler は Crimson の影響で協調して行動します。', 'Blood_Crawler');
   add(['man_eater'], 'Terraria’s Bestiary links these carnivorous plants to the later transformation into Angry Trappers.', 'Terraria の図鑑ではこの肉食植物が変化して Angry Trapper になると語られています。', 'Man_Eater');
   add(['fungi_bulb'], 'The Bestiary associates these bulbs with the spread of glowing fungal spores.', '図鑑では光るキノコの胞子を広げる球根として紹介されています。', 'Fungi_Bulb');
@@ -38,10 +38,10 @@ window.COMPANION_FLAVOR = (() => {
   add(['anomura_fungus'], 'A crab-like creature at home among glowing mushrooms, covered in fungal growth.', '光るキノコの中で暮らす、菌類に覆われたカニのような生き物です。', 'Anomura_Fungus');
   add(['goblin_sorcerer'], 'Some goblins have a talent for working magic with shadowy energy.', 'ゴブリンの中には影の力を操る魔法の才能を持つ者もいます。', 'Goblin_Sorcerer');
   add(['antlion_charger'], 'These swift antlions serve as the soldiers of their kind.', '素早く走るアントリオンたちはその種族の兵隊として知られています。', 'Antlion_Charger');
-  add(['crab'], 'A sturdy shell and a pair of formidable claws make a crab more than a beachside curiosity.', '頑丈な甲羅と大きなハサミを持つカニは、浜辺でも油断できない相手です。', 'Crab');
+  add(['crab'], 'Crabs inhabit beaches and have a hard shell and two claws.', 'カニは海辺に生息し、硬い甲羅と2本のハサミを持ちます。', 'Crab');
   add(['cyan_beetle'], 'This cold-weather beetle carries a blue liquid prized for dyeing cloth.', '寒さに強いこの甲虫は布を青く染めるための液体を持っています。', 'Cyan_Beetle');
   add(['devourer'], 'These burrowing creatures are among the horrors associated with the Corruption.', '地中を掘り進むこの生き物はCorruption に棲む恐ろしい存在の一つです。', 'Devourer');
-  add(['giant_worm'], 'Small burrowing worms have a knack for startling unwary explorers underground.', '小さな地中のワームは洞窟を歩く冒険者を驚かせる名人です。', 'Giant_Worm');
+  add(['giant_worm'], 'Giant Worms are burrowing enemies encountered underground.', 'Giant Worm は地下に出現し、地中を掘り進む敵です。', 'Giant_Worm');
   add(['goblin_thief'], 'A nimble member of the Goblin Army, the thief favors swift, close encounters.', '素早い身のこなしと接近戦を得意とする、ゴブリン軍の一員です。', 'Goblin_Thief');
   add(['goblin_warrior'], 'Armored warriors form the sturdy infantry of the Goblin Army.', '鎧をまとった戦士たちはゴブリン軍の頑丈な歩兵を担っています。', 'Goblin_Warrior');
   add(['jungle_slime'], 'This jungle-dwelling slime swallows its meals whole and takes its time digesting them.', 'ジャングルに棲むこのスライムは獲物を丸のみし、時間をかけて消化します。', 'Jungle_Slime');
@@ -68,8 +68,8 @@ window.COMPANION_FLAVOR = (() => {
   add(['hoplite'], 'These ancient spear-bearers still walk the marble ruins of a buried civilization.', '古代の槍使いたちは地中に埋もれた文明の大理石の遺跡を今も歩き続けています。', 'Hoplite');
   add(['ice_bat'], 'The chill of an Ice Bat can leave its prey frozen in place.', 'アイスバットの冷気は獲物の動きを凍らせてしまうことがあります。', 'Ice_Bat');
   add(['lac_beetle'], 'A beetle of the underground jungle whose secretions produce a violet dye.', '地下ジャングルに棲み、紫色の染料になる液体を持つ甲虫です。', 'Lac_Beetle');
-  add(['meteor_head'], 'Some fragments of a fallen meteorite are more lively than they first appear.', '落ちたいん石の破片の中には思いがけず動き出すものもあります。', 'Meteor_Head');
-  add(['piranha'], 'One sharp-toothed piranha is dangerous enough; they often gather in groups.', '鋭い歯を持つピラニアは一匹でも危険ですが、群れを作ることもあります。', 'Piranha');
+  add(['meteor_head'], 'Meteor Heads are flying enemies associated with fallen Meteorite.', 'Meteor Head は落下した Meteorite に関連して出現する飛行型の敵です。', 'Meteor_Head');
+  add(['piranha'], 'Piranhas are aquatic enemies that can appear in groups.', 'ピラニアは水中に生息する敵で、群れで現れることがあります。', 'Piranha');
   add(['salamander'], 'This cave-dwelling amphibian defends itself with a corrosive spray.', '洞窟で暮らす両生類で、身を守るために腐食性の液体を吐きます。', 'Salamander');
   add(['sand_slime'], 'Life in the dry desert has given this slime the appearance of living sand.', '乾いた砂漠に適応し、生きた砂のような姿になったスライムです。', 'Sand_Slime');
   add(['shark'], 'The Bestiary depicts the shark as a relentless ocean hunter.', '図鑑では執ように獲物を追う海の狩人として紹介されています。', 'Shark');
@@ -83,7 +83,7 @@ window.COMPANION_FLAVOR = (() => {
   add(['voodoo_demon'], 'The Bestiary connects this demon’s doll to a soul bound to the world’s guardian.', '図鑑ではこのデーモンの人形と世界の守護者につながる魂の関係が語られています。', 'Voodoo_Demon');
   add(['vulture'], 'Built for desert heat, vultures are scavengers that guard their meals.', '砂漠の暑さに適応し、見つけた獲物を守る鳥です。', 'Vulture');
   add(['wall_creeper'], 'The Bestiary depicts these eight-legged hunters as patient web-spinning predators.', '図鑑では八本の脚を持ち、糸を張って辛抱強く獲物を待つ狩人として描かれています。', 'Wall_Creeper');
-  add(['blue_jellyfish','pink_jellyfish'], 'Terraria’s Bestiary warns swimmers to beware the jellyfish’s electric sting.', 'Terraria の図鑑は泳ぐ人にクラゲの電気のひと刺しを警告しています。', 'Jellyfish');
+  add(['blue_jellyfish','pink_jellyfish'], 'The Bestiary describes the electric sting of jellyfish in Terraria.', 'Terraria の図鑑ではクラゲの電気を帯びた刺傷について説明されています。', 'Jellyfish');
   add(['golden_slime'], 'In Terraria, Golden Slimes and Pinky are both unusually easy to knock back.', 'Terraria の Golden Slime と Pinky はどちらも特にノックバックを受けやすいスライムです。', 'Pinky');
   add(['zombie'], 'The Bestiary suggests that an open door is an easy invitation for the undead.', '図鑑によれば、開けっぱなしの扉はアンデッドを招き入れることになりかねません。', 'Zombie');
   return entries;
