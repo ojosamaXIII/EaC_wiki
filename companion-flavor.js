@@ -17,11 +17,11 @@ window.COMPANION_FLAVOR = (() => {
   add(['umbrella_slime'], 'An umbrella may shelter its owner from rain, but its former owner discovered that it offers little protection from slime.', '傘は雨を防げても、スライムから持ち主を守れるとは限らないようです。', 'Umbrella_Slime');
   add(['demon_eye'], 'The Demon Eye inspired the appearance of several other eyes, including the Eye of Cthulhu.', 'Demon Eye の姿はEye of Cthulhu をはじめとする他の目のモチーフになっています。', 'Demon_Eye');
   add(['drippler'], 'Terraria’s Bestiary connects Dripplers to Demon Eyes gathered together beneath a Blood Moon.', 'Terraria の図鑑ではBlood Moon の下で集まった Demon Eye と Drippler のつながりが語られています。', 'Drippler');
-  add(['doctor_bones'], 'Doctor Bones' appearance references the fictional archaeologist Indiana Jones.', 'Doctor Bones の外見は、架空の考古学者インディ・ジョーンズを元にしています。', 'Doctor_Bones');
+  add(['doctor_bones'], 'The appearance of Doctor Bones references the fictional archaeologist Indiana Jones.', 'Doctor Bones の外見は、架空の考古学者インディ・ジョーンズを元にしています。', 'Doctor_Bones');
   add(['tim'], 'Tim shares his name with an enchanter from Monty Python and the Holy Grail.', 'Tim の名前は映画「モンティ・パイソン・アンド・ホーリー・グレイル」の魔法使いに由来します。', 'Tim');
   add(['harpy'], 'The Harpy draws on Greek and Roman mythology, where harpies combine human and bird features.', 'ハーピーは人と鳥の姿をあわせ持つギリシャ・ローマ神話の存在に由来します。', 'Harpy');
   add(['bone_serpent'], 'Terraria’s Bestiary tells of ancient serpentine rulers that shed their dark scales long ago.', 'Terraria の図鑑には遠い昔に黒い鱗を脱ぎ捨てた蛇のような支配者たちが記されています。', 'Bone_Serpent');
-  add(['flying_fish'], 'Unlike real flying fish, which glide above water, Terraria's Flying Fish travels through the air.', '実際のトビウオは水面上を滑空しますが、Terraria の Flying Fish は空中を移動します。', 'Flying_Fish');
+  add(['flying_fish'], 'Unlike real flying fish, which glide above water, the Flying Fish in Terraria travels through the air.', '実際のトビウオは水面上を滑空しますが、Terraria の Flying Fish は空中を移動します。', 'Flying_Fish');
   add(['crimera'], 'Its name blends “crimson” with “chimera,” a creature assembled from different animals.', 'Crimera の名は「crimson」と、さまざまな動物の特徴を持つ「chimera」を組み合わせたものです。', 'Crimera');
   add(['hornet'], 'Real hornets are wasps; unlike Terraria’s hornets, they do not shoot their stingers.', '現実の hornet はスズメバチの仲間で、Terraria のように針を飛ばすことはできません。', 'Hornet');
   add(['angry_dandelion'], 'The Angry Dandelion can drop Daybloom in Terraria.', 'Terraria の Angry Dandelion は Daybloom を落とすことがあります。', 'Angry_Dandelion');
@@ -83,7 +83,7 @@ window.COMPANION_FLAVOR = (() => {
   add(['voodoo_demon'], 'The Bestiary connects this demon’s doll to a soul bound to the world’s guardian.', '図鑑ではこのデーモンの人形と世界の守護者につながる魂の関係が語られています。', 'Voodoo_Demon');
   add(['vulture'], 'Built for desert heat, vultures are scavengers that guard their meals.', '砂漠の暑さに適応し、見つけた獲物を守る鳥です。', 'Vulture');
   add(['wall_creeper'], 'The Bestiary depicts these eight-legged hunters as patient web-spinning predators.', '図鑑では八本の脚を持ち、糸を張って辛抱強く獲物を待つ狩人として描かれています。', 'Wall_Creeper');
-  add(['blue_jellyfish','pink_jellyfish'], 'The Bestiary describes the electric sting of Terraria's jellyfish.', 'Terraria の図鑑ではクラゲの電気を帯びた刺傷について説明されています。', 'Jellyfish');
+  add(['blue_jellyfish','pink_jellyfish'], 'The Bestiary describes the electric sting of jellyfish in Terraria.', 'Terraria の図鑑ではクラゲの電気を帯びた刺傷について説明されています。', 'Jellyfish');
   add(['golden_slime'], 'In Terraria, Golden Slimes and Pinky are both unusually easy to knock back.', 'Terraria の Golden Slime と Pinky はどちらも特にノックバックを受けやすいスライムです。', 'Pinky');
   add(['zombie'], 'The Bestiary suggests that an open door is an easy invitation for the undead.', '図鑑によれば、開けっぱなしの扉はアンデッドを招き入れることになりかねません。', 'Zombie');
   return entries;
