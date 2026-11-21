@@ -2,7 +2,7 @@
 window.COMPANION_FLAVOR = (() => {
   const entries = {};
   const add = (ids, en, ja, article) => ids.forEach(id => {
-    entries[id] = {en, ja, source: `https://terraria.wiki.gg/wiki/${article}#Trivia`};
+    entries[id] = {en, ja, source: `https://terraria.wiki.gg/wiki/${article}`};
   });
   add(['blue_slime','green_slime','purple_slime','red_slime','yellow_slime','black_slime'],
     'A Terraria painting depicts an early encounter with a slime.',
